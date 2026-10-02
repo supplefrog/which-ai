@@ -1,0 +1,113 @@
+{
+  "id": "frontend-revision-2026-10-02",
+  "status": "completed",
+  "baseCommit": "019289e33deaef5a0e670b15de2f7c844518c003",
+  "baseSkillBundle": "1c184d68fee88b077edac020e602f9bc1403374f7ea822e452be1d75fd84c418",
+  "model": "gpt-6.1-sol",
+  "generationReasoning": "medium",
+  "reviewReasoning": "high",
+  "route": "native_codex_agents",
+  "routedDagLimit": "Installed V3 catalogue has no codex-workflow cell. No routed execution or route receipt claimed.",
+  "maxActiveAgents": 3,
+  "nodes": [
+    {
+      "id": "author",
+      "depends": [],
+      "state": "completed",
+      "artifact": "revisions/frontend-v3.2-candidate/skill"
+    },
+    {
+      "id": "research",
+      "depends": [],
+      "state": "completed",
+      "artifact": "revisions/frontend-v3.2-candidate/research.md"
+    },
+    {
+      "id": "instruction-review",
+      "depends": [
+        "author",
+        "research"
+      ],
+      "state": "completed",
+      "artifact": "revisions/frontend-v3.2-candidate/instruction-review.md"
+    },
+    {
+      "id": "generate",
+      "depends": [
+        "instruction-review"
+      ],
+      "state": "completed",
+      "agent": "/root/revised_generation",
+      "artifact": "revisions/frontend-v3.2-candidate/raw-draft/snapshot.json"
+    },
+    {
+      "id": "register-render",
+      "depends": [
+        "generate"
+      ],
+      "state": "completed",
+      "artifact": "output/revision-review/raw-observations.json"
+    },
+    {
+      "id": "visual-review",
+      "depends": [
+        "register-render"
+      ],
+      "state": "completed",
+      "agent": "/root/revised_visual_review",
+      "artifact": "output/revision-review/visual-review.md"
+    },
+    {
+      "id": "motion-review",
+      "depends": [
+        "register-render"
+      ],
+      "state": "completed",
+      "execution": "parent direct runtime check",
+      "freshReviewerUnavailable": "native spawn returned agent thread limit reached",
+      "artifact": "output/revision-review/raw-observations.json"
+    },
+    {
+      "id": "repair",
+      "depends": [
+        "visual-review",
+        "motion-review"
+      ],
+      "state": "completed",
+      "agent": "/root/revised_generation",
+      "pass": 2,
+      "reloadedGuidance": "b752d4e1ebae61f69fa35de6463dc27003f7b1a4a1aa7159e3f54d439551120e",
+      "artifact": "src/variants/local-personal-revised/gpt-6.1-sol/source/evidence/final-output-snapshot.json",
+      "parentFinish": "Removed opaque Orbit fragment background after inspecting visible endpoint obstruction."
+    },
+    {
+      "id": "deliver",
+      "depends": [
+        "repair"
+      ],
+      "state": "completed",
+      "artifact": "docs/frontend-revision-trial.md",
+      "comparison": "http://127.0.0.1:3000/local/compare?leftCondition=local-baseline&leftIteration=1&rightCondition=local-personal-revised&rightIteration=1"
+    },
+    {
+      "id": "human-evaluation",
+      "depends": [
+        "deliver"
+      ],
+      "state": "completed",
+      "artifact": "docs/frontend-preference-retention.md",
+      "approval": "User approved rendered treatment and said can push on 2 October 2026."
+    }
+  ],
+  "limits": {
+    "generationBatches": 1,
+    "repairPasses": 2,
+    "initialReviewers": 2,
+    "services": "Native Codex/imagegen only; no paid API fallback. No new unrelated app features.",
+    "actualFreshRenderedReviewers": 1
+  },
+  "promotion": "Rendered trial and publication approved. Candidate remains project-local; shared promotion is separate. Existing v3.1.0 and 50 original designs/notes preserved.",
+  "candidateSkillBundle": "b752d4e1ebae61f69fa35de6463dc27003f7b1a4a1aa7159e3f54d439551120e",
+  "initialCandidateSkillBundle": "212397421bcc6fc0142893ac778c477bfacd5a2d7eef87600b3b6dbdfd2cc9c6",
+  "updatedAt": "2026-10-02T17:44:24.602Z"
+}

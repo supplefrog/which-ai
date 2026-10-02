@@ -69,4 +69,4 @@ These are project-local hypotheses for a revised skill, not live promoted instru
 
 A future acceptance review should judge whether the idea is clear at a glance, whether each alternative changes how it is expressed, whether small elements earn their space, and whether actual interaction reinforces the intended physical/visual relationships. Compare the candidate against the frozen personal run and the liked qualities in Anthropic/Impeccable/Addy; do not assume mixing more source skills improves the result.
 
-Shared-skill revision and a new generation run remain the next step, separate from this evidence record. The reviewed outputs are preserved as the reference baseline.
+The subsequent [reviewed revision](frontend-revision-trial.md) and [user acceptance/preference retention](frontend-preference-retention.md) are recorded separately. The original outputs and this initial judgment remain preserved as the reference baseline; shared promotion remains separate.

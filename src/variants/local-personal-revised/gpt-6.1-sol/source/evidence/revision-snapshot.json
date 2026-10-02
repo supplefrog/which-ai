@@ -1,0 +1,62 @@
+{
+  "skill": "frontend-ui-engineering",
+  "version": "3.2.1-candidate",
+  "capturedAt": "2026-10-02T16:34:08.004Z",
+  "bundleSha256": "b752d4e1ebae61f69fa35de6463dc27003f7b1a4a1aa7159e3f54d439551120e",
+  "stage": "review repair in existing worker context; not fresh generation",
+  "initialBundle": "212397421bcc6fc0142893ac778c477bfacd5a2d7eef87600b3b6dbdfd2cc9c6",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "6f202f8bd568cd730dbb2b0d1f8e243bc74c2fa1f64dbce9b2c7ea08bd5c9fd7"
+    },
+    {
+      "path": "references/accessibility-checklist.md",
+      "sha256": "060fe46a19cdadc93325066af51bda1e8b70b44a550c7b08a5d5bdc596d23a0b"
+    },
+    {
+      "path": "references/component-state.md",
+      "sha256": "ddc015d1682d0553451320a8ec600c57ba0d63c31bfb9e8f823efbccb638a96d"
+    },
+    {
+      "path": "references/design-judgment.md",
+      "sha256": "2d11871026b1d82dc625d17084bb554d79fee7af5c7523b7b5e6277d36f40222"
+    },
+    {
+      "path": "references/motion-design.md",
+      "sha256": "7b5bb59212f52504c6ee6461f6d0772f7310b2d7e65116eea7eafd13989afd86"
+    },
+    {
+      "path": "references/personal-design-defaults.md",
+      "sha256": "2dc2e1b3cb75e99fcaba1cb33964f5472dfb96e95361e135ff37d7181c4f2fed"
+    },
+    {
+      "path": "references/provenance.md",
+      "sha256": "cf77f57f680e921902719e4cd39a738d28cb090c74fde3b8447044af920a289b"
+    },
+    {
+      "path": "references/resource-catalog.md",
+      "sha256": "906c22fb97e38af6ad49d6ffed93a5188d67c0161da5b5c7805d6104c999b23b"
+    },
+    {
+      "path": "references/taste-selection.md",
+      "sha256": "8925a0af7d4b8110bc49de3f14ff6817c1a67eacf969f9bf0cea1288880d8d2e"
+    },
+    {
+      "path": "references/webpage-workflow.md",
+      "sha256": "23bc2b208284619b3cbcbaa1d018e23c125e560c8def8e0f9c4a012eb3152654"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "e7af9b214023dbbeb9666d2d93bfdc64c433f1b30db5dd1e208583fde0334284"
+    },
+    {
+      "path": "SOURCE.json",
+      "sha256": "4e2b6dee6c9b11fd97a3e83b7c200e6e0253650ca705f1019ad1ccecda434192"
+    },
+    {
+      "path": "templates/taste-picker.html",
+      "sha256": "af061b1e5886f6dd57842f7cccef96ffeb3b746becd0e0bb67dc9dba7f2ca52e"
+    }
+  ]
+}

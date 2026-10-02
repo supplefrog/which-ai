@@ -1,0 +1,203 @@
+{
+  "edges": [
+    {
+      "width": 1440,
+      "title": "The books I return to",
+      "document": 1440,
+      "gaps": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "width": 1440,
+      "title": "Ways of paying attention",
+      "document": 1440,
+      "gaps": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "width": 1440,
+      "title": "A question for tomorrow",
+      "document": 1440,
+      "gaps": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "width": 1440,
+      "title": "A walk without a destination",
+      "document": 1440,
+      "gaps": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "width": 685,
+      "title": "The books I return to",
+      "document": 685,
+      "gaps": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "width": 685,
+      "title": "Ways of paying attention",
+      "document": 685,
+      "gaps": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "width": 685,
+      "title": "A question for tomorrow",
+      "document": 685,
+      "gaps": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "width": 685,
+      "title": "A walk without a destination",
+      "document": 685,
+      "gaps": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "width": 390,
+      "title": "The books I return to",
+      "document": 390,
+      "gaps": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "width": 390,
+      "title": "Ways of paying attention",
+      "document": 390,
+      "gaps": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "width": 390,
+      "title": "A question for tomorrow",
+      "document": 390,
+      "gaps": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "width": 390,
+      "title": "A walk without a destination",
+      "document": 390,
+      "gaps": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "width": 320,
+      "title": "The books I return to",
+      "document": 320,
+      "gaps": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "width": 320,
+      "title": "Ways of paying attention",
+      "document": 320,
+      "gaps": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "width": 320,
+      "title": "A question for tomorrow",
+      "document": 320,
+      "gaps": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "width": 320,
+      "title": "A walk without a destination",
+      "document": 320,
+      "gaps": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "contrast": [
+    {
+      "selector": "[class*=\"commonIntro\"] a",
+      "text": "Begin your collection",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(195, 62, 48)",
+      "ratio": 5.1824336936867095
+    },
+    {
+      "selector": "[class*=\"commonManifesto\"] p",
+      "text": "Collect freely. Give a thought a name, connect it to a theme, and return whenever curiosity calls. Your collection follows the way you think.",
+      "fg": "rgb(17, 27, 32)",
+      "bg": "rgb(231, 81, 64)",
+      "ratio": 4.701588019556811
+    },
+    {
+      "selector": "[class*=\"collectionDetail\"] p",
+      "text": "Sketch a route that leaves room for curiosity. Follow the side street, mark the unexpected stop, and let the map stay unfinished.",
+      "fg": "rgb(92, 100, 105)",
+      "bg": "rgb(245, 247, 246)",
+      "ratio": 5.60541120205743
+    }
+  ]
+}

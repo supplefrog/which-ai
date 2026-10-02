@@ -1,2 +1,3 @@
 # Candidate source/evidence receipts bind exact file bytes, including line endings.
 src/variants/local-*/** -text
+revisions/frontend-v3.2-candidate/** -text

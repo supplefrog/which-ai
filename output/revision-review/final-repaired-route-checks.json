@@ -1,0 +1,78 @@
+{
+  "results": [
+    {
+      "iteration": 2,
+      "width": 1440,
+      "status": 200,
+      "scroll": 1440,
+      "viewport": 1440,
+      "fragmentBackground": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "iteration": 5,
+      "width": 1440,
+      "status": 200,
+      "scroll": 1440,
+      "viewport": 1440,
+      "fragmentBackground": null
+    },
+    {
+      "iteration": 2,
+      "width": 685,
+      "status": 200,
+      "scroll": 685,
+      "viewport": 685,
+      "fragmentBackground": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "iteration": 5,
+      "width": 685,
+      "status": 200,
+      "scroll": 685,
+      "viewport": 685,
+      "fragmentBackground": null
+    },
+    {
+      "iteration": 2,
+      "width": 390,
+      "status": 200,
+      "scroll": 390,
+      "viewport": 390,
+      "fragmentBackground": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "iteration": 5,
+      "width": 390,
+      "status": 200,
+      "scroll": 390,
+      "viewport": 390,
+      "fragmentBackground": null
+    },
+    {
+      "iteration": 2,
+      "width": 320,
+      "status": 200,
+      "scroll": 320,
+      "viewport": 320,
+      "fragmentBackground": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "iteration": 5,
+      "width": 320,
+      "status": 200,
+      "scroll": 320,
+      "viewport": 320,
+      "fragmentBackground": null
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "shell": {
+    "status": 200,
+    "scroll": 1440
+  },
+  "source": {
+    "status": 200,
+    "disclosesReviewedIteration": true
+  }
+}

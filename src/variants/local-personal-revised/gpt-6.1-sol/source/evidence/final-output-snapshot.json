@@ -1,0 +1,69 @@
+{
+  "capturedAt": "2026-10-02T17:44:24.602Z",
+  "condition": "local-personal-revised",
+  "stage": "reviewed iteration approved by user for publication",
+  "hashBasis": "Captured working-file bytes. Receipt-bound source/revision folders disable Git text conversion; text outside those folders may normalize line endings on checkout.",
+  "skillBundle": "b752d4e1ebae61f69fa35de6463dc27003f7b1a4a1aa7159e3f54d439551120e",
+  "initialSkillBundle": "212397421bcc6fc0142893ac778c477bfacd5a2d7eef87600b3b6dbdfd2cc9c6",
+  "rawDraft": "revisions/frontend-v3.2-candidate/raw-draft/snapshot.json",
+  "worker": "gpt-6.1-sol / medium",
+  "repairPasses": 2,
+  "actualFreshRenderedReviewers": 1,
+  "userApproval": "docs/frontend-preference-retention.md",
+  "files": [
+    {
+      "path": "src/variants/local-personal-revised/gpt-6.1-sol/source/Designs.tsx",
+      "sha256": "1c222a828c3a496ad984ac3593716f9ab6d676abefc67e6d6dad74c2b9afdffd"
+    },
+    {
+      "path": "src/variants/local-personal-revised/gpt-6.1-sol/source/designs.module.css",
+      "sha256": "19e944255d320a015c7ca1ba603cc7d94ba4ee6a7655df6ab9e33ef88cd42aa0"
+    },
+    {
+      "path": "src/variants/local-personal-revised/gpt-6.1-sol/source/generation-notes.md",
+      "sha256": "248a529f2d975cb686048b0c545a931dfeef01b7dfafb9c800ba2064411ed26e"
+    },
+    {
+      "path": "public/local-personal-revised/collection-artifacts.png",
+      "sha256": "fa8a50debbdd6415471f0a4cb4569ed23072761b5b4cea634ee6348320dc2245"
+    },
+    {
+      "path": "public/local-personal-revised/asset-provenance.md",
+      "sha256": "437b6223624f15b3a9b1bed6dec872b0d147eac034e11eaa5f7da53f1abae561"
+    },
+    {
+      "path": "src/app/local/source/local-personal-revised/route.ts",
+      "sha256": "213d33e62ed4a6a287bee3e3c787134f26b31f58229ff26bcbbe25632ad65ef3"
+    },
+    {
+      "path": "src/lib/local-runs.json",
+      "sha256": "9eef9fd5937278d26eba8b374a7f87c7fd00049aa6ab71ea666a9d48b980693e"
+    },
+    {
+      "path": "src/lib/local-registry.tsx",
+      "sha256": "8b2672c98c2d9fa669a08e28fb9b0028e1f196a3c22a54232fc3d379b182426d"
+    }
+  ],
+  "checks": [
+    {
+      "path": "output/revision-review/final-viewport-checks.json",
+      "sha256": "c0e9d58d59afdfd65c399cc43ffe3b22a1d9d1ef5d28828c5c98cb0b9ba5aa4c"
+    },
+    {
+      "path": "output/revision-review/final-interaction-checks.json",
+      "sha256": "6e6809040bfd3734100e243608534b8c23e8345d0236eef2ce5a33ba6542c18d"
+    },
+    {
+      "path": "output/revision-review/repair-two-checks.json",
+      "sha256": "b9a46a890df5b96e1492a4f22af46047b1eaec46b3ef5de4f6b053e8917fad58"
+    },
+    {
+      "path": "output/revision-review/geometry-contrast-checks.json",
+      "sha256": "9d41bb17623ee4470a1f7f0a349698a38fe8fe785c1f5b02dadd3bfe2421e935"
+    },
+    {
+      "path": "output/revision-review/final-repaired-route-checks.json",
+      "sha256": "719efa54192dcdd9873318cfb2cc99c71a2150728427ea90a0f6dccad0e72a8e"
+    }
+  ]
+}

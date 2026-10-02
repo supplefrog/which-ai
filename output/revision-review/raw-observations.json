@@ -1,0 +1,24 @@
+{
+  "phase": "immutable generation draft before repairs",
+  "sourceSnapshot": "revisions/frontend-v3.2-candidate/raw-draft/snapshot.json",
+  "viewportCases": 20,
+  "widths": [1440, 685, 390, 320],
+  "iterations": [1, 2, 3, 4, 5],
+  "routeStatus": "all 200",
+  "pageErrors": [],
+  "consoleErrors": [],
+  "missingImages": [],
+  "overflow": [
+    {"iteration": 2, "viewport": 390, "documentWidth": 402},
+    {"iteration": 2, "viewport": 320, "documentWidth": 343}
+  ],
+  "interactionCheck": {
+    "reviewer": "parent direct runtime check; second fresh native reviewer dispatch hit agent thread limit",
+    "viewport": 1440,
+    "allFiveStateChangesWorked": true,
+    "allFiveCaptureFormsSaved": true,
+    "animationsDuringStateChanges": [0, 0, 0, 0, 0],
+    "limitation": "No reduced-motion or full keyboard claim for this raw check. Initial input before hydration was dropped; rerun waited for client attachment and passed."
+  },
+  "assetUse": "No generated asset in raw batch. Native specimen sheet added only in reviewed repair pass."
+}
