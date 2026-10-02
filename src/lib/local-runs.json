@@ -133,5 +133,20 @@
       4,
       5
     ]
+  },
+  {
+    "condition": "local-personal",
+    "label": "Your frontend skill · v3.1.0 (fresh)",
+    "model": "GPT-6.1 Sol",
+    "reasoning": "medium",
+    "source": "/local/source/local-personal",
+    "revision": "1c184d68fee88b077edac020e602f9bc1403374f7ea822e452be1d75fd84c418",
+    "iterations": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
   }
 ]

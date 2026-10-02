@@ -13,4 +13,5 @@ export const localRegistry: Record<string, () => Promise<RunModule>> = {
   "local-impeccable": () => import("@/variants/local-impeccable/gpt-6.1-sol/source/Designs"),
   "local-taste-v2": () => import("@/variants/local-taste-v2/gpt-6.1-sol/source/Designs"),
   "local-vercel-review": () => import("@/variants/local-vercel-review/gpt-6.1-sol/source/Designs"),
+  "local-personal": () => import("@/variants/local-personal/gpt-6.1-sol/source/Designs"),
 };

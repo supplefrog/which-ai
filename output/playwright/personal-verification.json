@@ -1,0 +1,242 @@
+{
+  "checkedAt": "2026-10-02T10:54:31.177Z",
+  "results": [
+    {
+      "i": 1,
+      "width": 1440,
+      "status": 200,
+      "geometry": {
+        "width": 1440,
+        "scroll": 1440,
+        "h1": "Your mind.A little more room."
+      },
+      "interactions": "pass",
+      "focus": true
+    },
+    {
+      "i": 1,
+      "width": 390,
+      "status": 200,
+      "geometry": {
+        "width": 390,
+        "scroll": 390,
+        "h1": "Your mind.A little more room."
+      },
+      "interactions": "pass",
+      "focus": true
+    },
+    {
+      "i": 1,
+      "width": 320,
+      "status": 200,
+      "geometry": {
+        "width": 320,
+        "scroll": 320,
+        "h1": "Your mind.A little more room."
+      }
+    },
+    {
+      "i": 2,
+      "width": 1440,
+      "status": 200,
+      "geometry": {
+        "width": 1440,
+        "scroll": 1440,
+        "h1": "Small notes.Unexpected beginnings."
+      },
+      "interactions": "pass",
+      "focus": true
+    },
+    {
+      "i": 2,
+      "width": 390,
+      "status": 200,
+      "geometry": {
+        "width": 390,
+        "scroll": 390,
+        "h1": "Small notes.Unexpected beginnings."
+      },
+      "interactions": "pass",
+      "focus": true
+    },
+    {
+      "i": 2,
+      "width": 320,
+      "status": 200,
+      "geometry": {
+        "width": 320,
+        "scroll": 320,
+        "h1": "Small notes.Unexpected beginnings."
+      }
+    },
+    {
+      "i": 3,
+      "width": 1440,
+      "status": 200,
+      "geometry": {
+        "width": 1440,
+        "scroll": 1440,
+        "h1": "Nothing goodstarts inisolation."
+      },
+      "interactions": "pass",
+      "focus": true
+    },
+    {
+      "i": 3,
+      "width": 390,
+      "status": 200,
+      "geometry": {
+        "width": 390,
+        "scroll": 390,
+        "h1": "Nothing goodstarts inisolation."
+      },
+      "interactions": "pass",
+      "focus": true
+    },
+    {
+      "i": 3,
+      "width": 320,
+      "status": 200,
+      "geometry": {
+        "width": 320,
+        "scroll": 320,
+        "h1": "Nothing goodstarts inisolation."
+      }
+    },
+    {
+      "i": 4,
+      "width": 1440,
+      "status": 200,
+      "geometry": {
+        "width": 1440,
+        "scroll": 1440,
+        "h1": "PUT ITSOMEWHERE."
+      },
+      "interactions": "pass",
+      "focus": true
+    },
+    {
+      "i": 4,
+      "width": 390,
+      "status": 200,
+      "geometry": {
+        "width": 390,
+        "scroll": 390,
+        "h1": "PUT ITSOMEWHERE."
+      },
+      "interactions": "pass",
+      "focus": true
+    },
+    {
+      "i": 4,
+      "width": 320,
+      "status": 200,
+      "geometry": {
+        "width": 320,
+        "scroll": 320,
+        "h1": "PUT ITSOMEWHERE."
+      }
+    },
+    {
+      "i": 5,
+      "width": 1440,
+      "status": 200,
+      "geometry": {
+        "width": 1440,
+        "scroll": 1440,
+        "h1": "Some thoughtsdeserve asecond home."
+      },
+      "interactions": "pass",
+      "focus": true
+    },
+    {
+      "i": 5,
+      "width": 390,
+      "status": 200,
+      "geometry": {
+        "width": 390,
+        "scroll": 390,
+        "h1": "Some thoughtsdeserve asecond home."
+      },
+      "interactions": "pass",
+      "focus": true
+    },
+    {
+      "i": 5,
+      "width": 320,
+      "status": 200,
+      "geometry": {
+        "width": 320,
+        "scroll": 320,
+        "h1": "Some thoughtsdeserve asecond home."
+      }
+    }
+  ],
+  "errors": [],
+  "conditions": [
+    "No-skill baseline",
+    "Addy Osmani frontend-ui-engineering",
+    "Anthropic frontend-design",
+    "Emil Kowalski design-engineering",
+    "GPT TASTESKILL",
+    "Hallmark",
+    "Impeccable · comp-first (adapted)",
+    "TASTESKILL v2",
+    "Vercel guidelines · baseline review + fixes",
+    "Your frontend skill · v3.1.0 (fresh)"
+  ],
+  "sourceMatches": [
+    {
+      "path": "LICENSE",
+      "match": true
+    },
+    {
+      "path": "references/accessibility-checklist.md",
+      "match": true
+    },
+    {
+      "path": "references/component-state.md",
+      "match": true
+    },
+    {
+      "path": "references/design-judgment.md",
+      "match": true
+    },
+    {
+      "path": "references/motion-design.md",
+      "match": true
+    },
+    {
+      "path": "references/personal-design-defaults.md",
+      "match": true
+    },
+    {
+      "path": "references/provenance.md",
+      "match": true
+    },
+    {
+      "path": "references/resource-catalog.md",
+      "match": true
+    },
+    {
+      "path": "references/taste-selection.md",
+      "match": true
+    },
+    {
+      "path": "references/webpage-workflow.md",
+      "match": true
+    },
+    {
+      "path": "SKILL.md",
+      "match": true
+    },
+    {
+      "path": "SOURCE.json",
+      "match": true
+    },
+    {
+      "path": "templates/taste-picker.html",
+      "match": true
+    }
+  ]
+}
