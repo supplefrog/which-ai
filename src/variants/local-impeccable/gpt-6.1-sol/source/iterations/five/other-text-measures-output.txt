@@ -1,0 +1,4 @@
+MEASURE offer-copy: capHeight 20.5px, width condensed (advX 0.5241), weight regular (densTall 0.4583), tracking 0.1475 over 2 lines, 52 glyphs. Set this region's font-size so its cap height renders at 20.5px; choose a condensed regular face.
+MEASURE wordmark: capHeight 27.6px, width compressed (advTall 0.3806), weight bold (densTall 0.566), tracking 0.4712, all caps over 1 line, 6 glyphs. Set this region's font-size so its cap height renders at 27.6px; choose a compressed bold face.
+MEASURE reading-title: capHeight 24.2px, width compressed (advX 0.4132), weight medium (densTall 0.546), tracking 0.1343 over 1 line, 19 glyphs. Set this region's font-size so its cap height renders at 24.2px; choose a compressed medium face.
+MEASURE reading-copy: capHeight 13.3px, width condensed (advX 0.578), weight regular (densTall 0.449), tracking 0.1856 over 4 lines, 145 glyphs. Set this region's font-size so its cap height renders at 13.3px; choose a condensed regular face.

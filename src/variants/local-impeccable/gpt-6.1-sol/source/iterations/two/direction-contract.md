@@ -1,0 +1,22 @@
+# FIELDNOTES · observation ledger
+
+Scope: fictional second-brain landing-page comparison. Mode: Persuade. Product truth comes from PRODUCT.md. Comp-first is the original default, assumed after the optional parent question went unanswered; no standing preference is saved. Comp selection is delegated by the controlling autonomous comparison request.
+
+## Direction contract
+
+THESIS: Passing observations are usable evidence, presented in a working field book.
+
+OWN-WORLD: Moss field, pale observation ledger, chartreuse index state; precise accession hierarchy and the engine-ranked compressed heading.
+
+STORY: Understand the offer, open the field book, filter Reading/Morning/Project and find a phrase.
+
+FIRST VIEWPORT: A broad offer band sits above a three-column ledger: index left, observation excerpts center, related ideas right. Open the field book remains visible.
+
+FORM: Research field station, grounded candidate1/pick, original seed7f0457f4; chosen composition2.
+
+SIGNATURE INTERACTION: A real search and category filter narrow the observation ledger, with an explicit recoverable empty state.
+
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+
+Human component and assembled-hero checkpoints: PENDING HUMAN REVIEW. No human approval receipt is written. The user will judge the rendered comparisons afterward. Native named shipped agent types are not exposed; any parent fresh generic review/documenter is a disclosed harness substitution.
+

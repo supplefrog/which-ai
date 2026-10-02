@@ -1,0 +1,46 @@
+{
+  "wrapper_revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+  "guideline_revision": "e3d624baaf29dc1fc645aff3e38f03e564d2d6b1",
+  "pin_method": "git ls-remote https://github.com/vercel-labs/web-interface-guidelines.git refs/heads/main",
+  "retrieved_utc": "2026-10-02T08:05:33.2557503Z",
+  "guideline_license": "MIT; verbatim LICENSE preserved",
+  "wrapper_license": "No license file in exact upstream tree; no license in root package.json",
+  "hashes": [
+    {
+      "Hash": "B31FE46EC28EC5B25F276B2FFE3ECC14B593AE1423499EF561EA52286ECBF4BE",
+      "File": "agent-skills-tree.txt"
+    },
+    {
+      "Hash": "B77CCB034EC898AD6A78C430B7BCA88EA3ACC2CBE68D4C61C9A62AF1C21ED3D2",
+      "File": "apply-review-fixes.py"
+    },
+    {
+      "Hash": "A77AA44C321D60E7B5958B753E4C6F2A6177A20752792E51CF12F9A74C6FBC44",
+      "File": "baseline-designs.module.css"
+    },
+    {
+      "Hash": "3C9931DEF4B577192CF7BAF3F55E3DEC5E9535508D045DABD8BEB0F75108CC17",
+      "File": "baseline-Designs.tsx"
+    },
+    {
+      "Hash": "5A775E6411F790F518DBC9C1FA7C50A89E6873502D9A3530A6EB223A590BCFE8",
+      "File": "command-live.md"
+    },
+    {
+      "Hash": "5A775E6411F790F518DBC9C1FA7C50A89E6873502D9A3530A6EB223A590BCFE8",
+      "File": "command-pinned.md"
+    },
+    {
+      "Hash": "6CD1609C9C12233507CDD2CE0D32E9A721E3C27494951BE06B90090DEEEB7AF2",
+      "File": "guidelines-LICENSE"
+    },
+    {
+      "Hash": "83E4D256F400D87270240A84B3A20166CED8530AD492C6DA71E008EEC110E507",
+      "File": "guidelines-tree.txt"
+    },
+    {
+      "Hash": "F4647CA866A3ACCF763777F83E7682954F0187CD6BEA7EEA0399796652414E8F",
+      "File": "SKILL.md"
+    }
+  ]
+}

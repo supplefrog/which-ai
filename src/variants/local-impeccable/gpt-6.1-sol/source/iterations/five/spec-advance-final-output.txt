@@ -1,0 +1,2 @@
+GATE SPEC FAILED (state unchanged)
+  - the lead text region headline is measured (compressed black, cap 69.6px) but no face is ranked: run impeccable font-match --rank headline --text "<its first words>" [--candidates "Family:weight,..."] and use the USE line.

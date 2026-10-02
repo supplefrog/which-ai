@@ -1,0 +1,28 @@
+---
+version: 1
+slug: "127-0-0-1-local-preview-local-impeccable-3"
+primary_target: "http://127.0.0.1:3000/local/preview/local-impeccable/3"
+related_targets: []
+---
+
+# OVERPRINT · registered thoughts
+
+Scope: fictional second-brain landing-page comparison. Mode: Persuade. Product truth comes from PRODUCT.md. Comp-first is the original default, assumed after the optional parent question went unanswered; no standing preference is saved. Comp selection is delegated by the controlling autonomous comparison request.
+
+## Direction contract
+
+THESIS: Capture, context, and connection are three readable passes that form one thought.
+
+OWN-WORLD: White field, cyan/amber/scarlet note passes and violet registration control; stencil world, semantic typography.
+
+STORY: Understand a note’s three layers, read literal examples, and bring them into register.
+
+FIRST VIEWPORT: Left40% contains the large offer and scarlet action; right60% holds three colored note passes. A visible range/action aligns the passes; three step explanations continue below.
+
+FORM: Transparent screenprint overlap challenger, original seed7f0457f4; chosen composition1.
+
+SIGNATURE INTERACTION: One alignment control brings the note passes into register; reduced motion and narrow screens retain readable text.
+
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+
+Human component and assembled-hero checkpoints: PENDING HUMAN REVIEW. No human approval receipt is written. The user will judge the rendered comparisons afterward. Native named shipped agent types are not exposed; any parent fresh generic review/documenter is a disclosed harness substitution.

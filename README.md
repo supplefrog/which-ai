@@ -1,5 +1,24 @@
 # WhichAI.dev
 
+## Personal frontend skill comparisons
+
+This fork adds 45 GPT-6.1 Sol / medium designs: five each for the no-skill baseline, Addy Osmani, Anthropic, Emil Kowalski, GPT TASTESKILL, Hallmark, Impeccable, TASTESKILL v2, and Vercel's guidelines. Each uses the same second-brain landing-page brief. The purpose is to choose the design elements you like before revising a personal frontend skill.
+
+```sh
+npm ci
+node node_modules/next/dist/bin/next dev --webpack --hostname 127.0.0.1 --port 3000
+```
+
+Open **http://127.0.0.1:3000/local/compare**. The first pair is baseline versus Anthropic. Choose conditions and designs 1–5, open full-width previews, write browser-local notes, and export them as JSON. Windows users can also run `START-LOCAL.ps1` after installing dependencies.
+
+Pinned source links are in the comparison UI. Raw skill/license evidence, generation notes and assets live under `src/variants/local-*/gpt-6.1-sol/source`. [LOCAL-COMPARISON.md](LOCAL-COMPARISON.md) records the comparison contract, verification and limits.
+
+Vercel is a baseline review-and-fix condition with an extra pass. Impeccable uses an adapted comp-first workflow with original human checkpoints still pending; this is not full protocol certification. Matt Pocock remains excluded; [the recovered history](docs/matt-source-provenance.md) suggests a possible attribution error but does not identify an exact Matt original. The comparison makes no aesthetic ranking or shared-skill revision on your behalf.
+
+The original WhichAI gallery and upstream history are retained. Runtime caches, browser profiles, smoke-test note exports and the downloaded Impeccable executable are kept out of this fork's changes. The upstream README follows.
+
+---
+
 **A side-by-side look at which AI models can actually design.**
 
 Every few days someone drops a new leaderboard proving that Model A is 2.3% better than Model B at reasoning, coding, or being polite. Which is fine, but none of those spreadsheets tell you what you actually want to know: *if I ask this thing to build a landing page, will it look good?*

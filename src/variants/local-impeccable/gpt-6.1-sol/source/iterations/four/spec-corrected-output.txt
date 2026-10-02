@@ -1,0 +1,64 @@
+WROTE .impeccable/build/spec.json
+SPEC comp .impeccable/mocks/comp-1.png 1536x1024 landscape
+PALETTE #eef7f7(91%) #0a0a0a(5%) #adb0b4(2%) #74767b(1%) #4a4b51(1%)
+BANDS 2% 5% 15% 24% 28% 38% 56% 61% 64% 80% 93%
+REGION headline           text     semantic box x3% y13% w27% h25% (421x252px, 1.6706:1) palette #eaf6f7 #090909 #505050  # Primary offer heading
+REGION offer-copy         text     semantic box x3% y40% w26% h13% (395x136px, 2.9044:1) palette #eaf6f7 #0f1012 #b2b6bb  # Product description paragraph
+REGION primary-action     control  semantic box x3% y57% w21% h7% (326x68px, 4.7941:1) palette #090a0b #e9eaeb #4d4f4f  # Primary button and arrow
+REGION wordmark           text     semantic box x3% y2% w15% h3% (233x26px, 8.9615:1) palette #ebf3f5 #0b0b0b #b5b7b9  # Product wordmark
+REGION nav-capture        control  semantic box x25% y3% w7% h3% (110x35px, 3.1429:1) palette #e9f7f8 #72767c #444649  # Top navigation link capture
+REGION nav-connect        control  semantic box x33% y3% w7% h3% (110x35px, 3.1429:1) palette #e9f7f8 #9f9fa7 #2f3134  # Top navigation link connect
+REGION nav-find           control  semantic box x40% y3% w7% h3% (110x35px, 3.1429:1) palette #e9f7f8 #5c5e61 #181818  # Top navigation link find
+REGION catalog-ground     chrome   semantic box x31% y13% w66% h57% (1010x583px, 1.7324:1) palette #f2f7f7 #bec2c6 #5f6262  # Catalog layout
+REGION cell-0             control  semantic box x31% y13% w11% h18% (167x185px, 0.9027:1) palette #f6f7f7 #a9acaf #7a7d81  # Coded note title and literal excerpt
+REGION cell-copy-0        text     semantic box x32% y14% w9% h16% (142x160px, 0.8875:1) palette #f6f7f8 #b9bcc3 #585a60  # Note code, title, and authored excerpt
+REGION cell-1             control  semantic box x43% y13% w11% h18% (167x185px, 0.9027:1) palette #f7f7f7 #a9acb0 #5e5f65  # Coded note title and literal excerpt
+REGION cell-copy-1        text     semantic box x44% y14% w9% h16% (142x160px, 0.8875:1) palette #f7f8f8 #585b5d #babec0  # Note code, title, and authored excerpt
+REGION cell-2             control  semantic box x54% y13% w11% h18% (167x185px, 0.9027:1) palette #f6f7f8 #acb1b4 #5a5d5f  # Coded note title and literal excerpt
+REGION cell-copy-2        text     semantic box x55% y14% w9% h16% (142x160px, 0.8875:1) palette #f6f7f7 #8c9091 #595a60  # Note code, title, and authored excerpt
+REGION cell-3             control  semantic box x66% y13% w11% h18% (167x185px, 0.9027:1) palette #f6f7f7 #a8abaf #5a5e61  # Coded note title and literal excerpt
+REGION cell-copy-3        text     semantic box x67% y14% w9% h16% (142x160px, 0.8875:1) palette #f6f7f8 #c5c7ca #95989d  # Note code, title, and authored excerpt
+REGION cell-4             control  semantic box x31% y33% w11% h18% (167x185px, 0.9027:1) palette #f7f8f8 #adb0b1 #5e5f64  # Coded note title and literal excerpt
+REGION cell-copy-4        text     semantic box x32% y34% w9% h16% (142x160px, 0.8875:1) palette #f7f8f8 #bcbdc2 #7b7e83  # Note code, title, and authored excerpt
+REGION cell-5             control  semantic box x43% y33% w11% h18% (167x185px, 0.9027:1) palette #f6f7f7 #adb0b5 #727479  # Coded note title and literal excerpt
+REGION cell-copy-5        text     semantic box x44% y34% w9% h16% (142x160px, 0.8875:1) palette #f7f7f8 #72767d #a6a8ad  # Note code, title, and authored excerpt
+REGION cell-6             control  semantic box x54% y33% w11% h18% (167x185px, 0.9027:1) palette #f7f7f8 #acafb4 #4e4f56  # Coded note title and literal excerpt
+REGION cell-copy-6        text     semantic box x55% y34% w9% h16% (142x160px, 0.8875:1) palette #f7f8f8 #8a8c92 #575963  # Note code, title, and authored excerpt
+REGION cell-7             control  semantic box x66% y33% w11% h18% (167x185px, 0.9027:1) palette #f7f8f8 #afb0b5 #5e6067  # Coded note title and literal excerpt
+REGION cell-copy-7        text     semantic box x67% y34% w9% h16% (142x160px, 0.8875:1) palette #f7f7f8 #5c5f65 #b5b9bd  # Note code, title, and authored excerpt
+REGION cell-8             control  semantic box x31% y52% w11% h18% (167x185px, 0.9027:1) palette #f7f7f7 #b1b7b9 #5b5f64  # Coded note title and literal excerpt
+REGION cell-copy-8        text     semantic box x32% y53% w9% h16% (142x160px, 0.8875:1) palette #f7f8f8 #6f7178 #cfd0d3  # Note code, title, and authored excerpt
+REGION cell-9             control  semantic box x43% y52% w11% h18% (167x185px, 0.9027:1) palette #f7f8f8 #c6c7cc #65686d  # Coded note title and literal excerpt
+REGION cell-copy-9        text     semantic box x44% y53% w9% h16% (142x160px, 0.8875:1) palette #f7f8f8 #7d7f82 #46484f  # Note code, title, and authored excerpt
+REGION cell-10            control  semantic box x54% y52% w11% h18% (167x185px, 0.9027:1) palette #f7f8f8 #afb2b4 #5b5d60  # Coded note title and literal excerpt
+REGION cell-copy-10       text     semantic box x55% y53% w9% h16% (142x160px, 0.8875:1) palette #f7f8f8 #969799 #ccccd0  # Note code, title, and authored excerpt
+REGION cell-11            control  semantic box x66% y52% w11% h18% (167x185px, 0.9027:1) palette #f7f8f8 #b9bbbe #595b61  # Coded note title and literal excerpt
+REGION cell-copy-11       text     semantic box x67% y53% w9% h16% (142x160px, 0.8875:1) palette #f7f7f8 #bbbdc1 #545559  # Note code, title, and authored excerpt
+REGION knowledge-map      chrome   semantic box x77% y13% w20% h57% (304x581px, 0.5232:1) palette #e8f7f7 #c1c3ce #94989c  # Countable geometric knowledge map with six coded destinations
+REGION offer-layout       chrome   semantic box x3% y12% w28% h56% (425x576px, 0.7378:1) palette #eaf6f7 #09090a #b1b3b4  # Offer grouping with headline, body, action, and closing copy; child regions retain separate IDs
+REGION navigation-layout  chrome   semantic box x0% y0% w100% h9% (1536x95px, 16.1684:1) palette #e8f8f8 #0a0d0e #7b7d7f  # Top navigation layout and product wordmark; named controls retain separate regions
+REGION continuation-layout chrome   semantic box x0% y74% w100% h26% (1536x266px, 5.7744:1) palette #f0f7f7 #0b0b0c #aeb1b5  # Visible continuation section including literal step headings and copy
+PLATES 0 to produce: none
+WARN region catalog-ground: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region catalog-ground: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region cell-0: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region cell-1: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region cell-2: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region cell-3: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region cell-4: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region cell-5: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region cell-6: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region cell-7: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region cell-8: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region cell-9: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region cell-10: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region cell-11: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region knowledge-map: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region knowledge-map: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region offer-layout: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region offer-layout: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region navigation-layout: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region navigation-layout: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region continuation-layout: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region continuation-layout: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+RULE anything not in this list does not exist on the page: no borders, rules, chrome, or containers the comp does not show. Every raster region ships as its plate, never as CSS.

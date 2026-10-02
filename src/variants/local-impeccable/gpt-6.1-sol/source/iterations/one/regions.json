@@ -1,0 +1,206 @@
+{
+  "regions": [
+    {
+      "id": "headline",
+      "kind": "text",
+      "pixelBox": {
+        "x": 55,
+        "y": 171,
+        "w": 505,
+        "h": 227
+      },
+      "snap": false,
+      "note": "Primary offer heading"
+    },
+    {
+      "id": "offer-copy",
+      "kind": "text",
+      "pixelBox": {
+        "x": 57,
+        "y": 430,
+        "w": 482,
+        "h": 68
+      },
+      "snap": false,
+      "note": "Product description paragraph"
+    },
+    {
+      "id": "primary-action",
+      "kind": "control",
+      "pixelBox": {
+        "x": 58,
+        "y": 530,
+        "w": 267,
+        "h": 70
+      },
+      "snap": false,
+      "note": "Primary button and arrow"
+    },
+    {
+      "id": "wordmark",
+      "kind": "text",
+      "pixelBox": {
+        "x": 60,
+        "y": 26,
+        "w": 214,
+        "h": 45
+      },
+      "snap": false,
+      "note": "Product wordmark"
+    },
+    {
+      "id": "nav-capture",
+      "kind": "control",
+      "pixelBox": {
+        "x": 380,
+        "y": 28,
+        "w": 110,
+        "h": 35
+      },
+      "snap": false,
+      "note": "Top navigation link capture"
+    },
+    {
+      "id": "nav-connect",
+      "kind": "control",
+      "pixelBox": {
+        "x": 500,
+        "y": 28,
+        "w": 110,
+        "h": 35
+      },
+      "snap": false,
+      "note": "Top navigation link connect"
+    },
+    {
+      "id": "nav-find",
+      "kind": "control",
+      "pixelBox": {
+        "x": 620,
+        "y": 28,
+        "w": 110,
+        "h": 35
+      },
+      "snap": false,
+      "note": "Top navigation link find"
+    },
+    {
+      "id": "atlas-ground",
+      "kind": "plate",
+      "pixelBox": {
+        "x": 0,
+        "y": 0,
+        "w": 1536,
+        "h": 774
+      },
+      "snap": false,
+      "note": "Cobalt topographic contour atlas backdrop, no interface words",
+      "plate": "../../assets/atlas-plate.png",
+      "bleed": true
+    },
+    {
+      "id": "note-0",
+      "kind": "control",
+      "pixelBox": {
+        "x": 766,
+        "y": 121,
+        "w": 194,
+        "h": 90
+      },
+      "snap": false,
+      "note": "Selectable note excerpt destination with its title and full text"
+    },
+    {
+      "id": "note-1",
+      "kind": "control",
+      "pixelBox": {
+        "x": 1183,
+        "y": 183,
+        "w": 166,
+        "h": 91
+      },
+      "snap": false,
+      "note": "Selectable note excerpt destination with its title and full text"
+    },
+    {
+      "id": "note-2",
+      "kind": "control",
+      "pixelBox": {
+        "x": 975,
+        "y": 340,
+        "w": 218,
+        "h": 99
+      },
+      "snap": false,
+      "note": "Selectable note excerpt destination with its title and full text"
+    },
+    {
+      "id": "note-3",
+      "kind": "control",
+      "pixelBox": {
+        "x": 1307,
+        "y": 505,
+        "w": 190,
+        "h": 93
+      },
+      "snap": false,
+      "note": "Selectable note excerpt destination with its title and full text"
+    },
+    {
+      "id": "routes",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 829,
+        "y": 232,
+        "w": 554,
+        "h": 407
+      },
+      "snap": false,
+      "note": "Four semantic destination routes and active markers",
+      "container": true,
+      "codeDrawn": true
+    },
+    {
+      "container": true,
+      "codeDrawn": true,
+      "note": "Offer grouping with headline, body, action, and closing copy; child regions retain separate IDs",
+      "id": "offer-layout",
+      "kind": "chrome",
+      "snap": false,
+      "pixelBox": {
+        "w": 533,
+        "x": 48,
+        "h": 600,
+        "y": 145
+      }
+    },
+    {
+      "container": true,
+      "codeDrawn": true,
+      "note": "Top navigation layout and product wordmark; named controls retain separate regions",
+      "id": "navigation-layout",
+      "kind": "chrome",
+      "snap": false,
+      "pixelBox": {
+        "w": 1536,
+        "x": 0,
+        "h": 95,
+        "y": 0
+      }
+    },
+    {
+      "container": true,
+      "codeDrawn": true,
+      "note": "Visible continuation section including literal step headings and copy",
+      "id": "continuation-layout",
+      "kind": "chrome",
+      "snap": false,
+      "pixelBox": {
+        "w": 1536,
+        "x": 0,
+        "h": 250,
+        "y": 774
+      }
+    }
+  ]
+}

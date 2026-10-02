@@ -1,0 +1,8 @@
+{
+  "fresh": true,
+  "framework": "React19 / Next16 per parent contract",
+  "palette": "none inherited from other variants",
+  "fonts": "local Google theme fonts",
+  "motion": "CSS only, reduced-motion supported",
+  "scope": "isolated source directory"
+}

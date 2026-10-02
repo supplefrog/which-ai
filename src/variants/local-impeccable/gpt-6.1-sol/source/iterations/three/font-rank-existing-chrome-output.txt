@@ -1,0 +1,18 @@
+MEASURE headline: capHeight 75.7px, width compressed (advTall 0.436), weight black (densTall 0.6973), tracking 0.0661, all caps over 1 line, 13 glyphs. Set this region's font-size so its cap height renders at 75.7px; choose a compressed black face.
+CANDIDATES 23: 1 yours + 22 from the compressed shortlist (no catalog index at data/font-index.json)
+SKIPPED (not available at that weight on Google Fonts): League Gothic:200, League Gothic:600, Bebas Neue:200, Bebas Neue:600, Anton:200, Anton:600, Six Caps:200, Six Caps:600, Antonio:900, Oswald:900
+RANK League Gothic:400 distance 0.591  width compressed (-9% advTall)  weight black (+6% densTall)  font-size 104px for cap 75.7px
+RANK Bebas Neue:400 distance 0.650  width condensed (+8% advTall)  weight black (-3% densTall)  font-size 109px for cap 75.7px
+RANK Antonio:700 distance 0.685  width compressed (+1% advTall)  weight black (-1% densTall)  font-size 89px for cap 75.7px
+RANK Saira Extra Condensed:600 distance 0.833  width condensed (+11% advTall)  weight bold (-11% densTall)  font-size 111px for cap 75.7px
+RANK Big Shoulders Display:700 distance 0.865  width compressed (-3% advTall)  weight bold (-9% densTall)  font-size 95px for cap 75.7px
+RANK Big Shoulders Display:900 distance 0.946  width condensed (+20% advTall)  weight black (+2% densTall)  font-size 95px for cap 75.7px
+RANK Anton:400 distance 1.078  width condensed (+15% advTall)  weight black (+14% densTall)  font-size 88px for cap 75.7px
+RANK Antonio:500 distance 1.093  width compressed (-6% advTall)  weight bold (-11% densTall)  font-size 89px for cap 75.7px
+RANK Oswald:500 distance 1.093  width condensed (+30% advTall)  weight bold (-7% densTall)  font-size 94px for cap 75.7px
+RANK Saira Extra Condensed:800 distance 1.119  width condensed (+17% advTall)  weight black (+12% densTall)  font-size 111px for cap 75.7px
+RANK Oswald:700 distance 1.210  width condensed (+36% advTall)  weight black (+6% densTall)  font-size 94px for cap 75.7px
+RANK Saira Stencil One:400 distance 1.222  width condensed (+8% advTall)  weight black (+3% densTall)  font-size 111px for cap 75.7px
+RANK Six Caps:400 distance 1.444  width compressed (-50% advTall)  weight black (-5% densTall)  font-size 90px for cap 75.7px
+PROOF .impeccable/build/font-match/headline.png (comp crop, then the top 3 candidates at the comp's cap height; open it before choosing)
+USE font-family: 'League Gothic'; font-weight: 400; font-size: 104px; text-transform: uppercase;

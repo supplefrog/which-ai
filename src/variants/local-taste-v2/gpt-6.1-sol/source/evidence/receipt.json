@@ -1,0 +1,34 @@
+{
+  "revision": "e79ca9ec7e071eb3a3b623c4fb752e853fc3ed58",
+  "source_url": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/e79ca9ec7e071eb3a3b623c4fb752e853fc3ed58/skills/taste-skill/SKILL.md",
+  "files": [
+    {
+      "name": "SKILL.md",
+      "bytes": 87253,
+      "sha256": "AA194351B246B8B4799099D4ED7B033D29EAB6E6E3D58D8D2172978BE7B3EC89"
+    },
+    {
+      "name": "LICENSE",
+      "bytes": 1065,
+      "sha256": "4575A543AB88DAD12CCEA7D97E563D0BCE5B448B06072E65D3264497DAD326DF"
+    },
+    {
+      "name": "forest.png",
+      "bytes": 3550988,
+      "sha256": "5E43F13A2897A35AD57595BEFF92CB5EC37293622A62D2066D2F5CD47642AF7E"
+    },
+    {
+      "name": "lake.png",
+      "bytes": 2538136,
+      "sha256": "4FA15AAC518F4CBFC2826674E9AC9D413101F774398A26F313B496449BCE55DE"
+    },
+    {
+      "name": "writing.png",
+      "bytes": 1927648,
+      "sha256": "73C44FF3FDCF1BE8B3ACD8CD591A4B4D5B5B94ED29F2DCFADDB7DB340E7B9330"
+    }
+  ],
+  "fetched_utc": "2026-10-02T08:04:39.9360888Z",
+  "raw": "Unfiltered original bytes downloaded with Invoke-WebRequest",
+  "read": "All 1206 source lines read including appendices"
+}

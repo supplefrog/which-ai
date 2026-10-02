@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-02T09:26:01.226750+00:00",
+  "title": "Design System: COMMONPLACE",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Primary"
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink"
+      },
+      "neutral-bg": {
+        "role": "neutral",
+        "displayName": "Neutral Bg"
+      },
+      "selected-paper": {
+        "role": "neutral",
+        "displayName": "Selected Paper"
+      },
+      "cell-rule": {
+        "role": "neutral",
+        "displayName": "Cell Rule"
+      },
+      "map-rule": {
+        "role": "neutral",
+        "displayName": "Map Rule"
+      },
+      "context-paper": {
+        "role": "neutral",
+        "displayName": "Context Paper"
+      },
+      "secondary-text": {
+        "role": "neutral",
+        "displayName": "Secondary Text"
+      },
+      "link-ink": {
+        "role": "primary",
+        "displayName": "Link Ink"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Ranked display",
+        "purpose": "Final first-viewport offer."
+      },
+      "headline": {
+        "displayName": "Supporting heading",
+        "purpose": "Representative observed section/component heading."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Base inherited running text."
+      },
+      "label": {
+        "displayName": "Demo label",
+        "purpose": "Illustrative content label."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "cell-fill",
+        "value": "background .2s",
+        "purpose": "White hover/selected paper."
+      },
+      {
+        "name": "action-lift",
+        "value": "translate .18s ease-out; hover translate: 0 -3px",
+        "purpose": "Shared action response."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop",
+        "value": "1050px"
+      },
+      {
+        "name": "mobile-stack",
+        "value": "750px"
+      }
+    ],
+    "sourceBinding": {
+      "artifact": "../../Designs.tsx",
+      "stylesheet": "../../Designs.module.css",
+      "sha256": {
+        "Designs.tsx": "78D2AE6580458CEC451A1E1A950D2934DE53B7EC0151DD272ADAF5E040FC1A99",
+        "Designs.module.css": "ED090E0F2ADCB769F58631F3EFE8925C89435590E25DA0356BFCF1064AD49D71"
+      },
+      "page": "PageFour",
+      "worldClass": "commonplace",
+      "directionContract": "direction-contract.md",
+      "selectedComp": ".impeccable/mocks/comp-1.png",
+      "selectedCompSha256": "a1941ce4536294e9a34e249557c3a1ff344e34fc665878b937e26a316289bac3",
+      "engineStateSnapshot": {
+        "comps": {
+          "status": "closed",
+          "gateOk": true
+        },
+        "spec": {
+          "status": "closed",
+          "gateOk": true
+        },
+        "plates": {
+          "status": "closed",
+          "gateOk": true
+        },
+        "hero": {
+          "status": "open",
+          "gateOk": null
+        },
+        "sections": {
+          "status": "pending",
+          "gateOk": null
+        },
+        "motion": {
+          "status": "pending",
+          "gateOk": null
+        },
+        "responsive": {
+          "status": "pending",
+          "gateOk": null
+        },
+        "review": {
+          "status": "pending",
+          "gateOk": null
+        }
+      },
+      "humanComponentReview": "pending",
+      "humanHeroReview": "pending",
+      "documenter": "Fresh generic native subagent substituting for unexposed impeccable_documenter type",
+      "precedingSourceSha256": {
+        "Designs.tsx": "803EA24181E6ED34D3EACC67C34841DAEE2E43C146902C3D2FAE4B9E587C61C6",
+        "Designs.module.css": "CA81F3308EF37AFF7ADB7E36E68B67DBD619C9F93C5B3933E938A3C6DD448402"
+      }
+    }
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "description": "Static source-translated specimen; application state and icon glyphs are not reproduced.",
+      "html": "<div class=\"ds-page ds-commonplace\"><div class=\"ds-catalogOffer\"><a class=\"ds-action\" href=\"#demo\">Explore the demo</a></div></div>",
+      "css": ".ds-page{--ink:#0b1945;--ground:#fff;--accent:#244ab8;color:var(--ink);background:var(--ground);font:16px/1.55 ImpeccableManrope,sans-serif}.ds-page h1,.ds-page h2,.ds-page h3,.ds-page p{margin:0}.ds-page h1{font-weight:800;line-height:1.05;letter-spacing:-.035em;text-wrap:balance}.ds-page h2{line-height:1.15;text-wrap:balance}.ds-page a{color:inherit;text-decoration:none;text-underline-offset:.25em}.ds-page button,.ds-page input{font:inherit}.ds-page button{cursor:pointer}.ds-page button:disabled{cursor:default;opacity:.5}.ds-page a:focus-visible,.ds-page button:focus-visible,.ds-page input:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.ds-page ::selection{background:var(--accent);color:var(--ground)}.ds-page input{caret-color:var(--accent)}.ds-header{min-height:92px;display:flex;align-items:center;justify-content:space-between;gap:32px;padding:20px 4%;position:relative;z-index:2}.ds-brand{display:flex;align-items:center;gap:12px;font-size:27px;font-weight:800;letter-spacing:-.02em}.ds-header nav{display:flex;gap:34px;font-size:14px}.ds-header nav a:hover{text-decoration:underline}.ds-action{display:inline-flex;align-items:center;justify-content:space-between;gap:24px;padding:18px 24px;border-radius:7px;background:var(--ink);color:var(--ground)!important;font-weight:700;font-size:16px;transition:translate .18s ease-out}.ds-action:hover{translate:0 -3px}.ds-outlineAction{border:1px solid currentColor;padding:12px 25px;border-radius:7px;font-weight:700;font-size:14px}.ds-demoLabel{font-size:12px;letter-spacing:.04em}.ds-search{display:flex;align-items:center;gap:9px}.ds-search input{min-width:0;width:100%;border:0;background:transparent;outline:none;padding:9px 0;color:inherit}.ds-empty{padding:40px 15px!important;font-size:15px!important}.ds-commonplace{--ink:#111;--ground:#edf0f1;--accent:#e84335;font-family:ImpeccableNarrow,sans-serif}.ds-commonplace .ds-brand{font-family:ImpeccableAnton,sans-serif;font-size:20px;letter-spacing:.24em}.ds-commonplace .ds-header{min-height:80px}.ds-commonplace .ds-header .ds-search{width:180px;font-size:12px}.ds-catalogHeading{display:flex;justify-content:space-between;gap:12px;font-size:12px;border-bottom:1px solid #a9afb0;padding-bottom:12px;margin-bottom:13px}.ds-catalogHeading>span:last-child{font-size:10px}.ds-catalogCells{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}.ds-catalogCells button{border:1px solid #a3abad;border-radius:0;background:transparent;padding:12px;text-align:left;color:#111;min-height:174px;transition:background .2s}.ds-catalogCells button:hover{background:#fff}.ds-catalogCells small{display:flex;justify-content:space-between;font-size:12px;font-weight:700}.ds-catalogCells small i{width:9px;height:9px;display:block;border:1px solid #7e8789;border-radius:50%}.ds-catalogCells strong{font-size:14px;line-height:1.2;display:block;margin-top:5px}.ds-catalogCells p{font-size:12px;line-height:1.55;margin-top:14px}.ds-catalogCells .ds-selectedCell{background:#fff;border-color:#e84335}.ds-selectedCell small i{background:#e84335;border-color:#e84335}.ds-catalogContext{margin:0 3.5%;padding:50px 0;border-top:1px solid #b6bec0;display:grid;grid-template-columns:38% 62%;gap:40px}.ds-catalogContext h2{font:400 40px/1.15 ImpeccableAnton,sans-serif;letter-spacing:-.02em}.ds-catalogContext p{font-size:18px;margin-top:18px;max-width:480px}.ds-catalogContext article{border:1px solid #b6bec0;padding:25px 30px;background:#f8f9fa}.ds-catalogContext article small{font-size:12px}.ds-catalogContext article h3{font-size:27px;margin-top:15px}.ds-catalogContext article span{display:flex;gap:10px;align-items:center;font-size:14px;margin-top:25px;color:#b32418}@media(max-width:1050px){.ds-header nav{gap:20px}.ds-header .ds-action{display:none}.ds-catalogCells{grid-template-columns:repeat(3,1fr)}.ds-catalogCells button{min-height:155px;padding:9px}}@media(max-width:750px){.ds-header{padding:20px 22px;min-height:76px;gap:15px;flex-wrap:wrap}.ds-brand{font-size:24px}.ds-header nav{gap:18px;font-size:12px;order:3;width:100%;padding-top:10px}.ds-header .ds-outlineAction{font-size:10px;padding:10px 13px}.ds-action{padding:15px 21px}.ds-commonplace .ds-header{padding:22px}.ds-commonplace .ds-brand{font-size:18px;letter-spacing:.16em}.ds-commonplace .ds-header .ds-search{width:100%;order:4;margin-top:10px;border-bottom:1px solid #a3abad}.ds-catalogHeading{font-size:11px}.ds-catalogHeading>span:last-child{max-width:120px;font-size:10px;text-align:right}.ds-catalogCells{grid-template-columns:repeat(2,1fr);gap:10px}.ds-catalogCells button{min-height:178px;padding:13px}.ds-catalogCells strong{font-size:16px}.ds-catalogCells p{font-size:14px}.ds-catalogContext{display:block;margin:0 22px;padding:42px 0}.ds-catalogContext h2{font-size:37px}.ds-catalogContext p{font-size:19px}.ds-catalogContext article{margin-top:30px;padding:22px}}@media(prefers-reduced-motion:reduce){.ds-page *{scroll-behavior:auto!important;transition:none!important}.ds-action:hover{translate:none}}.ds-catalogOffer .ds-action{font-family:ImpeccableNarrow,sans-serif;padding:18px 22px;font-size:17px}",
+      "refersTo": "button-primary"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "description": "Static source-translated specimen; application state and icon glyphs are not reproduced.",
+      "html": "<div class=\"ds-page ds-commonplace\"><header class=\"ds-header\"><nav aria-label=\"Page navigation\"><a href=\"#demo\">Notes</a><a href=\"#close\">About</a></nav></header></div>",
+      "css": ".ds-page{--ink:#0b1945;--ground:#fff;--accent:#244ab8;color:var(--ink);background:var(--ground);font:16px/1.55 ImpeccableManrope,sans-serif}.ds-page h1,.ds-page h2,.ds-page h3,.ds-page p{margin:0}.ds-page h1{font-weight:800;line-height:1.05;letter-spacing:-.035em;text-wrap:balance}.ds-page h2{line-height:1.15;text-wrap:balance}.ds-page a{color:inherit;text-decoration:none;text-underline-offset:.25em}.ds-page button,.ds-page input{font:inherit}.ds-page button{cursor:pointer}.ds-page button:disabled{cursor:default;opacity:.5}.ds-page a:focus-visible,.ds-page button:focus-visible,.ds-page input:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.ds-page ::selection{background:var(--accent);color:var(--ground)}.ds-page input{caret-color:var(--accent)}.ds-header{min-height:92px;display:flex;align-items:center;justify-content:space-between;gap:32px;padding:20px 4%;position:relative;z-index:2}.ds-brand{display:flex;align-items:center;gap:12px;font-size:27px;font-weight:800;letter-spacing:-.02em}.ds-header nav{display:flex;gap:34px;font-size:14px}.ds-header nav a:hover{text-decoration:underline}.ds-action{display:inline-flex;align-items:center;justify-content:space-between;gap:24px;padding:18px 24px;border-radius:7px;background:var(--ink);color:var(--ground)!important;font-weight:700;font-size:16px;transition:translate .18s ease-out}.ds-action:hover{translate:0 -3px}.ds-outlineAction{border:1px solid currentColor;padding:12px 25px;border-radius:7px;font-weight:700;font-size:14px}.ds-demoLabel{font-size:12px;letter-spacing:.04em}.ds-search{display:flex;align-items:center;gap:9px}.ds-search input{min-width:0;width:100%;border:0;background:transparent;outline:none;padding:9px 0;color:inherit}.ds-empty{padding:40px 15px!important;font-size:15px!important}.ds-commonplace{--ink:#111;--ground:#edf0f1;--accent:#e84335;font-family:ImpeccableNarrow,sans-serif}.ds-commonplace .ds-brand{font-family:ImpeccableAnton,sans-serif;font-size:20px;letter-spacing:.24em}.ds-commonplace .ds-header{min-height:80px}.ds-commonplace .ds-header .ds-search{width:180px;font-size:12px}.ds-catalogHeading{display:flex;justify-content:space-between;gap:12px;font-size:12px;border-bottom:1px solid #a9afb0;padding-bottom:12px;margin-bottom:13px}.ds-catalogHeading>span:last-child{font-size:10px}.ds-catalogCells{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}.ds-catalogCells button{border:1px solid #a3abad;border-radius:0;background:transparent;padding:12px;text-align:left;color:#111;min-height:174px;transition:background .2s}.ds-catalogCells button:hover{background:#fff}.ds-catalogCells small{display:flex;justify-content:space-between;font-size:12px;font-weight:700}.ds-catalogCells small i{width:9px;height:9px;display:block;border:1px solid #7e8789;border-radius:50%}.ds-catalogCells strong{font-size:14px;line-height:1.2;display:block;margin-top:5px}.ds-catalogCells p{font-size:12px;line-height:1.55;margin-top:14px}.ds-catalogCells .ds-selectedCell{background:#fff;border-color:#e84335}.ds-selectedCell small i{background:#e84335;border-color:#e84335}.ds-catalogContext{margin:0 3.5%;padding:50px 0;border-top:1px solid #b6bec0;display:grid;grid-template-columns:38% 62%;gap:40px}.ds-catalogContext h2{font:400 40px/1.15 ImpeccableAnton,sans-serif;letter-spacing:-.02em}.ds-catalogContext p{font-size:18px;margin-top:18px;max-width:480px}.ds-catalogContext article{border:1px solid #b6bec0;padding:25px 30px;background:#f8f9fa}.ds-catalogContext article small{font-size:12px}.ds-catalogContext article h3{font-size:27px;margin-top:15px}.ds-catalogContext article span{display:flex;gap:10px;align-items:center;font-size:14px;margin-top:25px;color:#b32418}@media(max-width:1050px){.ds-header nav{gap:20px}.ds-header .ds-action{display:none}.ds-catalogCells{grid-template-columns:repeat(3,1fr)}.ds-catalogCells button{min-height:155px;padding:9px}}@media(max-width:750px){.ds-header{padding:20px 22px;min-height:76px;gap:15px;flex-wrap:wrap}.ds-brand{font-size:24px}.ds-header nav{gap:18px;font-size:12px;order:3;width:100%;padding-top:10px}.ds-header .ds-outlineAction{font-size:10px;padding:10px 13px}.ds-action{padding:15px 21px}.ds-commonplace .ds-header{padding:22px}.ds-commonplace .ds-brand{font-size:18px;letter-spacing:.16em}.ds-commonplace .ds-header .ds-search{width:100%;order:4;margin-top:10px;border-bottom:1px solid #a3abad}.ds-catalogHeading{font-size:11px}.ds-catalogHeading>span:last-child{max-width:120px;font-size:10px;text-align:right}.ds-catalogCells{grid-template-columns:repeat(2,1fr);gap:10px}.ds-catalogCells button{min-height:178px;padding:13px}.ds-catalogCells strong{font-size:16px}.ds-catalogCells p{font-size:14px}.ds-catalogContext{display:block;margin:0 22px;padding:42px 0}.ds-catalogContext h2{font-size:37px}.ds-catalogContext p{font-size:19px}.ds-catalogContext article{margin-top:30px;padding:22px}}@media(prefers-reduced-motion:reduce){.ds-page *{scroll-behavior:auto!important;transition:none!important}.ds-action:hover{translate:none}}"
+    },
+    {
+      "name": "Catalog search",
+      "kind": "input",
+      "description": "Static source-translated specimen; application state and icon glyphs are not reproduced.",
+      "html": "<div class=\"ds-page ds-commonplace\"><header class=\"ds-header\"><label class=\"ds-search\"><input placeholder=\"Search notesÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦\" aria-label=\"Search illustrative catalog\"></label></header></div>",
+      "css": ".ds-page{--ink:#0b1945;--ground:#fff;--accent:#244ab8;color:var(--ink);background:var(--ground);font:16px/1.55 ImpeccableManrope,sans-serif}.ds-page h1,.ds-page h2,.ds-page h3,.ds-page p{margin:0}.ds-page h1{font-weight:800;line-height:1.05;letter-spacing:-.035em;text-wrap:balance}.ds-page h2{line-height:1.15;text-wrap:balance}.ds-page a{color:inherit;text-decoration:none;text-underline-offset:.25em}.ds-page button,.ds-page input{font:inherit}.ds-page button{cursor:pointer}.ds-page button:disabled{cursor:default;opacity:.5}.ds-page a:focus-visible,.ds-page button:focus-visible,.ds-page input:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.ds-page ::selection{background:var(--accent);color:var(--ground)}.ds-page input{caret-color:var(--accent)}.ds-header{min-height:92px;display:flex;align-items:center;justify-content:space-between;gap:32px;padding:20px 4%;position:relative;z-index:2}.ds-brand{display:flex;align-items:center;gap:12px;font-size:27px;font-weight:800;letter-spacing:-.02em}.ds-header nav{display:flex;gap:34px;font-size:14px}.ds-header nav a:hover{text-decoration:underline}.ds-action{display:inline-flex;align-items:center;justify-content:space-between;gap:24px;padding:18px 24px;border-radius:7px;background:var(--ink);color:var(--ground)!important;font-weight:700;font-size:16px;transition:translate .18s ease-out}.ds-action:hover{translate:0 -3px}.ds-outlineAction{border:1px solid currentColor;padding:12px 25px;border-radius:7px;font-weight:700;font-size:14px}.ds-demoLabel{font-size:12px;letter-spacing:.04em}.ds-search{display:flex;align-items:center;gap:9px}.ds-search input{min-width:0;width:100%;border:0;background:transparent;outline:none;padding:9px 0;color:inherit}.ds-empty{padding:40px 15px!important;font-size:15px!important}.ds-commonplace{--ink:#111;--ground:#edf0f1;--accent:#e84335;font-family:ImpeccableNarrow,sans-serif}.ds-commonplace .ds-brand{font-family:ImpeccableAnton,sans-serif;font-size:20px;letter-spacing:.24em}.ds-commonplace .ds-header{min-height:80px}.ds-commonplace .ds-header .ds-search{width:180px;font-size:12px}.ds-catalogHeading{display:flex;justify-content:space-between;gap:12px;font-size:12px;border-bottom:1px solid #a9afb0;padding-bottom:12px;margin-bottom:13px}.ds-catalogHeading>span:last-child{font-size:10px}.ds-catalogCells{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}.ds-catalogCells button{border:1px solid #a3abad;border-radius:0;background:transparent;padding:12px;text-align:left;color:#111;min-height:174px;transition:background .2s}.ds-catalogCells button:hover{background:#fff}.ds-catalogCells small{display:flex;justify-content:space-between;font-size:12px;font-weight:700}.ds-catalogCells small i{width:9px;height:9px;display:block;border:1px solid #7e8789;border-radius:50%}.ds-catalogCells strong{font-size:14px;line-height:1.2;display:block;margin-top:5px}.ds-catalogCells p{font-size:12px;line-height:1.55;margin-top:14px}.ds-catalogCells .ds-selectedCell{background:#fff;border-color:#e84335}.ds-selectedCell small i{background:#e84335;border-color:#e84335}.ds-catalogContext{margin:0 3.5%;padding:50px 0;border-top:1px solid #b6bec0;display:grid;grid-template-columns:38% 62%;gap:40px}.ds-catalogContext h2{font:400 40px/1.15 ImpeccableAnton,sans-serif;letter-spacing:-.02em}.ds-catalogContext p{font-size:18px;margin-top:18px;max-width:480px}.ds-catalogContext article{border:1px solid #b6bec0;padding:25px 30px;background:#f8f9fa}.ds-catalogContext article small{font-size:12px}.ds-catalogContext article h3{font-size:27px;margin-top:15px}.ds-catalogContext article span{display:flex;gap:10px;align-items:center;font-size:14px;margin-top:25px;color:#b32418}@media(max-width:1050px){.ds-header nav{gap:20px}.ds-header .ds-action{display:none}.ds-catalogCells{grid-template-columns:repeat(3,1fr)}.ds-catalogCells button{min-height:155px;padding:9px}}@media(max-width:750px){.ds-header{padding:20px 22px;min-height:76px;gap:15px;flex-wrap:wrap}.ds-brand{font-size:24px}.ds-header nav{gap:18px;font-size:12px;order:3;width:100%;padding-top:10px}.ds-header .ds-outlineAction{font-size:10px;padding:10px 13px}.ds-action{padding:15px 21px}.ds-commonplace .ds-header{padding:22px}.ds-commonplace .ds-brand{font-size:18px;letter-spacing:.16em}.ds-commonplace .ds-header .ds-search{width:100%;order:4;margin-top:10px;border-bottom:1px solid #a3abad}.ds-catalogHeading{font-size:11px}.ds-catalogHeading>span:last-child{max-width:120px;font-size:10px;text-align:right}.ds-catalogCells{grid-template-columns:repeat(2,1fr);gap:10px}.ds-catalogCells button{min-height:178px;padding:13px}.ds-catalogCells strong{font-size:16px}.ds-catalogCells p{font-size:14px}.ds-catalogContext{display:block;margin:0 22px;padding:42px 0}.ds-catalogContext h2{font-size:37px}.ds-catalogContext p{font-size:19px}.ds-catalogContext article{margin-top:30px;padding:22px}}@media(prefers-reduced-motion:reduce){.ds-page *{scroll-behavior:auto!important;transition:none!important}.ds-action:hover{translate:none}}"
+    },
+    {
+      "name": "Catalog cell",
+      "kind": "button",
+      "description": "Static source-translated specimen; application state and icon glyphs are not reproduced.",
+      "html": "<div class=\"ds-page ds-commonplace\"><div class=\"ds-catalogCells\"><button><small>A1<i aria-hidden=\"true\"></i></small><strong>Attention</strong><p>Where your attention goes, your life arranges itself.</p></button></div></div>",
+      "css": ".ds-page{--ink:#0b1945;--ground:#fff;--accent:#244ab8;color:var(--ink);background:var(--ground);font:16px/1.55 ImpeccableManrope,sans-serif}.ds-page h1,.ds-page h2,.ds-page h3,.ds-page p{margin:0}.ds-page h1{font-weight:800;line-height:1.05;letter-spacing:-.035em;text-wrap:balance}.ds-page h2{line-height:1.15;text-wrap:balance}.ds-page a{color:inherit;text-decoration:none;text-underline-offset:.25em}.ds-page button,.ds-page input{font:inherit}.ds-page button{cursor:pointer}.ds-page button:disabled{cursor:default;opacity:.5}.ds-page a:focus-visible,.ds-page button:focus-visible,.ds-page input:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.ds-page ::selection{background:var(--accent);color:var(--ground)}.ds-page input{caret-color:var(--accent)}.ds-header{min-height:92px;display:flex;align-items:center;justify-content:space-between;gap:32px;padding:20px 4%;position:relative;z-index:2}.ds-brand{display:flex;align-items:center;gap:12px;font-size:27px;font-weight:800;letter-spacing:-.02em}.ds-header nav{display:flex;gap:34px;font-size:14px}.ds-header nav a:hover{text-decoration:underline}.ds-action{display:inline-flex;align-items:center;justify-content:space-between;gap:24px;padding:18px 24px;border-radius:7px;background:var(--ink);color:var(--ground)!important;font-weight:700;font-size:16px;transition:translate .18s ease-out}.ds-action:hover{translate:0 -3px}.ds-outlineAction{border:1px solid currentColor;padding:12px 25px;border-radius:7px;font-weight:700;font-size:14px}.ds-demoLabel{font-size:12px;letter-spacing:.04em}.ds-search{display:flex;align-items:center;gap:9px}.ds-search input{min-width:0;width:100%;border:0;background:transparent;outline:none;padding:9px 0;color:inherit}.ds-empty{padding:40px 15px!important;font-size:15px!important}.ds-commonplace{--ink:#111;--ground:#edf0f1;--accent:#e84335;font-family:ImpeccableNarrow,sans-serif}.ds-commonplace .ds-brand{font-family:ImpeccableAnton,sans-serif;font-size:20px;letter-spacing:.24em}.ds-commonplace .ds-header{min-height:80px}.ds-commonplace .ds-header .ds-search{width:180px;font-size:12px}.ds-catalogHeading{display:flex;justify-content:space-between;gap:12px;font-size:12px;border-bottom:1px solid #a9afb0;padding-bottom:12px;margin-bottom:13px}.ds-catalogHeading>span:last-child{font-size:10px}.ds-catalogCells{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}.ds-catalogCells button{border:1px solid #a3abad;border-radius:0;background:transparent;padding:12px;text-align:left;color:#111;min-height:174px;transition:background .2s}.ds-catalogCells button:hover{background:#fff}.ds-catalogCells small{display:flex;justify-content:space-between;font-size:12px;font-weight:700}.ds-catalogCells small i{width:9px;height:9px;display:block;border:1px solid #7e8789;border-radius:50%}.ds-catalogCells strong{font-size:14px;line-height:1.2;display:block;margin-top:5px}.ds-catalogCells p{font-size:12px;line-height:1.55;margin-top:14px}.ds-catalogCells .ds-selectedCell{background:#fff;border-color:#e84335}.ds-selectedCell small i{background:#e84335;border-color:#e84335}.ds-catalogContext{margin:0 3.5%;padding:50px 0;border-top:1px solid #b6bec0;display:grid;grid-template-columns:38% 62%;gap:40px}.ds-catalogContext h2{font:400 40px/1.15 ImpeccableAnton,sans-serif;letter-spacing:-.02em}.ds-catalogContext p{font-size:18px;margin-top:18px;max-width:480px}.ds-catalogContext article{border:1px solid #b6bec0;padding:25px 30px;background:#f8f9fa}.ds-catalogContext article small{font-size:12px}.ds-catalogContext article h3{font-size:27px;margin-top:15px}.ds-catalogContext article span{display:flex;gap:10px;align-items:center;font-size:14px;margin-top:25px;color:#b32418}@media(max-width:1050px){.ds-header nav{gap:20px}.ds-header .ds-action{display:none}.ds-catalogCells{grid-template-columns:repeat(3,1fr)}.ds-catalogCells button{min-height:155px;padding:9px}}@media(max-width:750px){.ds-header{padding:20px 22px;min-height:76px;gap:15px;flex-wrap:wrap}.ds-brand{font-size:24px}.ds-header nav{gap:18px;font-size:12px;order:3;width:100%;padding-top:10px}.ds-header .ds-outlineAction{font-size:10px;padding:10px 13px}.ds-action{padding:15px 21px}.ds-commonplace .ds-header{padding:22px}.ds-commonplace .ds-brand{font-size:18px;letter-spacing:.16em}.ds-commonplace .ds-header .ds-search{width:100%;order:4;margin-top:10px;border-bottom:1px solid #a3abad}.ds-catalogHeading{font-size:11px}.ds-catalogHeading>span:last-child{max-width:120px;font-size:10px;text-align:right}.ds-catalogCells{grid-template-columns:repeat(2,1fr);gap:10px}.ds-catalogCells button{min-height:178px;padding:13px}.ds-catalogCells strong{font-size:16px}.ds-catalogCells p{font-size:14px}.ds-catalogContext{display:block;margin:0 22px;padding:42px 0}.ds-catalogContext h2{font-size:37px}.ds-catalogContext p{font-size:19px}.ds-catalogContext article{margin-top:30px;padding:22px}}@media(prefers-reduced-motion:reduce){.ds-page *{scroll-behavior:auto!important;transition:none!important}.ds-action:hover{translate:none}}"
+    },
+    {
+      "name": "Selected catalog cell",
+      "kind": "button",
+      "description": "Static source-translated specimen; application state and icon glyphs are not reproduced.",
+      "html": "<div class=\"ds-page ds-commonplace\"><div class=\"ds-catalogCells\"><button class=\"ds-selectedCell\" aria-pressed=\"true\"><small>A1<i aria-hidden=\"true\"></i></small><strong>Attention</strong><p>Where your attention goes, your life arranges itself.</p></button></div></div>",
+      "css": ".ds-page{--ink:#0b1945;--ground:#fff;--accent:#244ab8;color:var(--ink);background:var(--ground);font:16px/1.55 ImpeccableManrope,sans-serif}.ds-page h1,.ds-page h2,.ds-page h3,.ds-page p{margin:0}.ds-page h1{font-weight:800;line-height:1.05;letter-spacing:-.035em;text-wrap:balance}.ds-page h2{line-height:1.15;text-wrap:balance}.ds-page a{color:inherit;text-decoration:none;text-underline-offset:.25em}.ds-page button,.ds-page input{font:inherit}.ds-page button{cursor:pointer}.ds-page button:disabled{cursor:default;opacity:.5}.ds-page a:focus-visible,.ds-page button:focus-visible,.ds-page input:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.ds-page ::selection{background:var(--accent);color:var(--ground)}.ds-page input{caret-color:var(--accent)}.ds-header{min-height:92px;display:flex;align-items:center;justify-content:space-between;gap:32px;padding:20px 4%;position:relative;z-index:2}.ds-brand{display:flex;align-items:center;gap:12px;font-size:27px;font-weight:800;letter-spacing:-.02em}.ds-header nav{display:flex;gap:34px;font-size:14px}.ds-header nav a:hover{text-decoration:underline}.ds-action{display:inline-flex;align-items:center;justify-content:space-between;gap:24px;padding:18px 24px;border-radius:7px;background:var(--ink);color:var(--ground)!important;font-weight:700;font-size:16px;transition:translate .18s ease-out}.ds-action:hover{translate:0 -3px}.ds-outlineAction{border:1px solid currentColor;padding:12px 25px;border-radius:7px;font-weight:700;font-size:14px}.ds-demoLabel{font-size:12px;letter-spacing:.04em}.ds-search{display:flex;align-items:center;gap:9px}.ds-search input{min-width:0;width:100%;border:0;background:transparent;outline:none;padding:9px 0;color:inherit}.ds-empty{padding:40px 15px!important;font-size:15px!important}.ds-commonplace{--ink:#111;--ground:#edf0f1;--accent:#e84335;font-family:ImpeccableNarrow,sans-serif}.ds-commonplace .ds-brand{font-family:ImpeccableAnton,sans-serif;font-size:20px;letter-spacing:.24em}.ds-commonplace .ds-header{min-height:80px}.ds-commonplace .ds-header .ds-search{width:180px;font-size:12px}.ds-catalogHeading{display:flex;justify-content:space-between;gap:12px;font-size:12px;border-bottom:1px solid #a9afb0;padding-bottom:12px;margin-bottom:13px}.ds-catalogHeading>span:last-child{font-size:10px}.ds-catalogCells{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}.ds-catalogCells button{border:1px solid #a3abad;border-radius:0;background:transparent;padding:12px;text-align:left;color:#111;min-height:174px;transition:background .2s}.ds-catalogCells button:hover{background:#fff}.ds-catalogCells small{display:flex;justify-content:space-between;font-size:12px;font-weight:700}.ds-catalogCells small i{width:9px;height:9px;display:block;border:1px solid #7e8789;border-radius:50%}.ds-catalogCells strong{font-size:14px;line-height:1.2;display:block;margin-top:5px}.ds-catalogCells p{font-size:12px;line-height:1.55;margin-top:14px}.ds-catalogCells .ds-selectedCell{background:#fff;border-color:#e84335}.ds-selectedCell small i{background:#e84335;border-color:#e84335}.ds-catalogContext{margin:0 3.5%;padding:50px 0;border-top:1px solid #b6bec0;display:grid;grid-template-columns:38% 62%;gap:40px}.ds-catalogContext h2{font:400 40px/1.15 ImpeccableAnton,sans-serif;letter-spacing:-.02em}.ds-catalogContext p{font-size:18px;margin-top:18px;max-width:480px}.ds-catalogContext article{border:1px solid #b6bec0;padding:25px 30px;background:#f8f9fa}.ds-catalogContext article small{font-size:12px}.ds-catalogContext article h3{font-size:27px;margin-top:15px}.ds-catalogContext article span{display:flex;gap:10px;align-items:center;font-size:14px;margin-top:25px;color:#b32418}@media(max-width:1050px){.ds-header nav{gap:20px}.ds-header .ds-action{display:none}.ds-catalogCells{grid-template-columns:repeat(3,1fr)}.ds-catalogCells button{min-height:155px;padding:9px}}@media(max-width:750px){.ds-header{padding:20px 22px;min-height:76px;gap:15px;flex-wrap:wrap}.ds-brand{font-size:24px}.ds-header nav{gap:18px;font-size:12px;order:3;width:100%;padding-top:10px}.ds-header .ds-outlineAction{font-size:10px;padding:10px 13px}.ds-action{padding:15px 21px}.ds-commonplace .ds-header{padding:22px}.ds-commonplace .ds-brand{font-size:18px;letter-spacing:.16em}.ds-commonplace .ds-header .ds-search{width:100%;order:4;margin-top:10px;border-bottom:1px solid #a3abad}.ds-catalogHeading{font-size:11px}.ds-catalogHeading>span:last-child{max-width:120px;font-size:10px;text-align:right}.ds-catalogCells{grid-template-columns:repeat(2,1fr);gap:10px}.ds-catalogCells button{min-height:178px;padding:13px}.ds-catalogCells strong{font-size:16px}.ds-catalogCells p{font-size:14px}.ds-catalogContext{display:block;margin:0 22px;padding:42px 0}.ds-catalogContext h2{font-size:37px}.ds-catalogContext p{font-size:19px}.ds-catalogContext article{margin-top:30px;padding:22px}}@media(prefers-reduced-motion:reduce){.ds-page *{scroll-behavior:auto!important;transition:none!important}.ds-action:hover{translate:none}}"
+    },
+    {
+      "name": "Context excerpt",
+      "kind": "card",
+      "description": "Static source-translated specimen; application state and icon glyphs are not reproduced.",
+      "html": "<div class=\"ds-page ds-commonplace\"><section class=\"ds-catalogContext\"><article><small>A1 Ãƒâ€šÃ‚Â· Selected note</small><h3>Attention</h3><p>Where your attention goes, your life arranges itself.</p><span>Linked to Walking</span></article></section></div>",
+      "css": ".ds-page{--ink:#0b1945;--ground:#fff;--accent:#244ab8;color:var(--ink);background:var(--ground);font:16px/1.55 ImpeccableManrope,sans-serif}.ds-page h1,.ds-page h2,.ds-page h3,.ds-page p{margin:0}.ds-page h1{font-weight:800;line-height:1.05;letter-spacing:-.035em;text-wrap:balance}.ds-page h2{line-height:1.15;text-wrap:balance}.ds-page a{color:inherit;text-decoration:none;text-underline-offset:.25em}.ds-page button,.ds-page input{font:inherit}.ds-page button{cursor:pointer}.ds-page button:disabled{cursor:default;opacity:.5}.ds-page a:focus-visible,.ds-page button:focus-visible,.ds-page input:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.ds-page ::selection{background:var(--accent);color:var(--ground)}.ds-page input{caret-color:var(--accent)}.ds-header{min-height:92px;display:flex;align-items:center;justify-content:space-between;gap:32px;padding:20px 4%;position:relative;z-index:2}.ds-brand{display:flex;align-items:center;gap:12px;font-size:27px;font-weight:800;letter-spacing:-.02em}.ds-header nav{display:flex;gap:34px;font-size:14px}.ds-header nav a:hover{text-decoration:underline}.ds-action{display:inline-flex;align-items:center;justify-content:space-between;gap:24px;padding:18px 24px;border-radius:7px;background:var(--ink);color:var(--ground)!important;font-weight:700;font-size:16px;transition:translate .18s ease-out}.ds-action:hover{translate:0 -3px}.ds-outlineAction{border:1px solid currentColor;padding:12px 25px;border-radius:7px;font-weight:700;font-size:14px}.ds-demoLabel{font-size:12px;letter-spacing:.04em}.ds-search{display:flex;align-items:center;gap:9px}.ds-search input{min-width:0;width:100%;border:0;background:transparent;outline:none;padding:9px 0;color:inherit}.ds-empty{padding:40px 15px!important;font-size:15px!important}.ds-commonplace{--ink:#111;--ground:#edf0f1;--accent:#e84335;font-family:ImpeccableNarrow,sans-serif}.ds-commonplace .ds-brand{font-family:ImpeccableAnton,sans-serif;font-size:20px;letter-spacing:.24em}.ds-commonplace .ds-header{min-height:80px}.ds-commonplace .ds-header .ds-search{width:180px;font-size:12px}.ds-catalogHeading{display:flex;justify-content:space-between;gap:12px;font-size:12px;border-bottom:1px solid #a9afb0;padding-bottom:12px;margin-bottom:13px}.ds-catalogHeading>span:last-child{font-size:10px}.ds-catalogCells{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}.ds-catalogCells button{border:1px solid #a3abad;border-radius:0;background:transparent;padding:12px;text-align:left;color:#111;min-height:174px;transition:background .2s}.ds-catalogCells button:hover{background:#fff}.ds-catalogCells small{display:flex;justify-content:space-between;font-size:12px;font-weight:700}.ds-catalogCells small i{width:9px;height:9px;display:block;border:1px solid #7e8789;border-radius:50%}.ds-catalogCells strong{font-size:14px;line-height:1.2;display:block;margin-top:5px}.ds-catalogCells p{font-size:12px;line-height:1.55;margin-top:14px}.ds-catalogCells .ds-selectedCell{background:#fff;border-color:#e84335}.ds-selectedCell small i{background:#e84335;border-color:#e84335}.ds-catalogContext{margin:0 3.5%;padding:50px 0;border-top:1px solid #b6bec0;display:grid;grid-template-columns:38% 62%;gap:40px}.ds-catalogContext h2{font:400 40px/1.15 ImpeccableAnton,sans-serif;letter-spacing:-.02em}.ds-catalogContext p{font-size:18px;margin-top:18px;max-width:480px}.ds-catalogContext article{border:1px solid #b6bec0;padding:25px 30px;background:#f8f9fa}.ds-catalogContext article small{font-size:12px}.ds-catalogContext article h3{font-size:27px;margin-top:15px}.ds-catalogContext article span{display:flex;gap:10px;align-items:center;font-size:14px;margin-top:25px;color:#b32418}@media(max-width:1050px){.ds-header nav{gap:20px}.ds-header .ds-action{display:none}.ds-catalogCells{grid-template-columns:repeat(3,1fr)}.ds-catalogCells button{min-height:155px;padding:9px}}@media(max-width:750px){.ds-header{padding:20px 22px;min-height:76px;gap:15px;flex-wrap:wrap}.ds-brand{font-size:24px}.ds-header nav{gap:18px;font-size:12px;order:3;width:100%;padding-top:10px}.ds-header .ds-outlineAction{font-size:10px;padding:10px 13px}.ds-action{padding:15px 21px}.ds-commonplace .ds-header{padding:22px}.ds-commonplace .ds-brand{font-size:18px;letter-spacing:.16em}.ds-commonplace .ds-header .ds-search{width:100%;order:4;margin-top:10px;border-bottom:1px solid #a3abad}.ds-catalogHeading{font-size:11px}.ds-catalogHeading>span:last-child{max-width:120px;font-size:10px;text-align:right}.ds-catalogCells{grid-template-columns:repeat(2,1fr);gap:10px}.ds-catalogCells button{min-height:178px;padding:13px}.ds-catalogCells strong{font-size:16px}.ds-catalogCells p{font-size:14px}.ds-catalogContext{display:block;margin:0 22px;padding:42px 0}.ds-catalogContext h2{font-size:37px}.ds-catalogContext p{font-size:19px}.ds-catalogContext article{margin-top:30px;padding:22px}}@media(prefers-reduced-motion:reduce){.ds-page *{scroll-behavior:auto!important;transition:none!important}.ds-action:hover{translate:none}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Catalog cells",
+    "overview": "A cool pale field holds fine square catalog cells and a tomato-red knowledge map. The final Six Caps headline has a much taller and narrower silhouette than the Anton wordmark and supporting headings. Selected white cells connect to a larger pale context excerpt.\n\nThis name describes the implemented world and direction contract; human descriptive-language confirmation remains pending.",
+    "keyCharacteristics": [
+      "Fine square cell grid",
+      "Tomato-red selected codes and graph",
+      "Tall Six Caps offer"
+    ],
+    "rules": [],
+    "dos": [
+      "Do keep catalog geometry square and rules thin.",
+      "Do bind map labels and context to the selected note."
+    ],
+    "donts": [
+      "Don't claim the fixed illustrative connections are semantic search or inferred relationships."
+    ]
+  }
+}

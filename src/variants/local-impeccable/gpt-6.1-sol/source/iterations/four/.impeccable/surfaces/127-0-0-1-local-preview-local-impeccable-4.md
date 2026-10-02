@@ -1,0 +1,28 @@
+---
+version: 1
+slug: "127-0-0-1-local-preview-local-impeccable-4"
+primary_target: "http://127.0.0.1:3000/local/preview/local-impeccable/4"
+related_targets: []
+---
+
+# COMMONPLACE · catalog cells
+
+Scope: fictional second-brain landing-page comparison. Mode: Persuade. Product truth comes from PRODUCT.md. Comp-first is the original default, assumed after the optional parent question went unanswered; no standing preference is saved. Comp selection is delegated by the controlling autonomous comparison request.
+
+## Direction contract
+
+THESIS: A personal collection becomes navigable through meaningful cells and links.
+
+OWN-WORLD: Pale cool field, black condensed hierarchy, fine square catalog cells, tomato-red active code and map.
+
+STORY: Read the offer, browse twelve illustrative notes, search their text, and select a cell to recall context.
+
+FIRST VIEWPORT: Left29% offer; middle50% note grid; right21% knowledge map. Selected codes label the map and the larger context excerpt below.
+
+FORM: Convention-circle catalog challenger, original seed7f0457f4; chosen composition1.
+
+SIGNATURE INTERACTION: Select or search literal notes; the map and context pane update from actual selected state.
+
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+
+Human component and assembled-hero checkpoints: PENDING HUMAN REVIEW. No human approval receipt is written. The user will judge the rendered comparisons afterward. Native named shipped agent types are not exposed; any parent fresh generic review/documenter is a disclosed harness substitution.

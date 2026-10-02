@@ -1,0 +1,23 @@
+{
+  "backend": "native image_gen.imagegen",
+  "prompts": [
+    "Use case: photorealistic-natural. Asset type: note-taking app landing page hero photography. Create an elegant close photograph of an open plain notebook on a cool pale grey desk, a hand writing a small thought with a graphite pencil, a softly blurred laptop and leafy green branch nearby. Natural window light. Composition fills landscape 4:3 image with tactile paper detail. Calm, contemporary, believable candid photography, understated greens and silver neutrals. No readable text, logos, overlay labels or watermark. This is original photographic imagery for a second brain note-taking product.",
+    "Use case: photorealistic-natural. Asset type: note-taking second brain app supporting editorial photograph. A beautiful green woodland with sunlight finding a quiet path through tall trees, finely detailed leaves and subtle depth, soothing natural greens. Landscape 4:3 photograph. Original realistic editorial photograph, not fantasy, no people, no text, no logos, no watermark. Represents the connections and growing knowledge of a thoughtful notebook application.",
+    "Use case: photorealistic-natural. Asset type: note-taking app supporting photo. A quiet still lake reflecting trees, cool muted stone and silver tones, a graceful green tree branch entering foreground, gentle morning sunlight and airy negative space. Original realistic landscape 4:3 editorial photography with natural texture, no people, text, logos, overlays or watermark. Calm image for a second brain application about making space to think."
+  ],
+  "outputs": [
+    {
+      "asset": "writing.png",
+      "output_hint": "Generated images are saved to C:\\Users\\E\\.codex\\generated_images\\01a0fb98-d87d-7290-917f-65af4dda9514 as C:\\Users\\E\\.codex\\generated_images\\01a0fb98-d87d-7290-917f-65af4dda9514\\exec-d06d8366-2994-4379-8d75-157aea5e0a2f.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "asset": "forest.png",
+      "output_hint": "Generated images are saved to C:\\Users\\E\\.codex\\generated_images\\01a0fb98-d87d-7290-917f-65af4dda9514 as C:\\Users\\E\\.codex\\generated_images\\01a0fb98-d87d-7290-917f-65af4dda9514\\exec-5321e8bd-fef6-4411-95a2-09bd4acb0844.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "asset": "lake.png",
+      "output_hint": "Generated images are saved to C:\\Users\\E\\.codex\\generated_images\\01a0fb98-d87d-7290-917f-65af4dda9514 as C:\\Users\\E\\.codex\\generated_images\\01a0fb98-d87d-7290-917f-65af4dda9514\\exec-63eb1e07-eaa9-458f-af4f-4f77a5379005.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    }
+  ],
+  "inspection": "All three returned images visually inspected. Writing image contains faint handwriting despite prompt requesting no readable text; retained as contextual photographic detail, never used as interface text."
+}

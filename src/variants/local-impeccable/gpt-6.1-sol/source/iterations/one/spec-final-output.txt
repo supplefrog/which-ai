@@ -1,0 +1,31 @@
+WROTE .impeccable/build/spec.json
+SPEC comp .impeccable/mocks/comp-1.png 1536x1024 landscape
+PALETTE #184aba(68%) #f6f7f7(31%) #3b6dcc(1%) #c7d3ec(0%) #080d43(0%)
+BANDS 12% 19% 22% 31% 33% 38% 42% 49% 52% 58% 75% 86% 89% 92%
+REGION headline           text     semantic box x4% y17% w33% h22% (505x227px, 2.2247:1) palette #1849b8 #f7f8f8 #4974c9  # Primary offer heading
+REGION offer-copy         text     semantic box x4% y42% w31% h7% (482x68px, 7.0882:1) palette #174ab9 #4976cd #e5f1f8  # Product description paragraph
+REGION primary-action     control  semantic box x4% y52% w17% h7% (267x70px, 3.8143:1) palette #f8f8f8 #1448b7 #090e49  # Primary button and arrow
+REGION wordmark           text     semantic box x4% y3% w14% h4% (214x45px, 4.7556:1) palette #1749b8 #f8f8f8 #4b75c9  # Product wordmark
+REGION nav-capture        control  semantic box x25% y3% w7% h3% (110x35px, 3.1429:1) palette #1849b8  # Top navigation link capture
+REGION nav-connect        control  semantic box x33% y3% w7% h3% (110x35px, 3.1429:1) palette #1848b8  # Top navigation link connect
+REGION nav-find           control  semantic box x40% y3% w7% h3% (110x35px, 3.1429:1) palette #1849b9 #3068d0 #a8d8f8  # Top navigation link find
+REGION atlas-ground       plate    raster   box x0% y0% w100% h76% (1536x774px, 1.9845:1) palette #184aba #f2f4f5 #3b6dcc plate ../../assets/atlas-plate.png  # Cobalt topographic contour atlas backdrop, no interface words
+REGION note-0             control  semantic box x50% y12% w13% h9% (194x90px, 2.1556:1) palette #e9f2f8 #a9b4cd #526081  # Selectable note excerpt destination with its title and full text
+REGION note-1             control  semantic box x77% y18% w11% h9% (166x91px, 1.8242:1) palette #e9f3f8 #0e4aba #8590ad  # Selectable note excerpt destination with its title and full text
+REGION note-2             control  semantic box x63% y33% w14% h10% (218x99px, 2.202:1) palette #f8f0e5 #0b48b9 #7a7c90  # Selectable note excerpt destination with its title and full text
+REGION note-3             control  semantic box x85% y49% w12% h9% (190x93px, 2.043:1) palette #e9f1f8 #1548b9 #848eab  # Selectable note excerpt destination with its title and full text
+REGION routes             chrome   semantic box x54% y23% w36% h40% (554x407px, 1.3612:1) palette #184aba #f2f2ee #658ed7  # Four semantic destination routes and active markers
+REGION offer-layout       chrome   semantic box x3% y14% w35% h59% (533x600px, 0.8883:1) palette #1848b8 #f7f8f8 #3b6ac5  # Offer grouping with headline, body, action, and closing copy; child regions retain separate IDs
+REGION navigation-layout  chrome   semantic box x0% y0% w100% h9% (1536x95px, 16.1684:1) palette #1849b9 #f5f7f8 #b1c5ea  # Top navigation layout and product wordmark; named controls retain separate regions
+REGION continuation-layout chrome   semantic box x0% y76% w100% h24% (1536x250px, 6.144:1) palette #f7f8f8 #b5b5c3 #6a6c7d  # Visible continuation section including literal step headings and copy
+PLATES 1 to produce: atlas-ground
+WARN region atlas-ground: "bleed": true set in the regions file (the clipped-artwork refusal is overridden: the page crops it there)
+WARN region routes: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region routes: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region offer-layout: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region offer-layout: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region navigation-layout: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region navigation-layout: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region continuation-layout: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region continuation-layout: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+RULE anything not in this list does not exist on the page: no borders, rules, chrome, or containers the comp does not show. Every raster region ships as its plate, never as CSS.

@@ -1,0 +1,2 @@
+MEASURE offer-copy: capHeight 20.6px, width normal (advX 0.5957), weight regular (densTall 0.3891), tracking 0.1456 over 2 lines, 52 glyphs. Set this region's font-size so its cap height renders at 20.6px; choose a normal regular face.
+MEASURE wordmark: capHeight 25.8px, width condensed (advX 0.5816), weight medium (densTall 0.5462), tracking 0.0775 over 1 line, 9 glyphs. Set this region's font-size so its cap height renders at 25.8px; choose a condensed medium face.

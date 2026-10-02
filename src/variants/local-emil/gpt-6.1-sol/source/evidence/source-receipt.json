@@ -1,0 +1,36 @@
+{
+  "repository": "emilkowalski/skills",
+  "revision": "d16ebe60d09a5ba2afcb7054ede9d0a10c9f6128",
+  "retrievedUtc": "2026-10-02T07:59:16.5874363Z",
+  "rawBytesPreserved": true,
+  "resources": [
+    {
+      "file": "directory.html",
+      "url": "https://github.com/emilkowalski/skills/tree/d16ebe60d09a5ba2afcb7054ede9d0a10c9f6128/skills/emil-design-eng",
+      "bytes": 225450,
+      "sha256": "18cded9bc1a5032dfab89480560aebcc4606bb40717df12ebf3dc572954a26d1",
+      "gitBlobSha1": "18f4ec205d851cb219bf7d6b9dce28dab6d1f5a4"
+    },
+    {
+      "file": "easings.html",
+      "url": "https://easings.co/",
+      "bytes": 17713,
+      "sha256": "bb0a02f7c2bd3b05316d1945e8cabea4c88e2452fad95262a56e45fa43921058",
+      "gitBlobSha1": "fa22c4c59402d8ee7cb871d7de991036fc85aaca"
+    },
+    {
+      "file": "LICENSE",
+      "url": "https://raw.githubusercontent.com/emilkowalski/skills/d16ebe60d09a5ba2afcb7054ede9d0a10c9f6128/LICENSE",
+      "bytes": 1070,
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "gitBlobSha1": "57b46f1fd11dc62351ea548104a88aa3f659c11b"
+    },
+    {
+      "file": "SKILL.md",
+      "url": "https://raw.githubusercontent.com/emilkowalski/skills/d16ebe60d09a5ba2afcb7054ede9d0a10c9f6128/skills/emil-design-eng/SKILL.md",
+      "bytes": 27123,
+      "sha256": "ffbe68e6007fb42cb8149f089b400a1ca007d59ba23e8948e2be4476f3175939",
+      "gitBlobSha1": "62ce902af8dd32c590ea7203e9ab2edb1d6ef81a"
+    }
+  ]
+}

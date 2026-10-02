@@ -1,0 +1,41 @@
+WROTE .impeccable/build/spec.json
+SPEC comp .impeccable/mocks/comp-1.png 1536x1024 landscape
+PALETTE #161616(39%) #f7f7f7(25%) #f86818(21%) #333333(14%) #808080(1%)
+BANDS 13% 15% 22% 25% 32% 34% 41% 47% 54% 66% 69% 76%
+REGION headline           text     semantic box x3% y15% w27% h16% (412x168px, 2.4524:1) palette #f7671b #090808 #2e0f08  # Primary offer heading
+REGION offer-copy         text     semantic box x3% y34% w26% h7% (394x73px, 5.3973:1) palette #f86619 #f8f4f0 #f88d52  # Product description paragraph
+REGION primary-action     control  semantic box x3% y47% w21% h8% (316x77px, 4.1039:1) palette #171718 #a74818 #f86921  # Primary button and arrow
+REGION wordmark           text     semantic box x2% y2% w10% h3% (148x30px, 4.9333:1) palette #f8671c #090908 #9b3f18  # Product wordmark
+REGION nav-capture        control  semantic box x64% y3% w7% h3% (110x35px, 3.1429:1) palette #171717 #522818 #381a16  # Top navigation link capture
+REGION nav-connect        control  semantic box x72% y3% w7% h3% (110x35px, 3.1429:1) palette #171717 #333337 #6f6f6f  # Top navigation link connect
+REGION nav-find           control  semantic box x79% y3% w7% h3% (110x35px, 3.1429:1) palette #171717 #353537 #838183  # Top navigation link find
+REGION rail-ground        chrome   semantic box x35% y11% w63% h16% (960x160px, 6:1) palette #303030 #f7f7f7 #080f0c  # Perforated note rail
+REGION rail-note-0        control  semantic box x38% y13% w13% h12% (207x118px, 1.7542:1) palette #f8f8f8 #f7640e #131414  # Selectable note excerpt on the rail
+REGION rail-note-1        control  semantic box x52% y13% w13% h12% (207x118px, 1.7542:1) palette #363636 #f5f5f6 #9e9e9e  # Selectable note excerpt on the rail
+REGION rail-note-2        control  semantic box x67% y13% w13% h12% (207x118px, 1.7542:1) palette #363737 #f0f0f0 #8f9191  # Selectable note excerpt on the rail
+REGION rail-note-3        control  semantic box x82% y13% w13% h12% (207x118px, 1.7542:1) palette #363636 #f0f0f0 #aaabab  # Selectable note excerpt on the rail
+REGION reading-pane       chrome   semantic box x35% y29% w63% h31% (960x321px, 2.9907:1) palette #181818 #eaeaea #404242  # Current note reading pane
+REGION reading-title      text     semantic box x38% y31% w32% h4% (492x45px, 10.9333:1) palette #171717 #f4f4f5 #b0b1b2  # Current note title
+REGION reading-copy       text     semantic box x38% y39% w43% h11% (665x109px, 6.1009:1) palette #161616 #ececed #b2b2b3  # Current note body
+REGION keep-action        control  semantic box x72% y31% w6% h4% (86x42px, 2.0476:1) palette #f76811 #0b0a0a #5a3818  # Keep current note
+REGION set-aside          chrome   semantic box x35% y62% w62% h13% (958x133px, 7.203:1) palette #373737 #171818 #6a6b6b  # Four reachable deferred note strips
+REGION offer-layout       chrome   semantic box x0% y0% w32% h77% (497x788px, 0.6307:1) palette #f86819 #0f0f0f #f8f4f0  # Offer grouping with headline, body, action, and closing copy; child regions retain separate IDs
+REGION navigation-layout  chrome   semantic box x0% y0% w100% h9% (1536x95px, 16.1684:1) palette #181818 #f86818 #eaeaea  # Top navigation layout and product wordmark; named controls retain separate regions
+REGION continuation-layout chrome   semantic box x0% y77% w100% h23% (1536x236px, 6.5085:1) palette #f8f8f8 #0b0b0b #909090  # Visible continuation section including literal step headings and copy
+REGION workbench-layout   chrome   semantic box x32% y7% w68% h70% (1039x713px, 1.4572:1) palette #171717 #333333 #f7f7f7  # Work-bench column layout; rail, reading, and set-aside controls retain their child regions
+PLATES 0 to produce: none
+WARN region rail-ground: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region rail-ground: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region reading-pane: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region reading-pane: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region set-aside: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region set-aside: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region offer-layout: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region offer-layout: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region navigation-layout: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region navigation-layout: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region continuation-layout: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region continuation-layout: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region workbench-layout: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region workbench-layout: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+RULE anything not in this list does not exist on the page: no borders, rules, chrome, or containers the comp does not show. Every raster region ships as its plate, never as CSS.

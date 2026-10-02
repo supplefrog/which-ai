@@ -1,0 +1,137 @@
+[
+  {
+    "condition": "local-baseline",
+    "label": "No-skill baseline",
+    "model": "GPT-6.1 Sol",
+    "reasoning": "medium",
+    "source": null,
+    "revision": null,
+    "iterations": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "condition": "local-addy",
+    "label": "Addy Osmani frontend-ui-engineering",
+    "model": "GPT-6.1 Sol",
+    "reasoning": "medium",
+    "source": "https://github.com/addyosmani/agent-skills/blob/2686b620fc1fed2e8f60c704839c766b8594c6b6/skills/frontend-ui-engineering/SKILL.md",
+    "revision": "2686b620fc1fed2e8f60c704839c766b8594c6b6",
+    "iterations": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "condition": "local-anthropic",
+    "label": "Anthropic frontend-design",
+    "model": "GPT-6.1 Sol",
+    "reasoning": "medium",
+    "source": "https://github.com/anthropics/skills/blob/34040c9c568585f6929bedeaad110ad08f079624/skills/frontend-design/SKILL.md",
+    "revision": "34040c9c568585f6929bedeaad110ad08f079624",
+    "iterations": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "condition": "local-emil",
+    "label": "Emil Kowalski design-engineering",
+    "model": "GPT-6.1 Sol",
+    "reasoning": "medium",
+    "source": "https://github.com/emilkowalski/skills/blob/d16ebe60d09a5ba2afcb7054ede9d0a10c9f6128/skills/emil-design-eng/SKILL.md",
+    "revision": "d16ebe60d09a5ba2afcb7054ede9d0a10c9f6128",
+    "iterations": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "condition": "local-taste-gpt",
+    "label": "GPT TASTESKILL",
+    "model": "GPT-6.1 Sol",
+    "reasoning": "medium",
+    "source": "https://github.com/Leonxlnx/taste-skill/blob/e79ca9ec7e071eb3a3b623c4fb752e853fc3ed58/skills/gpt-tasteskill/SKILL.md",
+    "revision": "e79ca9ec7e071eb3a3b623c4fb752e853fc3ed58",
+    "iterations": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "condition": "local-hallmark",
+    "label": "Hallmark",
+    "model": "GPT-6.1 Sol",
+    "reasoning": "medium",
+    "source": "https://github.com/Nutlope/hallmark/blob/13ac0ec7e148655948100b6396439e481361d690/skills/hallmark/SKILL.md",
+    "revision": "13ac0ec7e148655948100b6396439e481361d690",
+    "iterations": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "condition": "local-impeccable",
+    "label": "Impeccable · comp-first (adapted)",
+    "model": "GPT-6.1 Sol",
+    "reasoning": "medium",
+    "source": "https://github.com/pbakaus/impeccable/blob/9d715cc4f5564a990ca8345abfdd5df6dc9b41c8/.agents/skills/impeccable/SKILL.md",
+    "revision": "9d715cc4f5564a990ca8345abfdd5df6dc9b41c8",
+    "iterations": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "condition": "local-taste-v2",
+    "label": "TASTESKILL v2",
+    "model": "GPT-6.1 Sol",
+    "reasoning": "medium",
+    "source": "https://github.com/Leonxlnx/taste-skill/blob/e79ca9ec7e071eb3a3b623c4fb752e853fc3ed58/skills/taste-skill/SKILL.md",
+    "revision": "e79ca9ec7e071eb3a3b623c4fb752e853fc3ed58",
+    "iterations": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "condition": "local-vercel-review",
+    "label": "Vercel guidelines · baseline review + fixes",
+    "model": "GPT-6.1 Sol",
+    "reasoning": "medium",
+    "source": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/web-design-guidelines/SKILL.md",
+    "revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+    "iterations": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+]

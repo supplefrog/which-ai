@@ -1,0 +1,251 @@
+{
+  "tool": "build-phase",
+  "version": 2,
+  "startedAt": "2026-10-02T08:26:36.786Z",
+  "comp": ".impeccable/mocks/comp-1.png",
+  "direction": "7f0457f4",
+  "breakpoint": "1536x1024",
+  "artifact": "../../Designs.tsx",
+  "phase": "hero",
+  "phases": {
+    "comps": {
+      "status": "closed",
+      "openedAt": "2026-10-02T08:26:36.785Z",
+      "closedAt": "2026-10-02T08:40:09.823Z",
+      "attempts": 2,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "3 comps, 1 approved",
+        "approved": ".impeccable/mocks/comp-1.png",
+        "at": "2026-10-02T08:40:09.823Z"
+      },
+      "forced": null
+    },
+    "spec": {
+      "status": "closed",
+      "openedAt": "2026-10-02T08:40:09.840Z",
+      "closedAt": "2026-10-02T09:08:07.250Z",
+      "attempts": 4,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "16 regions, 1 plates, 3 text regions measured",
+        "at": "2026-10-02T09:08:07.250Z"
+      },
+      "forced": null
+    },
+    "plates": {
+      "status": "closed",
+      "openedAt": "2026-10-02T09:08:07.250Z",
+      "closedAt": "2026-10-02T09:08:07.435Z",
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "1/1 plates",
+        "at": "2026-10-02T09:08:07.435Z"
+      },
+      "forced": null
+    },
+    "hero": {
+      "status": "open",
+      "openedAt": "2026-10-02T09:08:07.435Z",
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "sections": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "motion": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "responsive": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "review": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    }
+  },
+  "finish": null,
+  "sessionId": "01a0fbac-b822-7fd2-883b-6fab2331b936",
+  "plates": {
+    "atlas-ground": {
+      "id": "atlas-ground",
+      "file": "../../assets/atlas-plate.png",
+      "status": "ok",
+      "assetHash": "f57e06f4aa04abaafdabdda61af7d110ecd94db37149da0cc6c14b67b5a5fb8c",
+      "regionHash": "62f2fcd0f6192257c5c07d2b9e4e350fc809beaff78b32471eae16a6fdde347e",
+      "referenceHash": "bdcd914cdb849974ce23405c9e6e228eb693092f9b85631791e1cdf4ebc15cbf",
+      "reference": {
+        "policy": "plate-reference-v2",
+        "excludedPixels": 259099,
+        "totalPixels": 1188864,
+        "remainingPixels": 929765,
+        "excludedFraction": 0.21793830076442722,
+        "fullyExcluded": false,
+        "regions": [
+          {
+            "id": "headline",
+            "kind": "text",
+            "cropPx": {
+              "x": 55,
+              "y": 171,
+              "w": 505,
+              "h": 227
+            },
+            "pixels": 114635
+          },
+          {
+            "id": "offer-copy",
+            "kind": "text",
+            "cropPx": {
+              "x": 57,
+              "y": 430,
+              "w": 482,
+              "h": 68
+            },
+            "pixels": 32776
+          },
+          {
+            "id": "primary-action",
+            "kind": "control",
+            "cropPx": {
+              "x": 58,
+              "y": 530,
+              "w": 267,
+              "h": 70
+            },
+            "pixels": 18690
+          },
+          {
+            "id": "wordmark",
+            "kind": "text",
+            "cropPx": {
+              "x": 60,
+              "y": 26,
+              "w": 214,
+              "h": 45
+            },
+            "pixels": 9630
+          },
+          {
+            "id": "nav-capture",
+            "kind": "control",
+            "cropPx": {
+              "x": 380,
+              "y": 28,
+              "w": 110,
+              "h": 35
+            },
+            "pixels": 3850
+          },
+          {
+            "id": "nav-connect",
+            "kind": "control",
+            "cropPx": {
+              "x": 500,
+              "y": 28,
+              "w": 110,
+              "h": 35
+            },
+            "pixels": 3850
+          },
+          {
+            "id": "nav-find",
+            "kind": "control",
+            "cropPx": {
+              "x": 620,
+              "y": 28,
+              "w": 110,
+              "h": 35
+            },
+            "pixels": 3850
+          },
+          {
+            "id": "note-0",
+            "kind": "control",
+            "cropPx": {
+              "x": 766,
+              "y": 121,
+              "w": 194,
+              "h": 90
+            },
+            "pixels": 17460
+          },
+          {
+            "id": "note-1",
+            "kind": "control",
+            "cropPx": {
+              "x": 1183,
+              "y": 183,
+              "w": 166,
+              "h": 91
+            },
+            "pixels": 15106
+          },
+          {
+            "id": "note-2",
+            "kind": "control",
+            "cropPx": {
+              "x": 975,
+              "y": 340,
+              "w": 218,
+              "h": 99
+            },
+            "pixels": 21582
+          },
+          {
+            "id": "note-3",
+            "kind": "control",
+            "cropPx": {
+              "x": 1307,
+              "y": 505,
+              "w": 190,
+              "h": 93
+            },
+            "pixels": 17670
+          }
+        ],
+        "ignoredContainers": [
+          "routes",
+          "offer-layout",
+          "navigation-layout"
+        ]
+      },
+      "compHash": "204c79cb457ac1795ccb4a5d53c10df7e167b05d6dc91fdb712b18b2599c4996",
+      "size": "1536x1024",
+      "score": 0.561
+    }
+  }
+}

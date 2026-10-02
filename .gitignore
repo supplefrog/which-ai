@@ -14,3 +14,14 @@ playwright-report/
 .claude/skills/*
 !.claude/skills/add-generation-to-gallery/
 .windsurf/
+
+# Local comparison runtime and verification scratch data.
+/.local-runtime/
+/.playwright-cli/
+*.tsbuildinfo
+/output/playwright/notes-export-smoke.json
+/output/matt-provenance.md
+/output/publish-inventory.md
+/src/variants/local-impeccable/gpt-6.1-sol/source/evidence/runtime/impeccable.exe
+/src/variants/local-impeccable/gpt-6.1-sol/source/evidence/context-output.txt
+/src/variants/local-impeccable/gpt-6.1-sol/source/evidence/prior-preparation-notes-excluded.md

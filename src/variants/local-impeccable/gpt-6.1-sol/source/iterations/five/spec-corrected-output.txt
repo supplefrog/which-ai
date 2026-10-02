@@ -1,0 +1,1 @@
+comp-spec: grid cells D6, D7, E7, F7, G7, H7, I7, J7 carry ink no region names. Every element the comp shows must be in a region (text, control, chrome, or a plate) so its absence in the build can be measured; add regions for them, or set "allowUncovered": true in the regions file after confirming those cells are empty ground.

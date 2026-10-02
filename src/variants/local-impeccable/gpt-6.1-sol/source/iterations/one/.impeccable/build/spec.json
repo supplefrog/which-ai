@@ -1,0 +1,939 @@
+{
+  "tool": "comp-spec",
+  "version": 1,
+  "createdAt": "2026-10-02T08:46:32.196Z",
+  "comp": ".impeccable/mocks/comp-1.png",
+  "warnings": [
+    "region atlas-ground: \"bleed\": true set in the regions file (the clipped-artwork refusal is overridden: the page crops it there)",
+    "region routes: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region routes: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)",
+    "region offer-layout: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region offer-layout: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)",
+    "region navigation-layout: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region navigation-layout: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)",
+    "region continuation-layout: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region continuation-layout: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)"
+  ],
+  "uncoveredInkCells": [],
+  "compSize": {
+    "width": 1536,
+    "height": 1024
+  },
+  "aspect": 1.5,
+  "orientation": "landscape",
+  "palette": [
+    {
+      "hex": "#184aba",
+      "coverage": 0.6752
+    },
+    {
+      "hex": "#f6f7f7",
+      "coverage": 0.3116
+    },
+    {
+      "hex": "#3b6dcc",
+      "coverage": 0.0086
+    },
+    {
+      "hex": "#c7d3ec",
+      "coverage": 0.0027
+    },
+    {
+      "hex": "#080d43",
+      "coverage": 0.0019
+    }
+  ],
+  "bands": [
+    {
+      "y": 0.1176,
+      "strength": 0.2572
+    },
+    {
+      "y": 0.1882,
+      "strength": 0.3166
+    },
+    {
+      "y": 0.2235,
+      "strength": 0.2924
+    },
+    {
+      "y": 0.3059,
+      "strength": 0.2546
+    },
+    {
+      "y": 0.3294,
+      "strength": 0.3023
+    },
+    {
+      "y": 0.3765,
+      "strength": 0.2847
+    },
+    {
+      "y": 0.4235,
+      "strength": 0.2008
+    },
+    {
+      "y": 0.4941,
+      "strength": 0.2092
+    },
+    {
+      "y": 0.5176,
+      "strength": 0.3475
+    },
+    {
+      "y": 0.5765,
+      "strength": 0.4012
+    },
+    {
+      "y": 0.7529,
+      "strength": 1
+    },
+    {
+      "y": 0.8588,
+      "strength": 0.6221
+    },
+    {
+      "y": 0.8941,
+      "strength": 0.3219
+    },
+    {
+      "y": 0.9176,
+      "strength": 0.2312
+    }
+  ],
+  "regions": [
+    {
+      "id": "headline",
+      "kind": "text",
+      "note": "Primary offer heading",
+      "grid": null,
+      "snap": false,
+      "box": {
+        "x": 0.0358,
+        "y": 0.167,
+        "w": 0.3288,
+        "h": 0.2217
+      },
+      "px": {
+        "x": 55,
+        "y": 171,
+        "w": 505,
+        "h": 227
+      },
+      "aspect": 2.2247,
+      "palette": [
+        {
+          "hex": "#1849b8",
+          "coverage": 0.725
+        },
+        {
+          "hex": "#f7f8f8",
+          "coverage": 0.2496
+        },
+        {
+          "hex": "#4974c9",
+          "coverage": 0.0116
+        },
+        {
+          "hex": "#7296d3",
+          "coverage": 0.008
+        },
+        {
+          "hex": "#a9bfe8",
+          "coverage": 0.0058
+        }
+      ],
+      "detail": {
+        "energy": 42.4694
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 3,
+          "glyphs": 24,
+          "capHeightPx": 57,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.6843,
+          "advTall": 0.7032,
+          "advX": 0.6766,
+          "gap": 0.072,
+          "xRatio": 0.7207,
+          "stemW": 0.219,
+          "contrast": 1.1642,
+          "serif": 0.9939,
+          "densTall": 0.6087,
+          "densX": 0.6522,
+          "weight": 0.6087
+        },
+        "widthClass": "normal",
+        "weightClass": "bold",
+        "chosen": {
+          "family": "Rubik",
+          "weight": 600,
+          "fontSizePx": 81,
+          "source": "shortlist",
+          "fp": {
+            "lines": 1,
+            "glyphs": 11,
+            "capHeightPx": 57,
+            "inkIsDark": true,
+            "allCaps": false,
+            "advance": 0.7193,
+            "advTall": 0.6667,
+            "advX": 0.7193,
+            "gap": 0.1667,
+            "xRatio": 0.7368,
+            "stemW": 0.2187,
+            "contrast": 1.2069,
+            "serif": 0.9967,
+            "densTall": 0.5929,
+            "densX": 0.6384,
+            "weight": 0.5929
+          },
+          "stamp": "1bbef95332b6"
+        }
+      }
+    },
+    {
+      "id": "offer-copy",
+      "kind": "text",
+      "note": "Product description paragraph",
+      "grid": null,
+      "snap": false,
+      "box": {
+        "x": 0.0371,
+        "y": 0.4199,
+        "w": 0.3138,
+        "h": 0.0664
+      },
+      "px": {
+        "x": 57,
+        "y": 430,
+        "w": 482,
+        "h": 68
+      },
+      "aspect": 7.0882,
+      "palette": [
+        {
+          "hex": "#174ab9",
+          "coverage": 0.8544
+        },
+        {
+          "hex": "#4976cd",
+          "coverage": 0.0541
+        },
+        {
+          "hex": "#e5f1f8",
+          "coverage": 0.0489
+        },
+        {
+          "hex": "#739bdc",
+          "coverage": 0.0231
+        },
+        {
+          "hex": "#a0bded",
+          "coverage": 0.0195
+        }
+      ],
+      "detail": {
+        "energy": 52.4325
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 2,
+          "glyphs": 52,
+          "capHeightPx": 20.6,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.5836,
+          "advTall": 0.4142,
+          "advX": 0.5957,
+          "gap": 0.1456,
+          "xRatio": 0.7194,
+          "stemW": 0.1198,
+          "contrast": 1.068,
+          "serif": null,
+          "densTall": 0.3891,
+          "densX": 0.4601,
+          "weight": 0.3891
+        },
+        "widthClass": "normal",
+        "weightClass": "regular"
+      }
+    },
+    {
+      "id": "primary-action",
+      "kind": "control",
+      "note": "Primary button and arrow",
+      "grid": null,
+      "snap": false,
+      "box": {
+        "x": 0.0378,
+        "y": 0.5176,
+        "w": 0.1738,
+        "h": 0.0684
+      },
+      "px": {
+        "x": 58,
+        "y": 530,
+        "w": 267,
+        "h": 70
+      },
+      "aspect": 3.8143,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.7744
+        },
+        {
+          "hex": "#1448b7",
+          "coverage": 0.1698
+        },
+        {
+          "hex": "#090e49",
+          "coverage": 0.0257
+        },
+        {
+          "hex": "#587ec7",
+          "coverage": 0.016
+        },
+        {
+          "hex": "#9aa1bc",
+          "coverage": 0.0141
+        }
+      ],
+      "detail": {
+        "energy": 38.1531
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "wordmark",
+      "kind": "text",
+      "note": "Product wordmark",
+      "grid": null,
+      "snap": false,
+      "box": {
+        "x": 0.0391,
+        "y": 0.0254,
+        "w": 0.1393,
+        "h": 0.0439
+      },
+      "px": {
+        "x": 60,
+        "y": 26,
+        "w": 214,
+        "h": 45
+      },
+      "aspect": 4.7556,
+      "palette": [
+        {
+          "hex": "#1749b8",
+          "coverage": 0.7549
+        },
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.174
+        },
+        {
+          "hex": "#4b75c9",
+          "coverage": 0.0299
+        },
+        {
+          "hex": "#cedbf3",
+          "coverage": 0.0253
+        },
+        {
+          "hex": "#6e93d3",
+          "coverage": 0.0159
+        }
+      ],
+      "detail": {
+        "energy": 33.6779
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 9,
+          "capHeightPx": 25.8,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.5816,
+          "advTall": 1.0469,
+          "advX": 0.5816,
+          "gap": 0.0775,
+          "xRatio": 0.6653,
+          "stemW": 0.1726,
+          "contrast": 1.1464,
+          "serif": null,
+          "densTall": 0.5462,
+          "densX": 0.6423,
+          "weight": 0.5462
+        },
+        "widthClass": "condensed",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "nav-capture",
+      "kind": "control",
+      "note": "Top navigation link capture",
+      "grid": null,
+      "snap": false,
+      "box": {
+        "x": 0.2474,
+        "y": 0.0273,
+        "w": 0.0716,
+        "h": 0.0342
+      },
+      "px": {
+        "x": 380,
+        "y": 28,
+        "w": 110,
+        "h": 35
+      },
+      "aspect": 3.1429,
+      "palette": [
+        {
+          "hex": "#1849b8",
+          "coverage": 1
+        }
+      ],
+      "detail": {
+        "energy": 0.3196
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "nav-connect",
+      "kind": "control",
+      "note": "Top navigation link connect",
+      "grid": null,
+      "snap": false,
+      "box": {
+        "x": 0.3255,
+        "y": 0.0273,
+        "w": 0.0716,
+        "h": 0.0342
+      },
+      "px": {
+        "x": 500,
+        "y": 28,
+        "w": 110,
+        "h": 35
+      },
+      "aspect": 3.1429,
+      "palette": [
+        {
+          "hex": "#1848b8",
+          "coverage": 1
+        }
+      ],
+      "detail": {
+        "energy": 0.3023
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "nav-find",
+      "kind": "control",
+      "note": "Top navigation link find",
+      "grid": null,
+      "snap": false,
+      "box": {
+        "x": 0.4036,
+        "y": 0.0273,
+        "w": 0.0716,
+        "h": 0.0342
+      },
+      "px": {
+        "x": 620,
+        "y": 28,
+        "w": 110,
+        "h": 35
+      },
+      "aspect": 3.1429,
+      "palette": [
+        {
+          "hex": "#1849b9",
+          "coverage": 0.9932
+        },
+        {
+          "hex": "#3068d0",
+          "coverage": 0.0045
+        },
+        {
+          "hex": "#a8d8f8",
+          "coverage": 0.0023
+        }
+      ],
+      "detail": {
+        "energy": 1.5959
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "atlas-ground",
+      "kind": "plate",
+      "note": "Cobalt topographic contour atlas backdrop, no interface words",
+      "grid": null,
+      "bleed": true,
+      "snap": false,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 0.7559
+      },
+      "px": {
+        "x": 0,
+        "y": 0,
+        "w": 1536,
+        "h": 774
+      },
+      "aspect": 1.9845,
+      "palette": [
+        {
+          "hex": "#184aba",
+          "coverage": 0.8916
+        },
+        {
+          "hex": "#f2f4f5",
+          "coverage": 0.0912
+        },
+        {
+          "hex": "#3b6dcc",
+          "coverage": 0.0124
+        },
+        {
+          "hex": "#c2d2ee",
+          "coverage": 0.0024
+        },
+        {
+          "hex": "#7499dd",
+          "coverage": 0.0023
+        }
+      ],
+      "detail": {
+        "energy": 24.5781
+      },
+      "medium": "raster",
+      "plate": "../../assets/atlas-plate.png",
+      "text": null
+    },
+    {
+      "id": "note-0",
+      "kind": "control",
+      "note": "Selectable note excerpt destination with its title and full text",
+      "grid": null,
+      "snap": false,
+      "box": {
+        "x": 0.4987,
+        "y": 0.1182,
+        "w": 0.1263,
+        "h": 0.0879
+      },
+      "px": {
+        "x": 766,
+        "y": 121,
+        "w": 194,
+        "h": 90
+      },
+      "aspect": 2.1556,
+      "palette": [
+        {
+          "hex": "#e9f2f8",
+          "coverage": 0.8775
+        },
+        {
+          "hex": "#a9b4cd",
+          "coverage": 0.0418
+        },
+        {
+          "hex": "#526081",
+          "coverage": 0.0363
+        },
+        {
+          "hex": "#2c3765",
+          "coverage": 0.0236
+        },
+        {
+          "hex": "#0a1043",
+          "coverage": 0.0209
+        }
+      ],
+      "detail": {
+        "energy": 36.0844
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "note-1",
+      "kind": "control",
+      "note": "Selectable note excerpt destination with its title and full text",
+      "grid": null,
+      "snap": false,
+      "box": {
+        "x": 0.7702,
+        "y": 0.1787,
+        "w": 0.1081,
+        "h": 0.0889
+      },
+      "px": {
+        "x": 1183,
+        "y": 183,
+        "w": 166,
+        "h": 91
+      },
+      "aspect": 1.8242,
+      "palette": [
+        {
+          "hex": "#e9f3f8",
+          "coverage": 0.8439
+        },
+        {
+          "hex": "#0e4aba",
+          "coverage": 0.0541
+        },
+        {
+          "hex": "#8590ad",
+          "coverage": 0.045
+        },
+        {
+          "hex": "#48557a",
+          "coverage": 0.0389
+        },
+        {
+          "hex": "#b3bed5",
+          "coverage": 0.0182
+        }
+      ],
+      "detail": {
+        "energy": 29.8691
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "note-2",
+      "kind": "control",
+      "note": "Selectable note excerpt destination with its title and full text",
+      "grid": null,
+      "snap": false,
+      "box": {
+        "x": 0.6348,
+        "y": 0.332,
+        "w": 0.1419,
+        "h": 0.0967
+      },
+      "px": {
+        "x": 975,
+        "y": 340,
+        "w": 218,
+        "h": 99
+      },
+      "aspect": 2.202,
+      "palette": [
+        {
+          "hex": "#f8f0e5",
+          "coverage": 0.8465
+        },
+        {
+          "hex": "#0b48b9",
+          "coverage": 0.049
+        },
+        {
+          "hex": "#7a7c90",
+          "coverage": 0.038
+        },
+        {
+          "hex": "#ababc0",
+          "coverage": 0.0371
+        },
+        {
+          "hex": "#cac1c1",
+          "coverage": 0.0293
+        }
+      ],
+      "detail": {
+        "energy": 41.6621
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "note-3",
+      "kind": "control",
+      "note": "Selectable note excerpt destination with its title and full text",
+      "grid": null,
+      "snap": false,
+      "box": {
+        "x": 0.8509,
+        "y": 0.4932,
+        "w": 0.1237,
+        "h": 0.0908
+      },
+      "px": {
+        "x": 1307,
+        "y": 505,
+        "w": 190,
+        "h": 93
+      },
+      "aspect": 2.043,
+      "palette": [
+        {
+          "hex": "#e9f1f8",
+          "coverage": 0.766
+        },
+        {
+          "hex": "#1548b9",
+          "coverage": 0.1178
+        },
+        {
+          "hex": "#848eab",
+          "coverage": 0.0501
+        },
+        {
+          "hex": "#bfcbe6",
+          "coverage": 0.0362
+        },
+        {
+          "hex": "#507dd1",
+          "coverage": 0.0299
+        }
+      ],
+      "detail": {
+        "energy": 34.6371
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "routes",
+      "kind": "chrome",
+      "note": "Four semantic destination routes and active markers",
+      "grid": null,
+      "codeDrawn": true,
+      "container": true,
+      "snap": false,
+      "box": {
+        "x": 0.5397,
+        "y": 0.2266,
+        "w": 0.3607,
+        "h": 0.3975
+      },
+      "px": {
+        "x": 829,
+        "y": 232,
+        "w": 554,
+        "h": 407
+      },
+      "aspect": 1.3612,
+      "palette": [
+        {
+          "hex": "#184aba",
+          "coverage": 0.8459
+        },
+        {
+          "hex": "#f2f2ee",
+          "coverage": 0.1384
+        },
+        {
+          "hex": "#658ed7",
+          "coverage": 0.0061
+        },
+        {
+          "hex": "#366fd4",
+          "coverage": 0.0059
+        },
+        {
+          "hex": "#f8720d",
+          "coverage": 0.0038
+        }
+      ],
+      "detail": {
+        "energy": 20.9685
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "offer-layout",
+      "kind": "chrome",
+      "note": "Offer grouping with headline, body, action, and closing copy; child regions retain separate IDs",
+      "grid": null,
+      "codeDrawn": true,
+      "container": true,
+      "snap": false,
+      "box": {
+        "x": 0.0313,
+        "y": 0.1416,
+        "w": 0.347,
+        "h": 0.5859
+      },
+      "px": {
+        "x": 48,
+        "y": 145,
+        "w": 533,
+        "h": 600
+      },
+      "aspect": 0.8883,
+      "palette": [
+        {
+          "hex": "#1848b8",
+          "coverage": 0.8318
+        },
+        {
+          "hex": "#f7f8f8",
+          "coverage": 0.1397
+        },
+        {
+          "hex": "#3b6ac5",
+          "coverage": 0.0161
+        },
+        {
+          "hex": "#688fd5",
+          "coverage": 0.0072
+        },
+        {
+          "hex": "#bfd2f0",
+          "coverage": 0.0051
+        }
+      ],
+      "detail": {
+        "energy": 25.2953
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "navigation-layout",
+      "kind": "chrome",
+      "note": "Top navigation layout and product wordmark; named controls retain separate regions",
+      "grid": null,
+      "codeDrawn": true,
+      "container": true,
+      "snap": false,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 0.0928
+      },
+      "px": {
+        "x": 0,
+        "y": 0,
+        "w": 1536,
+        "h": 95
+      },
+      "aspect": 16.1684,
+      "palette": [
+        {
+          "hex": "#1849b9",
+          "coverage": 0.9711
+        },
+        {
+          "hex": "#f5f7f8",
+          "coverage": 0.0161
+        },
+        {
+          "hex": "#b1c5ea",
+          "coverage": 0.0071
+        },
+        {
+          "hex": "#4e77cb",
+          "coverage": 0.004
+        },
+        {
+          "hex": "#839ed8",
+          "coverage": 0.0018
+        }
+      ],
+      "detail": {
+        "energy": 12.3451
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "continuation-layout",
+      "kind": "chrome",
+      "note": "Visible continuation section including literal step headings and copy",
+      "grid": null,
+      "codeDrawn": true,
+      "container": true,
+      "snap": false,
+      "box": {
+        "x": 0,
+        "y": 0.7559,
+        "w": 1,
+        "h": 0.2441
+      },
+      "px": {
+        "x": 0,
+        "y": 774,
+        "w": 1536,
+        "h": 250
+      },
+      "aspect": 6.144,
+      "palette": [
+        {
+          "hex": "#f7f8f8",
+          "coverage": 0.9797
+        },
+        {
+          "hex": "#b5b5c3",
+          "coverage": 0.0066
+        },
+        {
+          "hex": "#6a6c7d",
+          "coverage": 0.0061
+        },
+        {
+          "hex": "#080e46",
+          "coverage": 0.006
+        },
+        {
+          "hex": "#4f4f6f",
+          "coverage": 0.0016
+        }
+      ],
+      "detail": {
+        "energy": 14.2846
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    }
+  ],
+  "compSha256": "cc6823de2da3c405776cae11ffd9d3cfb4041a65fb259c1672b5798befdc5dd8",
+  "regionsSource": {
+    "path": "./regions.json",
+    "sha256": "2dfbde4749b8064f3c3f1cff835ed5dd6eea45a7a5638aa675541b636313971c"
+  }
+}

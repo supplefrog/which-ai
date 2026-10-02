@@ -1,0 +1,2 @@
+GATE SPEC FAILED (state unchanged)
+  - region atlas-ground: the comp's artwork runs off its box on the bottom; widen the region's span so the box holds the whole shape with a margin (or set "bleed": true if the page really crops it there), then re-run comp-spec.mjs --regions

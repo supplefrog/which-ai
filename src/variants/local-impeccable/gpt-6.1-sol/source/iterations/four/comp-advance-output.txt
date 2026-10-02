@@ -1,0 +1,3 @@
+GATE COMPS FAILED (state unchanged)
+  - no prompt sidecar for: comp-1.png, comp-2.png, comp-3.png (write <file>.json with { "prompt": "..." }; generate-image.mjs does this itself)
+  - no comp is approved: put the three comps in front of the user (decision page via serve-question.mjs, or the structured question tool), then set "approved": true in the chosen comp's sidecar. A delegated pick is recorded the same way and disclosed.

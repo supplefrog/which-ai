@@ -1,0 +1,270 @@
+{
+  "regions": [
+    {
+      "id": "headline",
+      "kind": "text",
+      "pixelBox": {
+        "x": 40,
+        "y": 153,
+        "w": 412,
+        "h": 168
+      },
+      "snap": false,
+      "note": "Primary offer heading"
+    },
+    {
+      "id": "offer-copy",
+      "kind": "text",
+      "pixelBox": {
+        "x": 41,
+        "y": 353,
+        "w": 394,
+        "h": 73
+      },
+      "snap": false,
+      "note": "Product description paragraph"
+    },
+    {
+      "id": "primary-action",
+      "kind": "control",
+      "pixelBox": {
+        "x": 42,
+        "y": 479,
+        "w": 316,
+        "h": 77
+      },
+      "snap": false,
+      "note": "Primary button and arrow"
+    },
+    {
+      "id": "wordmark",
+      "kind": "text",
+      "pixelBox": {
+        "x": 37,
+        "y": 24,
+        "w": 148,
+        "h": 30
+      },
+      "snap": false,
+      "note": "Product wordmark"
+    },
+    {
+      "id": "nav-capture",
+      "kind": "control",
+      "pixelBox": {
+        "x": 980,
+        "y": 28,
+        "w": 110,
+        "h": 35
+      },
+      "snap": false,
+      "note": "Top navigation link capture"
+    },
+    {
+      "id": "nav-connect",
+      "kind": "control",
+      "pixelBox": {
+        "x": 1100,
+        "y": 28,
+        "w": 110,
+        "h": 35
+      },
+      "snap": false,
+      "note": "Top navigation link connect"
+    },
+    {
+      "id": "nav-find",
+      "kind": "control",
+      "pixelBox": {
+        "x": 1220,
+        "y": 28,
+        "w": 110,
+        "h": 35
+      },
+      "snap": false,
+      "note": "Top navigation link find"
+    },
+    {
+      "id": "rail-ground",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 537,
+        "y": 116,
+        "w": 960,
+        "h": 160
+      },
+      "snap": false,
+      "note": "Perforated note rail",
+      "container": true,
+      "codeDrawn": true
+    },
+    {
+      "id": "rail-note-0",
+      "kind": "control",
+      "pixelBox": {
+        "x": 578,
+        "y": 135,
+        "w": 207,
+        "h": 118
+      },
+      "snap": false,
+      "note": "Selectable note excerpt on the rail"
+    },
+    {
+      "id": "rail-note-1",
+      "kind": "control",
+      "pixelBox": {
+        "x": 805,
+        "y": 135,
+        "w": 207,
+        "h": 118
+      },
+      "snap": false,
+      "note": "Selectable note excerpt on the rail"
+    },
+    {
+      "id": "rail-note-2",
+      "kind": "control",
+      "pixelBox": {
+        "x": 1032,
+        "y": 135,
+        "w": 207,
+        "h": 118
+      },
+      "snap": false,
+      "note": "Selectable note excerpt on the rail"
+    },
+    {
+      "id": "rail-note-3",
+      "kind": "control",
+      "pixelBox": {
+        "x": 1259,
+        "y": 135,
+        "w": 207,
+        "h": 118
+      },
+      "snap": false,
+      "note": "Selectable note excerpt on the rail"
+    },
+    {
+      "id": "reading-pane",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 537,
+        "y": 293,
+        "w": 960,
+        "h": 321
+      },
+      "snap": false,
+      "note": "Current note reading pane",
+      "container": true,
+      "codeDrawn": true
+    },
+    {
+      "id": "reading-title",
+      "kind": "text",
+      "pixelBox": {
+        "x": 580,
+        "y": 317,
+        "w": 492,
+        "h": 45
+      },
+      "snap": false,
+      "note": "Current note title"
+    },
+    {
+      "id": "reading-copy",
+      "kind": "text",
+      "pixelBox": {
+        "x": 579,
+        "y": 402,
+        "w": 665,
+        "h": 109
+      },
+      "snap": false,
+      "note": "Current note body"
+    },
+    {
+      "id": "keep-action",
+      "kind": "control",
+      "pixelBox": {
+        "x": 1100,
+        "y": 316,
+        "w": 86,
+        "h": 42
+      },
+      "snap": false,
+      "note": "Keep current note"
+    },
+    {
+      "id": "set-aside",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 539,
+        "y": 634,
+        "w": 958,
+        "h": 133
+      },
+      "snap": false,
+      "note": "Four reachable deferred note strips",
+      "container": true,
+      "codeDrawn": true
+    },
+    {
+      "container": true,
+      "codeDrawn": true,
+      "note": "Offer grouping with headline, body, action, and closing copy; child regions retain separate IDs",
+      "id": "offer-layout",
+      "kind": "chrome",
+      "snap": false,
+      "pixelBox": {
+        "w": 497,
+        "x": 0,
+        "h": 788,
+        "y": 0
+      }
+    },
+    {
+      "container": true,
+      "codeDrawn": true,
+      "note": "Top navigation layout and product wordmark; named controls retain separate regions",
+      "id": "navigation-layout",
+      "kind": "chrome",
+      "snap": false,
+      "pixelBox": {
+        "w": 1536,
+        "x": 0,
+        "h": 95,
+        "y": 0
+      }
+    },
+    {
+      "container": true,
+      "codeDrawn": true,
+      "note": "Visible continuation section including literal step headings and copy",
+      "id": "continuation-layout",
+      "kind": "chrome",
+      "snap": false,
+      "pixelBox": {
+        "w": 1536,
+        "x": 0,
+        "h": 236,
+        "y": 788
+      }
+    },
+    {
+      "codeDrawn": true,
+      "container": true,
+      "note": "Work-bench column layout; rail, reading, and set-aside controls retain their child regions",
+      "kind": "chrome",
+      "snap": false,
+      "id": "workbench-layout",
+      "pixelBox": {
+        "y": 75,
+        "x": 497,
+        "h": 713,
+        "w": 1039
+      }
+    }
+  ]
+}

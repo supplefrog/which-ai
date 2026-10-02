@@ -1,0 +1,29 @@
+MEASURE headline: capHeight 57px, width normal (advX 0.6766), weight bold (densTall 0.6087), tracking 0.072 over 3 lines, 24 glyphs. Set this region's font-size so its cap height renders at 57px; choose a normal bold face.
+CANDIDATES 25: 1 yours + 24 from the normal shortlist (no catalog index at data/font-index.json)
+SKIPPED (not available at that weight on Google Fonts): IBM Plex Sans:900
+RANK Rubik:600 distance 0.588  width normal (+6% advX)  weight bold (-3% densTall)  font-size 81px for cap 57px
+RANK IBM Plex Sans:700 distance 0.632  width normal (+1% advX)  weight bold (-1% densTall)  font-size 81px for cap 57px
+RANK Inter:700 distance 0.652  width normal (+1% advX)  weight bold (-5% densTall)  font-size 78px for cap 57px
+RANK Barlow:800 distance 0.657  width normal (+1% advX)  weight black (+10% densTall)  font-size 82px for cap 57px
+RANK Roboto:900 distance 0.659  width normal (-0% advX)  weight bold (+3% densTall)  font-size 80px for cap 57px
+RANK Public Sans:700 distance 0.691  width normal (-3% advX)  weight medium (-9% densTall)  font-size 79px for cap 57px
+RANK Source Sans 3:700 distance 0.713  width normal (-7% advX)  weight bold (+3% densTall)  font-size 81px for cap 57px
+RANK Source Sans 3:900 distance 0.762  width normal (-0% advX)  weight black (+13% densTall)  font-size 81px for cap 57px
+RANK Roboto:700 distance 0.769  width normal (-3% advX)  weight bold (-6% densTall)  font-size 80px for cap 57px
+RANK Work Sans:700 distance 0.770  width normal (+5% advX)  weight bold (+4% densTall)  font-size 79px for cap 57px
+RANK Manrope:800 distance 0.800  width normal (+4% advX)  weight bold (-3% densTall)  font-size 78px for cap 57px
+RANK Inter:900 distance 0.924  width normal (+3% advX)  weight black (+13% densTall)  font-size 74px for cap 57px
+RANK Public Sans:900 distance 0.961  width normal (+5% advX)  weight bold (+8% densTall)  font-size 79px for cap 57px
+RANK Archivo:800 distance 0.980  width wide (+15% advX)  weight bold (+2% densTall)  font-size 83px for cap 57px
+RANK Barlow:600 distance 0.985  width normal (-8% advX)  weight medium (-10% densTall)  font-size 81px for cap 57px
+RANK Archivo:600 distance 0.986  width normal (+5% advX)  weight medium (-13% densTall)  font-size 83px for cap 57px
+RANK IBM Plex Sans:500 distance 1.201  width normal (-5% advX)  weight medium (-20% densTall)  font-size 81px for cap 57px
+RANK Inter:500 distance 1.246  width normal (-8% advX)  weight regular (-23% densTall)  font-size 78px for cap 57px
+RANK Work Sans:500 distance 1.268  width normal (+3% advX)  weight regular (-24% densTall)  font-size 80px for cap 57px
+RANK Public Sans:500 distance 1.306  width normal (-6% advX)  weight regular (-27% densTall)  font-size 79px for cap 57px
+RANK Manrope:600 distance 1.318  width normal (-1% advX)  weight medium (-21% densTall)  font-size 78px for cap 57px
+RANK Work Sans:900 distance 1.399  width wide (+14% advX)  weight black (+24% densTall)  font-size 81px for cap 57px
+RANK Rubik:800 distance 1.410  width wide (+17% advX)  weight black (+15% densTall)  font-size 81px for cap 57px
+RANK Source Sans 3:500 distance 1.415  width condensed (-16% advX)  weight regular (-23% densTall)  font-size 81px for cap 57px
+PROOF .impeccable/build/font-match/headline.png (comp crop, then the top 3 candidates at the comp's cap height; open it before choosing)
+USE font-family: 'Rubik'; font-weight: 600; font-size: 81px;

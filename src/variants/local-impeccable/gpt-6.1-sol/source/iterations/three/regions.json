@@ -1,0 +1,258 @@
+{
+  "regions": [
+    {
+      "id": "headline",
+      "kind": "text",
+      "pixelBox": {
+        "x": 50,
+        "y": 194,
+        "w": 555,
+        "h": 147
+      },
+      "snap": false,
+      "note": "Primary offer heading"
+    },
+    {
+      "id": "offer-copy",
+      "kind": "text",
+      "pixelBox": {
+        "x": 54,
+        "y": 400,
+        "w": 535,
+        "h": 74
+      },
+      "snap": false,
+      "note": "Product description paragraph"
+    },
+    {
+      "id": "primary-action",
+      "kind": "control",
+      "pixelBox": {
+        "x": 51,
+        "y": 511,
+        "w": 346,
+        "h": 78
+      },
+      "snap": false,
+      "note": "Primary button and arrow"
+    },
+    {
+      "id": "wordmark",
+      "kind": "text",
+      "pixelBox": {
+        "x": 49,
+        "y": 16,
+        "w": 263,
+        "h": 50
+      },
+      "snap": false,
+      "note": "Product wordmark"
+    },
+    {
+      "id": "nav-capture",
+      "kind": "control",
+      "pixelBox": {
+        "x": 380,
+        "y": 28,
+        "w": 110,
+        "h": 35
+      },
+      "snap": false,
+      "note": "Top navigation link capture"
+    },
+    {
+      "id": "nav-connect",
+      "kind": "control",
+      "pixelBox": {
+        "x": 500,
+        "y": 28,
+        "w": 110,
+        "h": 35
+      },
+      "snap": false,
+      "note": "Top navigation link connect"
+    },
+    {
+      "id": "nav-find",
+      "kind": "control",
+      "pixelBox": {
+        "x": 620,
+        "y": 28,
+        "w": 110,
+        "h": 35
+      },
+      "snap": false,
+      "note": "Top navigation link find"
+    },
+    {
+      "id": "pass-0",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 637,
+        "y": 172,
+        "w": 289,
+        "h": 478
+      },
+      "snap": false,
+      "note": "Translucent flat color note pass",
+      "container": true,
+      "codeDrawn": true
+    },
+    {
+      "id": "pass-title-0",
+      "kind": "text",
+      "pixelBox": {
+        "x": 662,
+        "y": 198,
+        "w": 236,
+        "h": 35
+      },
+      "snap": false,
+      "note": "Capture/context/connection heading"
+    },
+    {
+      "id": "pass-copy-0",
+      "kind": "text",
+      "pixelBox": {
+        "x": 662,
+        "y": 270,
+        "w": 237,
+        "h": 288
+      },
+      "snap": false,
+      "note": "Literal note heading and complete excerpt"
+    },
+    {
+      "id": "pass-1",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 897,
+        "y": 172,
+        "w": 302,
+        "h": 478
+      },
+      "snap": false,
+      "note": "Translucent flat color note pass",
+      "container": true,
+      "codeDrawn": true
+    },
+    {
+      "id": "pass-title-1",
+      "kind": "text",
+      "pixelBox": {
+        "x": 922,
+        "y": 198,
+        "w": 236,
+        "h": 35
+      },
+      "snap": false,
+      "note": "Capture/context/connection heading"
+    },
+    {
+      "id": "pass-copy-1",
+      "kind": "text",
+      "pixelBox": {
+        "x": 922,
+        "y": 270,
+        "w": 237,
+        "h": 288
+      },
+      "snap": false,
+      "note": "Literal note heading and complete excerpt"
+    },
+    {
+      "id": "pass-2",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 1173,
+        "y": 172,
+        "w": 314,
+        "h": 478
+      },
+      "snap": false,
+      "note": "Translucent flat color note pass",
+      "container": true,
+      "codeDrawn": true
+    },
+    {
+      "id": "pass-title-2",
+      "kind": "text",
+      "pixelBox": {
+        "x": 1198,
+        "y": 198,
+        "w": 236,
+        "h": 35
+      },
+      "snap": false,
+      "note": "Capture/context/connection heading"
+    },
+    {
+      "id": "pass-copy-2",
+      "kind": "text",
+      "pixelBox": {
+        "x": 1198,
+        "y": 270,
+        "w": 237,
+        "h": 288
+      },
+      "snap": false,
+      "note": "Literal note heading and complete excerpt"
+    },
+    {
+      "id": "registration",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 768,
+        "y": 89,
+        "w": 579,
+        "h": 666
+      },
+      "snap": false,
+      "note": "Countable geometric registration marks and pass connection lines",
+      "container": true,
+      "codeDrawn": true
+    },
+    {
+      "container": true,
+      "codeDrawn": true,
+      "note": "Offer grouping with headline, body, action, and closing copy; child regions retain separate IDs",
+      "id": "offer-layout",
+      "kind": "chrome",
+      "snap": false,
+      "pixelBox": {
+        "w": 562,
+        "x": 46,
+        "h": 402,
+        "y": 190
+      }
+    },
+    {
+      "container": true,
+      "codeDrawn": true,
+      "note": "Top navigation layout and product wordmark; named controls retain separate regions",
+      "id": "navigation-layout",
+      "kind": "chrome",
+      "snap": false,
+      "pixelBox": {
+        "w": 1536,
+        "x": 0,
+        "h": 95,
+        "y": 0
+      }
+    },
+    {
+      "container": true,
+      "codeDrawn": true,
+      "note": "Visible continuation section including literal step headings and copy",
+      "id": "continuation-layout",
+      "kind": "chrome",
+      "snap": false,
+      "pixelBox": {
+        "w": 1536,
+        "x": 0,
+        "h": 238,
+        "y": 786
+      }
+    }
+  ]
+}
