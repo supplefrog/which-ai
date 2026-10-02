@@ -2,6 +2,8 @@
 
 ## Personal frontend skill comparisons
 
+Personal fork: **[supplefrog/which-ai](https://github.com/supplefrog/which-ai)**. Upstream: [SunkenInTime/which-ai](https://github.com/SunkenInTime/which-ai).
+
 This fork adds 45 GPT-6.1 Sol / medium designs: five each for the no-skill baseline, Addy Osmani, Anthropic, Emil Kowalski, GPT TASTESKILL, Hallmark, Impeccable, TASTESKILL v2, and Vercel's guidelines. Each uses the same second-brain landing-page brief. The purpose is to choose the design elements you like before revising a personal frontend skill.
 
 ```sh
