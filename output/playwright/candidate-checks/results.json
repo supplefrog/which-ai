@@ -1,0 +1,694 @@
+{
+  "hallmark": [
+    {
+      "i": 1,
+      "width": 320,
+      "overflow": false,
+      "h1": [
+        {
+          "text": "Keep a thought.Grow an idea.",
+          "tag": "H1",
+          "ratio": 14.21,
+          "threshold": 3,
+          "disabled": false,
+          "x": 20,
+          "y": 214.390625,
+          "width": 280,
+          "height": 80.625,
+          "font": "36px"
+        }
+      ],
+      "lowContrast": [],
+      "outside": []
+    },
+    {
+      "i": 1,
+      "width": 375,
+      "overflow": false,
+      "h1": [
+        {
+          "text": "Keep a thought.Grow an idea.",
+          "tag": "H1",
+          "ratio": 14.21,
+          "threshold": 3,
+          "disabled": false,
+          "x": 20,
+          "y": 214.390625,
+          "width": 335,
+          "height": 80.625,
+          "font": "36px"
+        }
+      ],
+      "lowContrast": [],
+      "outside": []
+    },
+    {
+      "i": 1,
+      "width": 414,
+      "overflow": false,
+      "h1": [
+        {
+          "text": "Keep a thought.Grow an idea.",
+          "tag": "H1",
+          "ratio": 14.21,
+          "threshold": 3,
+          "disabled": false,
+          "x": 20,
+          "y": 214.390625,
+          "width": 374,
+          "height": 80.625,
+          "font": "36px"
+        }
+      ],
+      "lowContrast": [],
+      "outside": []
+    },
+    {
+      "i": 1,
+      "width": 768,
+      "overflow": false,
+      "h1": [
+        {
+          "text": "Keep a thought.Grow an idea.",
+          "tag": "H1",
+          "ratio": 14.21,
+          "threshold": 3,
+          "disabled": false,
+          "x": 30.71875,
+          "y": 220.3125,
+          "width": 706.5625,
+          "height": 82.5625,
+          "font": "36.864px"
+        }
+      ],
+      "lowContrast": [],
+      "outside": []
+    },
+    {
+      "i": 1,
+      "width": 1280,
+      "overflow": false,
+      "h1": [
+        {
+          "text": "Keep a thought.Grow an idea.",
+          "tag": "H1",
+          "ratio": 14.21,
+          "threshold": 3,
+          "disabled": false,
+          "x": 48,
+          "y": 243.1875,
+          "width": 858,
+          "height": 137.59375,
+          "font": "61.44px"
+        }
+      ],
+      "lowContrast": [],
+      "outside": []
+    },
+    {
+      "i": 2,
+      "width": 320,
+      "overflow": false,
+      "h1": [
+        {
+          "text": "YOUR MIND.MORE ROOM.",
+          "tag": "H1",
+          "ratio": 19.42,
+          "threshold": 3,
+          "disabled": false,
+          "x": 20,
+          "y": 391.21875,
+          "width": 280,
+          "height": 109.1875,
+          "font": "52px"
+        }
+      ],
+      "lowContrast": [],
+      "outside": []
+    },
+    {
+      "i": 2,
+      "width": 375,
+      "overflow": false,
+      "h1": [
+        {
+          "text": "YOUR MIND.MORE ROOM.",
+          "tag": "H1",
+          "ratio": 19.42,
+          "threshold": 3,
+          "disabled": false,
+          "x": 20,
+          "y": 391.21875,
+          "width": 282.640625,
+          "height": 109.1875,
+          "font": "52px"
+        }
+      ],
+      "lowContrast": [],
+      "outside": []
+    },
+    {
+      "i": 2,
+      "width": 414,
+      "overflow": false,
+      "h1": [
+        {
+          "text": "YOUR MIND.MORE ROOM.",
+          "tag": "H1",
+          "ratio": 19.42,
+          "threshold": 3,
+          "disabled": false,
+          "x": 20,
+          "y": 413.609375,
+          "width": 282.640625,
+          "height": 109.1875,
+          "font": "52px"
+        }
+      ],
+      "lowContrast": [],
+      "outside": []
+    },
+    {
+      "i": 2,
+      "width": 768,
+      "overflow": false,
+      "h1": [
+        {
+          "text": "YOUR MIND.MORE ROOM.",
+          "tag": "H1",
+          "ratio": 19.42,
+          "threshold": 3,
+          "disabled": false,
+          "x": 30.71875,
+          "y": 509.890625,
+          "width": 292.203125,
+          "height": 112.90625,
+          "font": "53.76px"
+        }
+      ],
+      "lowContrast": [],
+      "outside": []
+    },
+    {
+      "i": 2,
+      "width": 1280,
+      "overflow": false,
+      "h1": [
+        {
+          "text": "YOUR MIND.MORE ROOM.",
+          "tag": "H1",
+          "ratio": 19.42,
+          "threshold": 3,
+          "disabled": false,
+          "x": 48,
+          "y": 434.671875,
+          "width": 487.015625,
+          "height": 188.125,
+          "font": "89.6px"
+        }
+      ],
+      "lowContrast": [],
+      "outside": []
+    },
+    {
+      "i": 3,
+      "width": 320,
+      "overflow": false,
+      "h1": [
+        {
+          "text": "Some thoughtsdeserve to stay.",
+          "tag": "H1",
+          "ratio": 17.04,
+          "threshold": 3,
+          "disabled": false,
+          "x": 20,
+          "y": 286.390625,
+          "width": 280,
+          "height": 86,
+          "font": "38.4px"
+        }
+      ],
+      "lowContrast": [],
+      "outside": []
+    },
+    {
+      "i": 3,
+      "width": 375,
+      "overflow": false,
+      "h1": [
+        {
+          "text": "Some thoughtsdeserve to stay.",
+          "tag": "H1",
+          "ratio": 17.04,
+          "threshold": 3,
+          "disabled": false,
+          "x": 20,
+          "y": 218.390625,
+          "width": 335,
+          "height": 86,
+          "font": "38.4px"
+        }
+      ],
+      "lowContrast": [],
+      "outside": []
+    },
+    {
+      "i": 3,
+      "width": 414,
+      "overflow": false,
+      "h1": [
+        {
+          "text": "Some thoughtsdeserve to stay.",
+          "tag": "H1",
+          "ratio": 17.04,
+          "threshold": 3,
+          "disabled": false,
+          "x": 20,
+          "y": 218.390625,
+          "width": 374,
+          "height": 86,
+          "font": "38.4px"
+        }
+      ],
+      "lowContrast": [],
+      "outside": []
+    },
+    {
+      "i": 3,
+      "width": 768,
+      "overflow": false,
+      "h1": [
+        {
+          "text": "Some thoughtsdeserve to stay.",
+          "tag": "H1",
+          "ratio": 17.04,
+          "threshold": 3,
+          "disabled": false,
+          "x": 48,
+          "y": 250.390625,
+          "width": 672,
+          "height": 86,
+          "font": "38.4px"
+        }
+      ],
+      "lowContrast": [],
+      "outside": []
+    },
+    {
+      "i": 3,
+      "width": 1280,
+      "overflow": false,
+      "h1": [
+        {
+          "text": "Some thoughtsdeserve to stay.",
+          "tag": "H1",
+          "ratio": 17.04,
+          "threshold": 3,
+          "disabled": false,
+          "x": 304,
+          "y": 250.390625,
+          "width": 672,
+          "height": 143.34375,
+          "font": "64px"
+        }
+      ],
+      "lowContrast": [],
+      "outside": []
+    },
+    {
+      "i": 4,
+      "width": 320,
+      "overflow": false,
+      "h1": [
+        {
+          "text": "A second brain.A few first questions.",
+          "tag": "H1",
+          "ratio": 16.33,
+          "threshold": 3,
+          "disabled": false,
+          "x": 20,
+          "y": 190.59375,
+          "width": 280,
+          "height": 123.609375,
+          "font": "36.8px"
+        }
+      ],
+      "lowContrast": [],
+      "outside": []
+    },
+    {
+      "i": 4,
+      "width": 375,
+      "overflow": false,
+      "h1": [
+        {
+          "text": "A second brain.A few first questions.",
+          "tag": "H1",
+          "ratio": 16.33,
+          "threshold": 3,
+          "disabled": false,
+          "x": 20,
+          "y": 190.59375,
+          "width": 335,
+          "height": 123.609375,
+          "font": "36.8px"
+        }
+      ],
+      "lowContrast": [],
+      "outside": []
+    },
+    {
+      "i": 4,
+      "width": 414,
+      "overflow": false,
+      "h1": [
+        {
+          "text": "A second brain.A few first questions.",
+          "tag": "H1",
+          "ratio": 16.33,
+          "threshold": 3,
+          "disabled": false,
+          "x": 20,
+          "y": 190.59375,
+          "width": 374,
+          "height": 82.40625,
+          "font": "36.8px"
+        }
+      ],
+      "lowContrast": [],
+      "outside": []
+    },
+    {
+      "i": 4,
+      "width": 768,
+      "overflow": false,
+      "h1": [
+        {
+          "text": "A second brain.A few first questions.",
+          "tag": "H1",
+          "ratio": 16.33,
+          "threshold": 3,
+          "disabled": false,
+          "x": 30.71875,
+          "y": 190.59375,
+          "width": 706.5625,
+          "height": 82.40625,
+          "font": "36.8px"
+        }
+      ],
+      "lowContrast": [],
+      "outside": []
+    },
+    {
+      "i": 4,
+      "width": 1280,
+      "overflow": false,
+      "h1": [
+        {
+          "text": "A second brain.A few first questions.",
+          "tag": "H1",
+          "ratio": 16.33,
+          "threshold": 3,
+          "disabled": false,
+          "x": 264,
+          "y": 97.59375,
+          "width": 928,
+          "height": 129,
+          "font": "57.6px"
+        }
+      ],
+      "lowContrast": [],
+      "outside": []
+    },
+    {
+      "i": 5,
+      "width": 320,
+      "overflow": false,
+      "h1": [
+        {
+          "text": "An index ofthings worth keeping.",
+          "tag": "H1",
+          "ratio": 15.49,
+          "threshold": 3,
+          "disabled": false,
+          "x": 20,
+          "y": 201.78125,
+          "width": 280,
+          "height": 107.484375,
+          "font": "32px"
+        }
+      ],
+      "lowContrast": [],
+      "outside": []
+    },
+    {
+      "i": 5,
+      "width": 375,
+      "overflow": false,
+      "h1": [
+        {
+          "text": "An index ofthings worth keeping.",
+          "tag": "H1",
+          "ratio": 15.49,
+          "threshold": 3,
+          "disabled": false,
+          "x": 20,
+          "y": 201.78125,
+          "width": 333.59375,
+          "height": 71.65625,
+          "font": "32px"
+        }
+      ],
+      "lowContrast": [],
+      "outside": []
+    },
+    {
+      "i": 5,
+      "width": 414,
+      "overflow": false,
+      "h1": [
+        {
+          "text": "An index ofthings worth keeping.",
+          "tag": "H1",
+          "ratio": 15.49,
+          "threshold": 3,
+          "disabled": false,
+          "x": 20,
+          "y": 201.78125,
+          "width": 333.59375,
+          "height": 71.65625,
+          "font": "32px"
+        }
+      ],
+      "lowContrast": [],
+      "outside": []
+    },
+    {
+      "i": 5,
+      "width": 768,
+      "overflow": false,
+      "h1": [
+        {
+          "text": "An index ofthings worth keeping.",
+          "tag": "H1",
+          "ratio": 15.49,
+          "threshold": 3,
+          "disabled": false,
+          "x": 30.71875,
+          "y": 201,
+          "width": 333.59375,
+          "height": 71.65625,
+          "font": "32px"
+        }
+      ],
+      "lowContrast": [],
+      "outside": []
+    },
+    {
+      "i": 5,
+      "width": 1280,
+      "overflow": false,
+      "h1": [
+        {
+          "text": "An index ofthings worth keeping.",
+          "tag": "H1",
+          "ratio": 15.49,
+          "threshold": 3,
+          "disabled": false,
+          "x": 48,
+          "y": 201,
+          "width": 439.25,
+          "height": 103.1875,
+          "font": "46.08px"
+        }
+      ],
+      "lowContrast": [],
+      "outside": []
+    }
+  ],
+  "addy": [
+    {
+      "i": 1,
+      "width": 375,
+      "menu": "true",
+      "dialog": true,
+      "initialFocus": {
+        "tag": "BUTTON",
+        "label": "Close note demo"
+      },
+      "saved": "Saved in this demo. Your next idea can start here, too.",
+      "escapeClosed": true,
+      "focusReturned": true,
+      "filteredCount": 1,
+      "selection": 1,
+      "noResults": true
+    },
+    {
+      "i": 1,
+      "width": 1280,
+      "dialog": true,
+      "initialFocus": {
+        "tag": "BUTTON",
+        "label": "Close note demo"
+      },
+      "saved": "Saved in this demo. Your next idea can start here, too.",
+      "escapeClosed": true,
+      "focusReturned": true,
+      "filteredCount": 1,
+      "selection": 1,
+      "noResults": true
+    },
+    {
+      "i": 2,
+      "width": 375,
+      "menu": "true",
+      "dialog": true,
+      "initialFocus": {
+        "tag": "BUTTON",
+        "label": "Close note demo"
+      },
+      "saved": "Saved in this demo. Your next idea can start here, too.",
+      "escapeClosed": true,
+      "focusReturned": true,
+      "filteredCount": 1,
+      "selection": 1,
+      "noResults": true,
+      "graphSelected": "Selected: A conversation"
+    },
+    {
+      "i": 2,
+      "width": 1280,
+      "dialog": true,
+      "initialFocus": {
+        "tag": "BUTTON",
+        "label": "Close note demo"
+      },
+      "saved": "Saved in this demo. Your next idea can start here, too.",
+      "escapeClosed": true,
+      "focusReturned": true,
+      "filteredCount": 1,
+      "selection": 1,
+      "noResults": true,
+      "graphSelected": "Selected: A conversation"
+    },
+    {
+      "i": 3,
+      "width": 375,
+      "menu": "true",
+      "dialog": true,
+      "initialFocus": {
+        "tag": "BUTTON",
+        "label": "Close note demo"
+      },
+      "saved": "Saved in this demo. Your next idea can start here, too.",
+      "escapeClosed": true,
+      "focusReturned": true,
+      "filteredCount": 1,
+      "selection": 1,
+      "noResults": true,
+      "dailySaved": true
+    },
+    {
+      "i": 3,
+      "width": 1280,
+      "dialog": true,
+      "initialFocus": {
+        "tag": "BUTTON",
+        "label": "Close note demo"
+      },
+      "saved": "Saved in this demo. Your next idea can start here, too.",
+      "escapeClosed": true,
+      "focusReturned": true,
+      "filteredCount": 1,
+      "selection": 1,
+      "noResults": true,
+      "dailySaved": true
+    },
+    {
+      "i": 4,
+      "width": 375,
+      "menu": "true",
+      "dialog": true,
+      "initialFocus": {
+        "tag": "BUTTON",
+        "label": "Close note demo"
+      },
+      "saved": "Saved in this demo. Your next idea can start here, too.",
+      "escapeClosed": true,
+      "focusReturned": true,
+      "filteredCount": 1,
+      "selection": 1,
+      "noResults": true,
+      "heroSearchEmpty": true
+    },
+    {
+      "i": 4,
+      "width": 1280,
+      "dialog": true,
+      "initialFocus": {
+        "tag": "BUTTON",
+        "label": "Close note demo"
+      },
+      "saved": "Saved in this demo. Your next idea can start here, too.",
+      "escapeClosed": true,
+      "focusReturned": true,
+      "filteredCount": 1,
+      "selection": 1,
+      "noResults": true,
+      "heroSearchEmpty": true
+    },
+    {
+      "i": 5,
+      "width": 375,
+      "menu": "true",
+      "dialog": true,
+      "initialFocus": {
+        "tag": "BUTTON",
+        "label": "Close note demo"
+      },
+      "saved": "Saved in this demo. Your next idea can start here, too.",
+      "escapeClosed": true,
+      "focusReturned": true,
+      "filteredCount": 1,
+      "selection": 1,
+      "noResults": true,
+      "boardSelected": "Keep looking → Your next idea"
+    },
+    {
+      "i": 5,
+      "width": 1280,
+      "dialog": true,
+      "initialFocus": {
+        "tag": "BUTTON",
+        "label": "Close note demo"
+      },
+      "saved": "Saved in this demo. Your next idea can start here, too.",
+      "escapeClosed": true,
+      "focusReturned": true,
+      "filteredCount": 1,
+      "selection": 1,
+      "noResults": true,
+      "boardSelected": "Keep looking → Your next idea"
+    }
+  ]
+}
