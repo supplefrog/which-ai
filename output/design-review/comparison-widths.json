@@ -1,0 +1,70 @@
+[
+  {
+    "condition": "local-baseline",
+    "width": 685,
+    "hero": {
+      "x": 0,
+      "y": 80,
+      "width": 685,
+      "height": 859.90625
+    },
+    "headline": {
+      "x": 36,
+      "y": 183,
+      "width": 172.09375,
+      "height": 402.9375
+    },
+    "grid": "172.094px 445px"
+  },
+  {
+    "condition": "local-anthropic",
+    "width": 685,
+    "hero": {
+      "x": 0,
+      "y": 85,
+      "width": 685,
+      "height": 1025.453125
+    },
+    "headline": {
+      "x": 28,
+      "y": 170.5,
+      "width": 520,
+      "height": 131.8125
+    },
+    "grid": "629px"
+  },
+  {
+    "condition": "local-baseline",
+    "width": 1440,
+    "hero": {
+      "x": 40,
+      "y": 100,
+      "width": 1360,
+      "height": 641.15625
+    },
+    "headline": {
+      "x": 104,
+      "y": 201,
+      "width": 601,
+      "height": 235.59375
+    },
+    "grid": "601px 601px"
+  },
+  {
+    "condition": "local-anthropic",
+    "width": 1440,
+    "hero": {
+      "x": 20,
+      "y": 108,
+      "width": 1400,
+      "height": 685
+    },
+    "headline": {
+      "x": 84,
+      "y": 261.515625,
+      "width": 573.015625,
+      "height": 148.3125
+    },
+    "grid": "573.016px 658.984px"
+  }
+]

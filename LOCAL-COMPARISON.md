@@ -1,5 +1,7 @@
 # Local skill comparison
 
+The first detailed human feedback and bounded rendered/source review are recorded in [frontend-output-review.md](docs/frontend-output-review.md). Keep these judgments attached to this batch; the shared frontend skill and candidate designs have not been revised from that feedback yet.
+
 User intent: replace the older model's aesthetic selections with personal judgment of rendered outputs. User authorized GPT-6.1 Sol, five designs per source skill, parallel work, and delivery of the first baseline/skill pair before the full batch.
 
 Repository: SunkenInTime/which-ai, master `9d78d5e82072b506789cec25655c2305994dddb1`.
