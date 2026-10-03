@@ -17,6 +17,8 @@ Pinned source links are in the comparison UI. Raw skill/license evidence, genera
 
 Vercel is a baseline review-and-fix condition with an extra pass. Impeccable uses an adapted comp-first workflow with original human checkpoints still pending; this is not full protocol certification. Matt Pocock remains excluded; [the recovered history](docs/matt-source-provenance.md) suggests a possible attribution error but does not identify an exact Matt original. The comparison makes no aesthetic ranking or shared-skill revision on your behalf.
 
+The approved shared frontend skill is now active as v3.2.1. [Resource-selection research](docs/frontend-resource-strategy.md) records the existing tools, thematic component-selection workflow, reusable motion choices and verification limits. The rendered comparisons retain their frozen generation identities.
+
 The original WhichAI gallery and upstream history are retained. Runtime caches, browser profiles, smoke-test note exports and the downloaded Impeccable executable are kept out of this fork's changes. The upstream README follows.
 
 ---

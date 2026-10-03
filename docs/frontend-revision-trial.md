@@ -1,6 +1,6 @@
 # Frontend revision: five playable comparisons
 
-The user approved the revised rendered trial and authorized publication on 2 October 2026. It preserves the original 50 designs and adds five alternatives under **Your frontend skill · v3.2.1 + review**. The shared skill remains v3.1.0; this trial is project-local.
+The user approved the revised rendered trial and authorized publication on 2 October 2026. It preserves the original 50 designs and adds five alternatives under **Your frontend skill · v3.2.1 + review**. The frozen trial is project-local. On 3 October, the user explicitly requested activation and the approved shared revision was deployed as v3.2.1; [the resource strategy](frontend-resource-strategy.md) records the subsequent selection workflow.
 
 - [Baseline vs revision](http://127.0.0.1:3000/local/compare?leftCondition=local-baseline&leftIteration=1&rightCondition=local-personal-revised&rightIteration=1)
 - [Your previous skill vs revision](http://127.0.0.1:3000/local/compare?leftCondition=local-personal&leftIteration=1&rightCondition=local-personal-revised&rightIteration=1)
@@ -42,4 +42,4 @@ The [verification report](../output/revision-review/verification.md) links the a
 
 The candidate source and existing policy replacements are recorded in [change rationale](../revisions/frontend-v3.2-candidate/change-rationale.md), [instruction review](../revisions/frontend-v3.2-candidate/instruction-review.md), [acceptance criteria](../revisions/frontend-v3.2-candidate/acceptance.md), and the [dependency record](../revisions/frontend-v3.2-candidate/workflow.json). Bounded primary-source research is preserved in [research.md](../revisions/frontend-v3.2-candidate/research.md). The installed workflow catalogue lacks a Codex workflow route, so native agents executed these dependencies; no routed receipt or new scheduler is claimed.
 
-Rendered review is satisfied: the user called the trial cohesive and shippable and said “can push.” Commit and push proceed together under that authorization. Shared-skill promotion remains separate. Matt's historical attribution remains unresolved and excluded from this trial.
+Rendered review is satisfied: the user called the trial cohesive and shippable and said “can push.” Commit and push proceed together under that authorization. Shared-skill promotion was subsequently authorized and completed on 3 October; the frozen trial evidence remains unchanged. Matt's historical attribution remains unresolved and excluded from this trial.

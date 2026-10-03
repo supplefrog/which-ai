@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-10-03",
+  "active_version": "3.2.1",
+  "activation_commit": "489666bb7e181e507cdb712bd4e81172055aab9f",
+  "resource_workflow_commit": "4ce7d3fa2aa01f6c20b78ebb884842e2b3d9b829",
+  "remote_verified": true,
+  "manifest_sha256": "31b7c1fbc467a58bf572e64903a8f9cab6703f6d2f98013899e0e57ec01f425d",
+  "canonical_and_installed_files_match": 15,
+  "fresh_codex_catalog_discovery": true,
+  "native_automatic_body_loading_verified": false,
+  "independent_review": "fresh GPT-6.1 Sol high; preview-default fix and exact-license correction rechecked",
+  "probes": {
+    "reader_parts": "fresh Sol medium; source and upstream live demos inspected; no product integration",
+    "routine_repair": "fresh Sol medium; no resource browsing or component replacement",
+    "delegation_and_waiver": "fresh Sol medium; delegated taste preserves parts preview; explicit waiver permits integration with result review"
+  },
+  "checks": [
+    "native skill validation",
+    "local skill links resolve",
+    "exact reviewed manifest readback",
+    "scoped Agent Sync checks and remote commit readback"
+  ],
+  "limits": [
+    "Injected probes do not establish natural triggering or comparative visual quality",
+    "No new component MCP installed or authenticated",
+    "No paid purchase or hosted generation",
+    "No integrated slide/zoom or icon-morph performance claim",
+    "No extraction accuracy benchmark or cross-host behavioral parity"
+  ],
+  "application_and_frozen_comparison_files_changed": false
+}
