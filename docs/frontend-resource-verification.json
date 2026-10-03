@@ -71,10 +71,26 @@
     "twentyfirst": {
       "codex_configured": true,
       "hermes_configured": true,
-      "enabled": false,
-      "authentication": "Both native OAuth flows timed out without callbacks; separate sign-in pending"
+      "enabled": true,
+      "authentication": "Both native OAuth logins succeeded; credentials remain in separate private native stores",
+      "catalog_search_passed": [
+        "codex",
+        "hermes"
+      ],
+      "advertised_tools": 34,
+      "enabled_tools": [
+        "search",
+        "search_picker",
+        "get_inspiration",
+        "get_component",
+        "get_theme",
+        "search_logo",
+        "get_usage"
+      ],
+      "component_code_retrievals": 0,
+      "hosted_generation_calls": 0
     },
-    "verification": "Installed Hermes native negotiation/discovery plus SDK stdio; Codex native declaration readback; no current-chat hotload or full native supervisor/cross-host behavior claim",
+    "verification": "Free-server checks used installed Hermes native negotiation plus SDK stdio and Codex declaration readback. 21st checks additionally passed actual metadata searches through native Codex and Hermes authenticated sessions. No full free-server supervisor or cross-host aesthetic parity claim.",
     "settings_capture": "New server declarations remain native; no unrelated recovery settings or credentials were captured",
     "product_components_installed": false
   },
