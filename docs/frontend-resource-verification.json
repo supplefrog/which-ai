@@ -1,31 +1,82 @@
 {
   "checked_at": "2026-10-03",
   "active_version": "3.2.1",
-  "activation_commit": "489666bb7e181e507cdb712bd4e81172055aab9f",
-  "resource_workflow_commit": "4ce7d3fa2aa01f6c20b78ebb884842e2b3d9b829",
-  "remote_verified": true,
-  "manifest_sha256": "31b7c1fbc467a58bf572e64903a8f9cab6703f6d2f98013899e0e57ec01f425d",
-  "canonical_and_installed_files_match": 15,
-  "fresh_codex_catalog_discovery": true,
-  "native_automatic_body_loading_verified": false,
-  "independent_review": "fresh GPT-6.1 Sol high; preview-default fix and exact-license correction rechecked",
-  "probes": {
-    "reader_parts": "fresh Sol medium; source and upstream live demos inspected; no product integration",
-    "routine_repair": "fresh Sol medium; no resource browsing or component replacement",
-    "delegation_and_waiver": "fresh Sol medium; delegated taste preserves parts preview; explicit waiver permits integration with result review"
+  "resource_workflow_checkpoint": {
+    "checked_at": "2026-10-03",
+    "active_version": "3.2.1",
+    "activation_commit": "489666bb7e181e507cdb712bd4e81172055aab9f",
+    "resource_workflow_commit": "4ce7d3fa2aa01f6c20b78ebb884842e2b3d9b829",
+    "remote_verified": true,
+    "manifest_sha256": "31b7c1fbc467a58bf572e64903a8f9cab6703f6d2f98013899e0e57ec01f425d",
+    "canonical_and_installed_files_match": 15,
+    "fresh_codex_catalog_discovery": true,
+    "native_automatic_body_loading_verified": false,
+    "independent_review": "fresh GPT-6.1 Sol high; preview-default fix and exact-license correction rechecked",
+    "probes": {
+      "reader_parts": "fresh Sol medium; source and upstream live demos inspected; no product integration",
+      "routine_repair": "fresh Sol medium; no resource browsing or component replacement",
+      "delegation_and_waiver": "fresh Sol medium; delegated taste preserves parts preview; explicit waiver permits integration with result review"
+    },
+    "checks": [
+      "native skill validation",
+      "local skill links resolve",
+      "exact reviewed manifest readback",
+      "scoped Agent Sync checks and remote commit readback"
+    ],
+    "limits": [
+      "Injected probes do not establish natural triggering or comparative visual quality",
+      "No new component MCP installed or authenticated",
+      "No paid purchase or hosted generation",
+      "No integrated slide/zoom or icon-morph performance claim",
+      "No extraction accuracy benchmark or cross-host behavioral parity"
+    ],
+    "application_and_frozen_comparison_files_changed": false
   },
-  "checks": [
-    "native skill validation",
-    "local skill links resolve",
-    "exact reviewed manifest readback",
-    "scoped Agent Sync checks and remote commit readback"
-  ],
-  "limits": [
-    "Injected probes do not establish natural triggering or comparative visual quality",
-    "No new component MCP installed or authenticated",
-    "No paid purchase or hosted generation",
-    "No integrated slide/zoom or icon-morph performance claim",
-    "No extraction accuracy benchmark or cross-host behavioral parity"
-  ],
+  "latest_correction": {
+    "commit": "a7fb5228ec096e7fb91b276bb9b66e0c3a4c574d",
+    "remote_verified": true,
+    "files_match": 15,
+    "version": "3.2.1",
+    "owner_tree_sha256": "f30eca069c26a2c4d3556f1e42a36f3ecb863ce644f96ab2460f4c910a0af36a",
+    "checked_at": "2026-10-03",
+    "changes": [
+      "standalone motion choices retained",
+      "combined choreography and intended-frame clipping scoped as correctness",
+      "expressive underline and shared-geometry icon-morph candidates"
+    ],
+    "checks": [
+      "native skill metadata validation",
+      "local reference links",
+      "exact canonical/installed 15-file readback",
+      "scoped reconciler validation, push and remote readback"
+    ],
+    "review": "Explicit user correction, bounded source authoring and static checks; no new comparative UI or model-weight claim",
+    "advisory_source_review": "PASS; resumed Sol/high source review, not fresh-context behavior or quality evaluation"
+  },
+  "component_mcp": {
+    "shadcn": {
+      "package": "shadcn@4.21.1",
+      "codex_configured": true,
+      "hermes_configured": true,
+      "enabled": true,
+      "actual_source_call": "get_item_examples_from_registries"
+    },
+    "godui": {
+      "package": "@godui/mcp@0.1.0",
+      "codex_configured": true,
+      "hermes_configured": true,
+      "enabled": true,
+      "actual_source_call": "get_component"
+    },
+    "twentyfirst": {
+      "codex_configured": true,
+      "hermes_configured": true,
+      "enabled": false,
+      "authentication": "Both native OAuth flows timed out without callbacks; separate sign-in pending"
+    },
+    "verification": "Installed Hermes native negotiation/discovery plus SDK stdio; Codex native declaration readback; no current-chat hotload or full native supervisor/cross-host behavior claim",
+    "settings_capture": "New server declarations remain native; no unrelated recovery settings or credentials were captured",
+    "product_components_installed": false
+  },
   "application_and_frozen_comparison_files_changed": false
 }
