@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "id": "thread-toggle-stays-anchored",
+      "status": "pass",
+      "evidence": {
+        "states": [
+          "disconnected",
+          "connected"
+        ],
+        "rects": [
+          {
+            "x": 426.3125,
+            "y": 456,
+            "width": 429.13751220703125,
+            "height": 48
+          },
+          {
+            "x": 426.3125,
+            "y": 456,
+            "width": 429.13751220703125,
+            "height": 48
+          }
+        ],
+        "max_edge_delta_px": 0.0,
+        "limit_px": 1
+      }
+    }
+  ]
+}

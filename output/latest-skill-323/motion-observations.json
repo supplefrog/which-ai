@@ -1,0 +1,57 @@
+{
+  "states": {
+    "disconnected": {
+      "controls": {
+        "thread-toggle": {
+          "rect": {
+            "x": 426.3125,
+            "y": 456,
+            "width": 429.13751220703125,
+            "height": 48
+          }
+        }
+      }
+    },
+    "connected": {
+      "controls": {
+        "thread-toggle": {
+          "rect": {
+            "x": 426.3125,
+            "y": 456,
+            "width": 429.13751220703125,
+            "height": 48
+          }
+        }
+      }
+    }
+  },
+  "collector": {
+    "before": {
+      "rect": {
+        "x": 426.3125,
+        "y": 456,
+        "width": 429.13751220703125,
+        "height": 48
+      },
+      "scroll": {
+        "x": 0,
+        "y": 654.4000244140625
+      },
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    "after": {
+      "rect": {
+        "x": 426.3125,
+        "y": 456,
+        "width": 429.13751220703125,
+        "height": 48
+      },
+      "scroll": {
+        "x": 0,
+        "y": 654.4000244140625
+      },
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    "note": "Primed into a visible use position before capture; retained scroll offsets expose locator auto-scrolling. Initial raw capture preceded locator centering and is retained as inconclusive."
+  }
+}

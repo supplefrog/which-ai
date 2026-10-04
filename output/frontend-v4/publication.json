@@ -1,0 +1,24 @@
+{
+  "readyCommit": "607000e8cb1646b2fde5b9eeaecaf88851ae109a",
+  "publishedCommit": "77dd94c7cc801546fd18729761bfa0e97ad01de8",
+  "result": "synced",
+  "owner": "frontend-ui-engineering",
+  "version": "4.0.0",
+  "installedVerified": true,
+  "remoteVerified": true,
+  "frozenMainSha256": "7fe22fc8391419b3a481a092994c4bb54fec0ab537a30afb7fb0d514f0dc1864",
+  "frozenFiles": 23,
+  "byteMatches": 21,
+  "lineEndingOnlyDifferences": [
+    "LICENSE",
+    "templates/taste-picker.html"
+  ],
+  "freshCodexCatalogEntry": "r1/frontend-ui-engineering/SKILL.md",
+  "naturalTriggeringTested": false,
+  "crossHostBehavioralParityTested": false,
+  "uiPublication": "Rendered v4 accepted; commit and push authorized by standing repository instructions.",
+  "userAcceptanceDate": "2026-10-04",
+  "supersedes": [
+    "Personal frontend skill iterations3.1.0,3.2.1,3.2.2,3.2.3 and earlier local candidates; their comparison conditions remain historical evidence."
+  ]
+}

@@ -10,8 +10,8 @@ const nextConfig: NextConfig = {
   },
   webpack(config, { dev }) {
     // The gallery's many variants produce a multi-GB persistent webpack cache.
-    // Avoid serializing it on Vercel's build machines; retain local dev caching.
-    if (!dev && process.env.VERCEL === "1") {
+    // Low-space local comparisons can also opt out without changing the default.
+    if ((!dev && process.env.VERCEL === "1") || (dev && process.env.WHICHAI_DISABLE_DEV_CACHE === "1")) {
       config.cache = false;
     }
     return config;

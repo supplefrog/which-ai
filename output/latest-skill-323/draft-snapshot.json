@@ -1,0 +1,50 @@
+{
+  "capturedAt": "2026-10-04T02:33:53.2684767Z",
+  "stage": "Integrated fresh draft after concept/identity coordination; before rendered review",
+  "files": [
+    {
+      "path": "Designs.tsx",
+      "sha256": "f82ec15d27d376ac99a451b4679136484bbd6a17611d4cd7509311ff5b339aed"
+    },
+    {
+      "path": "iteration-five.module.css",
+      "sha256": "1666c7906859631821233f097c63df2a47c5bae75986e30bbde5af39331b9b25"
+    },
+    {
+      "path": "iteration-four.module.css",
+      "sha256": "4383fa3e49b849d9c51ea04a8da608a8cb21440ccc62eb8b2e0acd9e6a8e739a"
+    },
+    {
+      "path": "iteration-one.module.css",
+      "sha256": "5c400e113939b7a43c971a5fbcfd40e87c1f6450ef491a94ed944522bda6e4a2"
+    },
+    {
+      "path": "iteration-three.module.css",
+      "sha256": "13ab15cb5a70daac06ba807a3dcacaae541aac162443233a2ce3f7d24051b1d8"
+    },
+    {
+      "path": "iteration-two.module.css",
+      "sha256": "84fdd6747dd429fcf9af440550b00284f8007d0f21b9c9e12360171b8a92eb0d"
+    },
+    {
+      "path": "IterationFive.tsx",
+      "sha256": "3c3ad52567941d90cb263104798c88eee56ef03e144bb76479dcb0e0d08c1cfa"
+    },
+    {
+      "path": "IterationFour.tsx",
+      "sha256": "59066ec76293cc746266e24853ce3b75feb6003bffc8b5103dd02052cf9d3c2f"
+    },
+    {
+      "path": "IterationOne.tsx",
+      "sha256": "ca1dfb316d914e2caf36080efd665124d0a5af27d38d01a94e80f75d7e7abe72"
+    },
+    {
+      "path": "IterationThree.tsx",
+      "sha256": "1dd0324800d2d74b1a9a6677855199b066adf4b2917f93748cabcbf1e13cd5af"
+    },
+    {
+      "path": "IterationTwo.tsx",
+      "sha256": "9f4fb0c60c59bbcdba958136995af6d6e3bbd4139cd69299aa9771a11708763e"
+    }
+  ]
+}

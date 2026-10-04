@@ -1,0 +1,33 @@
+{
+  "version": "4.0.0",
+  "status": "source candidate under evaluation",
+  "baseCommit": "d38a7f9",
+  "capturedAt": "2026-10-04T11:45:25.132778+00:00",
+  "bundleSha256": "0bde7625bc93e5b8b7a42cbfd3aa894c7b3a9cd527554cd23ae412aa71df8f2d",
+  "mainSha256": "30589e32410d5b5069415fd14b16b63d7d96b7e13674578dc8b0d34f668e53e6",
+  "files": {
+    "LICENSE": "b88ef8718459d5b5aabb1943cb8f4fd57963422f2d98a801dac814fea53932c8",
+    "references/accessibility-checklist.md": "060fe46a19cdadc93325066af51bda1e8b70b44a550c7b08a5d5bdc596d23a0b",
+    "references/component-selection.md": "35c52e018b4824116b2e4750773b53f661a035d42a9d93e918a9ddcdf9e8ac81",
+    "references/component-state.md": "ddc015d1682d0553451320a8ec600c57ba0d63c31bfb9e8f823efbccb638a96d",
+    "references/defect-acceptance.md": "490bedf289838746f8323fa9652849a3a96da6242a1ae651e6900c91cf5dcd25",
+    "references/defect-gate-schema.md": "b2d1c16c875eebb27650c5b1a0d993c2e6354edb4e5f2c9d2e2da36d7ce03e22",
+    "references/design-judgment.md": "79f8e6be95611510ae195c0a00ab5a493dfdabdfb9bf090bdd09b8f0ad89a6a5",
+    "references/liked-motion-options.md": "8133043e962a9da05f2ffb1407f0c4e9d90eb8d834d52ec31c142a746ee03895",
+    "references/motion-design.md": "25c48207796db30ff4a12a3964f794d06a3ec409a88001a3981fd5f367451c3b",
+    "references/personal-design-defaults.md": "d90218c213cc94d7e3b3f539244514c55020a5e6e437f734114b4bfbb363bcd4",
+    "references/provenance.md": "00eccc568f68541b7ab646190bf1c2bc9730aacf133ea057a352cabfa24e4847",
+    "references/resource-catalog.md": "a28e931e89c2a1528d0abd6cf34c91858f9e11f38ecaaf5784c760e35225533f",
+    "references/taste-selection.md": "ceebc146883ccdef3c3e32c5428fa68d3652f6460224a0395a60036f3ef0fa34",
+    "references/webpage-workflow.md": "23bc2b208284619b3cbcbaa1d018e23c125e560c8def8e0f9c4a012eb3152654",
+    "scripts/contract.example.json": "f89667c47c1d4f5ab59bbeb5b61da5337f0dbacde5d8b1d513893428c751a729",
+    "scripts/frontend_gate.py": "6e60dc7fd378dd8a88f52beab33346a869291d6d2736a6838e1db83ae3fea0b7",
+    "scripts/observations.bad.json": "f367a92eb0af728308bc68aa2d1ab6abdcd18710f86d9b273cb9ecfe8a9c93aa",
+    "scripts/observations.clean.json": "62bf9645aa9a593bad5640289659587c66c38faa3a76c5d3825f201d76208fe6",
+    "scripts/observations.missing.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "scripts/test_frontend_gate.py": "5fdbbc72d2efaec3f800dc8eb24fa2a637b1b228daafc1531cc621bd9da3959f",
+    "SKILL.md": "30589e32410d5b5069415fd14b16b63d7d96b7e13674578dc8b0d34f668e53e6",
+    "SOURCE.json": "4e2b6dee6c9b11fd97a3e83b7c200e6e0253650ca705f1019ad1ccecda434192",
+    "templates/taste-picker.html": "9ffd0c228bb4253c69b95f4481ea9a0c7c0092d4edd985e63a83ae590bd37bbf"
+  }
+}

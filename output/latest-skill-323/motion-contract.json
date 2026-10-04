@@ -1,0 +1,13 @@
+{
+  "checks": [
+    {
+      "id": "thread-toggle-stays-anchored",
+      "kind": "stable_control",
+      "promised": true,
+      "control": "thread-toggle",
+      "states": ["disconnected", "connected"],
+      "max_edge_delta_px": 1
+    }
+  ],
+  "scope": "Same desktop viewport and page position; the source connection action stays anchored while its related thought changes. This is one applicable geometry promise, not whole-page or animation certification."
+}

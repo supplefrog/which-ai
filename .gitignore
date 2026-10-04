@@ -19,6 +19,8 @@ playwright-report/
 /.local-runtime/
 /.playwright-cli/
 *.tsbuildinfo
+__pycache__/
+/output/local-server.*.log
 /output/playwright/notes-export-smoke.json
 /output/matt-provenance.md
 /output/publish-inventory.md

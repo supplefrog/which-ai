@@ -1,0 +1,989 @@
+{
+  "browser": "Codex IAB Chromium",
+  "desktop": {
+    "width": 1440,
+    "height": 960
+  },
+  "widths": [
+    {
+      "design": 1,
+      "width": 320,
+      "result": "pass"
+    },
+    {
+      "design": 2,
+      "width": 320,
+      "result": "pass"
+    },
+    {
+      "design": 3,
+      "width": 320,
+      "result": "pass"
+    },
+    {
+      "design": 4,
+      "width": 320,
+      "result": "pass"
+    },
+    {
+      "design": 5,
+      "width": 320,
+      "result": "pass"
+    }
+  ],
+  "actions": [
+    {
+      "design": 1,
+      "viewport": 1440,
+      "cases": [
+        "primary-focus",
+        "empty-save",
+        "save-long-note",
+        "search-no-match",
+        "search-title",
+        "keyboard-move"
+      ],
+      "result": "pass"
+    },
+    {
+      "design": 2,
+      "viewport": 1440,
+      "cases": [
+        "primary",
+        "keyboard-unlink",
+        "trail-switch",
+        "rapid-connect-unlink",
+        "empty-save",
+        "save-trail",
+        "search-no-match",
+        "reset"
+      ],
+      "result": "pass",
+      "note": "replayed after dev refresh reset initial check"
+    },
+    {
+      "design": 2,
+      "consoleErrors": []
+    },
+    {
+      "design": 3,
+      "viewport": 1440,
+      "cases": [
+        "primary-editor",
+        "empty-error",
+        "save-selected-collection-long-note",
+        "keyboard-save",
+        "search-no-match-reset",
+        "cancel-focus",
+        "retain-draft"
+      ],
+      "result": "pass"
+    },
+    {
+      "design": 3,
+      "consoleErrors": []
+    },
+    {
+      "design": 4,
+      "viewport": 1440,
+      "cases": [
+        "primary",
+        "node-keyboard",
+        "project-switch",
+        "connector-attachment",
+        "empty-save",
+        "project-note-save",
+        "project-isolation",
+        "cancel-focus",
+        "retained-draft"
+      ],
+      "result": "inconclusive-before-ready-replay"
+    },
+    {
+      "design": 4,
+      "consoleErrors": []
+    },
+    {
+      "design": 5,
+      "viewport": 1440,
+      "cases": [
+        "intention-change",
+        "repaired-active-hover",
+        "empty-selection",
+        "empty-capture",
+        "keyboard-add",
+        "assembled-chosen-body",
+        "editable-brief",
+        "copy-or-fallback",
+        "escape-focus"
+      ],
+      "result": "pass"
+    },
+    {
+      "design": 5,
+      "consoleErrors": []
+    },
+    {
+      "design": 4,
+      "viewport": 1440,
+      "cases": [
+        "ready-project-switch",
+        "inspector-agreement",
+        "project-save-isolation-return",
+        "cancel-retained-value"
+      ],
+      "result": "pass",
+      "note": "initial exact-text locator excluded the decorative arrow; replay uses visible note text"
+    },
+    {
+      "design": 1,
+      "viewport": 390,
+      "cases": [
+        "primary-capture",
+        "save-long-note"
+      ],
+      "result": "pass-layout-repair-pending"
+    },
+    {
+      "design": 5,
+      "viewport": 390,
+      "cases": [
+        "primary",
+        "build-readable-brief"
+      ],
+      "result": "pass"
+    },
+    {
+      "design": 2,
+      "viewport": 390,
+      "cases": [
+        "primary",
+        "connect-unlink"
+      ],
+      "result": "pass"
+    },
+    {
+      "design": 3,
+      "viewport": 390,
+      "cases": [
+        "primary",
+        "collection-select",
+        "save-long-note"
+      ],
+      "result": "pass"
+    },
+    {
+      "design": 4,
+      "viewport": 390,
+      "cases": [
+        "primary",
+        "project-switch",
+        "ordered-node-select",
+        "capture-save"
+      ],
+      "result": "pass"
+    },
+    {
+      "design": 5,
+      "width": 320,
+      "motion": "reduce",
+      "cases": [
+        "build-brief"
+      ],
+      "result": "pass"
+    },
+    {
+      "design": 4,
+      "width": 320,
+      "motion": "reduce",
+      "cases": [
+        "keyboard-project-switch"
+      ],
+      "result": "pass"
+    },
+    {
+      "design": 3,
+      "width": 320,
+      "motion": "reduce",
+      "cases": [
+        "keyboard-open-close-editor"
+      ],
+      "result": "pass"
+    },
+    {
+      "design": 2,
+      "width": 320,
+      "motion": "reduce",
+      "cases": [
+        "keyboard-connect-unlink"
+      ],
+      "result": "pass"
+    },
+    {
+      "design": 1,
+      "width": 320,
+      "motion": "reduce",
+      "cases": [
+        "keyboard-primary-focus"
+      ],
+      "result": "pass"
+    },
+    {
+      "design": 2,
+      "viewport": 1440,
+      "cases": [
+        "normal-morph-forward-reverse",
+        "anchored-toggle"
+      ],
+      "result": "captured"
+    },
+    {
+      "design": 3,
+      "viewport": 1440,
+      "cases": [
+        "final-author-cleanup-collection-reader-agreement"
+      ],
+      "result": "pass"
+    }
+  ],
+  "measurements": [
+    {
+      "label": "1 desktop primary focus",
+      "url": "http://127.0.0.1:3000/local/preview/local-personal-323/1",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "scroll": {
+        "x": 0,
+        "y": 724
+      },
+      "documentWidth": 1440,
+      "clientWidth": 1440,
+      "focus": {
+        "tag": "BODY",
+        "id": "",
+        "text": "Skip to the note demo margin®The ideaYour spaceMake room  A little space for a lot of thoughtsYour mind,with a littlemor",
+        "outline": "rgb(64, 64, 64) none 2.4px"
+      },
+      "overflow": []
+    },
+    {
+      "label": "1 desktop save-search-move",
+      "url": "http://127.0.0.1:3000/local/preview/local-personal-323/1",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "scroll": {
+        "x": 0,
+        "y": 1172
+      },
+      "documentWidth": 1440,
+      "clientWidth": 1440,
+      "focus": {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "Move to Ideas",
+        "outline": "rgb(116, 85, 205) solid 2.4px"
+      },
+      "overflow": []
+    },
+    {
+      "label": "2 desktop initial",
+      "url": "http://127.0.0.1:3000/local/preview/local-personal-323/2",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "scroll": {
+        "x": 0,
+        "y": 0
+      },
+      "documentWidth": 1440,
+      "clientWidth": 1440,
+      "focus": {
+        "tag": "BODY",
+        "id": "",
+        "text": "Skip to the interactive workbench↳ threadThe methodExplore a trailOpen your mind  NOTES THAT GO SOMEWHEREA SECOND BRAIN ",
+        "outline": "rgb(64, 64, 64) none 2.4px"
+      },
+      "overflow": []
+    },
+    {
+      "label": "2 desktop link-unlink-save-reset",
+      "url": "http://127.0.0.1:3000/local/preview/local-personal-323/2",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "scroll": {
+        "x": 0,
+        "y": 672
+      },
+      "documentWidth": 1440,
+      "clientWidth": 1440,
+      "focus": {
+        "tag": "TEXTAREA",
+        "id": "thread-note",
+        "text": "",
+        "outline": "rgb(220, 245, 158) solid 2.4px"
+      },
+      "overflow": []
+    },
+    {
+      "label": "3 desktop initial",
+      "url": "http://127.0.0.1:3000/local/preview/local-personal-323/3",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "scroll": {
+        "x": 0,
+        "y": 0
+      },
+      "documentWidth": 1440,
+      "clientWidth": 1440,
+      "focus": {
+        "tag": "BODY",
+        "id": "",
+        "text": "Skip to note libraryc.commonplaceYour second brainThe ideaTry a little note  A home for the things on your mindLife is f",
+        "outline": "rgb(64, 64, 64) none 2.4px"
+      },
+      "overflow": []
+    },
+    {
+      "label": "3 desktop cancel focus",
+      "url": "http://127.0.0.1:3000/local/preview/local-personal-323/3",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "scroll": {
+        "x": 0,
+        "y": 651.2000122070312
+      },
+      "documentWidth": 1440,
+      "clientWidth": 1440,
+      "focus": {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "",
+        "outline": "rgb(35, 75, 212) none 2.4px"
+      },
+      "overflow": []
+    },
+    {
+      "label": "4 desktop initial",
+      "url": "http://127.0.0.1:3000/local/preview/local-personal-323/4",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "scroll": {
+        "x": 0,
+        "y": 0
+      },
+      "documentWidth": 1440,
+      "clientWidth": 1440,
+      "focus": {
+        "tag": "BODY",
+        "id": "",
+        "text": "Skip to the knowledge atlasfieldworkExplore the atlasWhy connect?Follow an idea NOTES ARE ONLY THE BEGINNING.Think beyon",
+        "outline": "rgb(64, 64, 64) none 2.4px"
+      },
+      "overflow": []
+    },
+    {
+      "viewport": 1440,
+      "map": {
+        "x": 87.20000457763672,
+        "y": 687.7000122070312,
+        "width": 813.6000366210938,
+        "height": 500
+      },
+      "questionCenter": {
+        "x": 494,
+        "y": 932.7000274658203
+      },
+      "lines": [
+        {
+          "label": "READING NOTEThe third placeConnected to this project",
+          "end": {
+            "x": 266.1920018737315,
+            "y": 787.7000136971474
+          },
+          "center": {
+            "x": 266.1875,
+            "y": 787.7000122070312
+          },
+          "error": 0.004501873978112553
+        },
+        {
+          "label": "OBSERVATIONA bench in the sunConnected to this project",
+          "end": {
+            "x": 721.8079949910637,
+            "y": 797.700013846159
+          },
+          "center": {
+            "x": 721.7999877929688,
+            "y": 797.7000122070312
+          },
+          "error": 0.008007198262671746
+        },
+        {
+          "label": "IDEADesign for the pauseConnected to this project",
+          "end": {
+            "x": 249.92000211954107,
+            "y": 1072.7000179439783
+          },
+          "center": {
+            "x": 249.91250610351562,
+            "y": 1072.7000350952148
+          },
+          "error": 0.007496035646833492
+        },
+        {
+          "label": "PERSONAL NOTESaturday’s walkConnected to this project",
+          "end": {
+            "x": 729.9439948681589,
+            "y": 1067.7000178694725
+          },
+          "center": {
+            "x": 729.9375,
+            "y": 1067.7000122070312
+          },
+          "error": 0.006494870627289996
+        }
+      ]
+    },
+    {
+      "label": "4 desktop cancel-focus",
+      "url": "http://127.0.0.1:3000/local/preview/local-personal-323/4",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "scroll": {
+        "x": 0,
+        "y": 775.2000122070312
+      },
+      "documentWidth": 1440,
+      "clientWidth": 1440,
+      "focus": {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "Add your own connection",
+        "outline": "rgb(98, 64, 120) none 2.4px"
+      },
+      "overflow": []
+    },
+    {
+      "label": "5 desktop initial",
+      "url": "http://127.0.0.1:3000/local/preview/local-personal-323/5",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "scroll": {
+        "x": 0,
+        "y": 0
+      },
+      "documentWidth": 1440,
+      "clientWidth": 1440,
+      "focus": {
+        "tag": "BODY",
+        "id": "",
+        "text": "Skip to the demo RE:CALLA SECOND BRAIN, WITH A PLAY BUTTON.Try your next thought  THE RECALL ROOMSAVE IT. COME BACK DIFF",
+        "outline": "rgb(64, 64, 64) none 2.4px"
+      },
+      "overflow": []
+    },
+    {
+      "label": "5 pre-repair active-hover",
+      "hover": true,
+      "pressed": "true",
+      "color": "rgb(189, 48, 38)",
+      "background": "rgb(255, 255, 255)"
+    },
+    {
+      "label": "5 pre-repair settled active-hover",
+      "hover": true,
+      "pressed": "true",
+      "class": "iteration-five_intentActive__4_2LK",
+      "color": "rgb(189, 48, 38)",
+      "background": "rgb(189, 48, 38)"
+    },
+    {
+      "label": "5 repaired active-hover",
+      "hover": true,
+      "pressed": "true",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgb(189, 48, 38)"
+    },
+    {
+      "label": "5 desktop escape-focus",
+      "url": "http://127.0.0.1:3000/local/preview/local-personal-323/5",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "scroll": {
+        "x": 0,
+        "y": 1729.5999755859375
+      },
+      "documentWidth": 1440,
+      "clientWidth": 1440,
+      "focus": {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "Bring your own thought",
+        "outline": "rgb(189, 48, 38) solid 2.4px"
+      },
+      "overflow": []
+    },
+    {
+      "label": "1 phone initial",
+      "url": "http://127.0.0.1:3000/local/preview/local-personal-323/1",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 0
+      },
+      "documentWidth": 397,
+      "clientWidth": 390,
+      "focus": {
+        "tag": "BODY",
+        "id": "",
+        "text": "Skip to the note demo margin®The ideaYour spaceMake room  A little space for a lot of thoughtsYour mind,with a littlemor",
+        "outline": "rgb(64, 64, 64) none 2.4px"
+      },
+      "overflow": [
+        {
+          "tag": "SPAN",
+          "text": "",
+          "class": "iteration-one_orbit__uwbWZ",
+          "rect": {
+            "x": 4.12733793258667,
+            "width": 392.39532470703125
+          }
+        }
+      ]
+    },
+    {
+      "label": "1 phone save long note",
+      "url": "http://127.0.0.1:3000/local/preview/local-personal-323/1",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 1868
+      },
+      "documentWidth": 397,
+      "clientWidth": 390,
+      "focus": {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "Save thought",
+        "outline": "rgb(255, 255, 255) none 2.4px"
+      },
+      "overflow": [
+        {
+          "tag": "SPAN",
+          "text": "",
+          "class": "iteration-one_orbit__uwbWZ",
+          "rect": {
+            "x": 4.12733793258667,
+            "width": 392.39532470703125
+          }
+        }
+      ]
+    },
+    {
+      "label": "2 phone initial",
+      "url": "http://127.0.0.1:3000/local/preview/local-personal-323/2",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 0
+      },
+      "documentWidth": 390,
+      "clientWidth": 390,
+      "focus": {
+        "tag": "BODY",
+        "id": "",
+        "text": "Skip to the interactive workbench↳ threadThe methodExplore a trailOpen your mind  NOTES THAT GO SOMEWHEREA SECOND BRAIN ",
+        "outline": "rgb(64, 64, 64) none 2.4px"
+      },
+      "overflow": []
+    },
+    {
+      "label": "3 phone initial",
+      "url": "http://127.0.0.1:3000/local/preview/local-personal-323/3",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 0
+      },
+      "documentWidth": 390,
+      "clientWidth": 390,
+      "focus": {
+        "tag": "BODY",
+        "id": "",
+        "text": "Skip to note libraryc.commonplaceYour second brainThe ideaTry a little note  A home for the things on your mindLife is f",
+        "outline": "rgb(64, 64, 64) none 2.4px"
+      },
+      "overflow": []
+    },
+    {
+      "label": "4 phone initial",
+      "url": "http://127.0.0.1:3000/local/preview/local-personal-323/4",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 0
+      },
+      "documentWidth": 390,
+      "clientWidth": 390,
+      "focus": {
+        "tag": "BODY",
+        "id": "",
+        "text": "Skip to the knowledge atlasfieldworkExplore the atlasWhy connect?Follow an idea NOTES ARE ONLY THE BEGINNING.Think beyon",
+        "outline": "rgb(64, 64, 64) none 2.4px"
+      },
+      "overflow": []
+    },
+    {
+      "label": "5 phone initial",
+      "url": "http://127.0.0.1:3000/local/preview/local-personal-323/5",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 0
+      },
+      "documentWidth": 390,
+      "clientWidth": 390,
+      "focus": {
+        "tag": "BODY",
+        "id": "",
+        "text": "Skip to the demo RE:CALLA SECOND BRAIN, WITH A PLAY BUTTON.Try your next thought  THE RECALL ROOMSAVE IT. COME BACK DIFF",
+        "outline": "rgb(64, 64, 64) none 2.4px"
+      },
+      "overflow": []
+    },
+    {
+      "label": "3 phone long saved note",
+      "url": "http://127.0.0.1:3000/local/preview/local-personal-323/3",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 1579.199951171875
+      },
+      "documentWidth": 390,
+      "clientWidth": 390,
+      "focus": {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "",
+        "outline": "rgb(35, 75, 212) none 2.4px"
+      },
+      "overflow": []
+    },
+    {
+      "label": "4 phone saved project note",
+      "url": "http://127.0.0.1:3000/local/preview/local-personal-323/4",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 1816
+      },
+      "documentWidth": 390,
+      "clientWidth": 390,
+      "focus": {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "Add your own connection",
+        "outline": "rgb(98, 64, 120) none 2.4px"
+      },
+      "overflow": []
+    },
+    {
+      "label": "1 phone repaired orbit",
+      "url": "http://127.0.0.1:3000/local/preview/local-personal-323/1",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 0
+      },
+      "documentWidth": 390,
+      "clientWidth": 390,
+      "focus": {
+        "tag": "BODY",
+        "id": "",
+        "text": "Skip to the note demo margin®The ideaYour spaceMake room  A little space for a lot of thoughtsYour mind,with a littlemor",
+        "outline": "rgb(64, 64, 64) none 2.4px"
+      },
+      "overflow": []
+    },
+    {
+      "label": "1 320px final",
+      "url": "http://127.0.0.1:3000/local/preview/local-personal-323/1",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "scroll": {
+        "x": 0,
+        "y": 0
+      },
+      "documentWidth": 320,
+      "clientWidth": 320,
+      "focus": {
+        "tag": "BODY",
+        "id": "",
+        "text": "Skip to the note demo margin®The ideaYour spaceMake room  A little space for a lot of thoughtsYour mind,with a littlemor",
+        "outline": "rgb(64, 64, 64) none 2.4px"
+      },
+      "overflow": []
+    },
+    {
+      "label": "2 320px final",
+      "url": "http://127.0.0.1:3000/local/preview/local-personal-323/2",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "scroll": {
+        "x": 0,
+        "y": 0
+      },
+      "documentWidth": 320,
+      "clientWidth": 320,
+      "focus": {
+        "tag": "BODY",
+        "id": "",
+        "text": "Skip to the interactive workbench↳ threadThe methodExplore a trailOpen your mind  NOTES THAT GO SOMEWHEREA SECOND BRAIN ",
+        "outline": "rgb(64, 64, 64) none 2.4px"
+      },
+      "overflow": []
+    },
+    {
+      "label": "3 320px final",
+      "url": "http://127.0.0.1:3000/local/preview/local-personal-323/3",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "scroll": {
+        "x": 0,
+        "y": 0
+      },
+      "documentWidth": 320,
+      "clientWidth": 320,
+      "focus": {
+        "tag": "BODY",
+        "id": "",
+        "text": "Skip to note libraryc.commonplaceYour second brainThe ideaTry a little note  A home for the things on your mindLife is f",
+        "outline": "rgb(64, 64, 64) none 2.4px"
+      },
+      "overflow": []
+    },
+    {
+      "label": "4 320px final",
+      "url": "http://127.0.0.1:3000/local/preview/local-personal-323/4",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "scroll": {
+        "x": 0,
+        "y": 0
+      },
+      "documentWidth": 320,
+      "clientWidth": 320,
+      "focus": {
+        "tag": "BODY",
+        "id": "",
+        "text": "Skip to the knowledge atlasfieldworkExplore the atlasWhy connect?Follow an idea NOTES ARE ONLY THE BEGINNING.Think beyon",
+        "outline": "rgb(64, 64, 64) none 2.4px"
+      },
+      "overflow": []
+    },
+    {
+      "label": "5 320px final",
+      "url": "http://127.0.0.1:3000/local/preview/local-personal-323/5",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "scroll": {
+        "x": 0,
+        "y": 0
+      },
+      "documentWidth": 320,
+      "clientWidth": 320,
+      "focus": {
+        "tag": "BODY",
+        "id": "",
+        "text": "Skip to the demo RE:CALLA SECOND BRAIN, WITH A PLAY BUTTON.Try your next thought  THE RECALL ROOMSAVE IT. COME BACK DIFF",
+        "outline": "rgb(64, 64, 64) none 2.4px"
+      },
+      "overflow": []
+    },
+    {
+      "label": "3 reduced-motion keyboard close-focus",
+      "url": "http://127.0.0.1:3000/local/preview/local-personal-323/3",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "scroll": {
+        "x": 0,
+        "y": 1302.4000244140625
+      },
+      "documentWidth": 320,
+      "clientWidth": 320,
+      "focus": {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "",
+        "outline": "rgb(238, 104, 57) solid 2.4px"
+      },
+      "overflow": []
+    },
+    {
+      "label": "1 reduced-motion keyboard primary",
+      "url": "http://127.0.0.1:3000/local/preview/local-personal-323/1",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "scroll": {
+        "x": 0,
+        "y": 1991.199951171875
+      },
+      "documentWidth": 320,
+      "clientWidth": 320,
+      "focus": {
+        "tag": "TEXTAREA",
+        "id": "margin-thought",
+        "text": "",
+        "outline": "rgb(116, 85, 205) solid 2.4px"
+      },
+      "overflow": []
+    },
+    {
+      "label": "4 intermediate layout",
+      "url": "http://127.0.0.1:3000/local/preview/local-personal-323/4",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "scroll": {
+        "x": 0,
+        "y": 0
+      },
+      "documentWidth": 768,
+      "clientWidth": 768,
+      "focus": {
+        "tag": "BODY",
+        "id": "",
+        "text": "Skip to the knowledge atlasfieldworkExplore the atlasWhy connect?Follow an idea NOTES ARE ONLY THE BEGINNING.Think beyon",
+        "outline": "rgb(64, 64, 64) none 2.4px"
+      },
+      "overflow": []
+    },
+    {
+      "label": "1 final desktop",
+      "url": "http://127.0.0.1:3000/local/preview/local-personal-323/1",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "scroll": {
+        "x": 0,
+        "y": 0
+      },
+      "documentWidth": 1440,
+      "clientWidth": 1440,
+      "focus": {
+        "tag": "BODY",
+        "id": "",
+        "text": "Skip to the note demo margin®The ideaYour spaceMake room  A little space for a lot of thoughtsYour mind,with a littlemor",
+        "outline": "rgb(64, 64, 64) none 2.4px"
+      },
+      "overflow": []
+    },
+    {
+      "label": "5 final active-hover family",
+      "name": "Start something",
+      "hover": true,
+      "pressed": "true",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgb(189, 48, 38)"
+    },
+    {
+      "label": "5 final active-hover family",
+      "name": "Make some space",
+      "hover": true,
+      "pressed": "true",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgb(189, 48, 38)"
+    },
+    {
+      "label": "5 final active-hover family",
+      "name": "Find a new angle",
+      "hover": true,
+      "pressed": "true",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgb(189, 48, 38)"
+    },
+    {
+      "label": "5 final hover-exit and keyboard-focus",
+      "url": "http://127.0.0.1:3000/local/preview/local-personal-323/5",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "scroll": {
+        "x": 0,
+        "y": 1599.199951171875
+      },
+      "documentWidth": 1440,
+      "clientWidth": 1440,
+      "focus": {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "Bring your own thought",
+        "outline": "rgb(189, 48, 38) solid 2.4px"
+      },
+      "overflow": []
+    }
+  ]
+}

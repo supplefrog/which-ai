@@ -163,5 +163,35 @@
       4,
       5
     ]
+  },
+  {
+    "condition": "local-personal-323",
+    "label": "Your frontend skill · v3.2.3 + review",
+    "model": "GPT-6.1 Sol",
+    "reasoning": "medium",
+    "source": "/local/source/local-personal-323",
+    "revision": "19691a474f8f0e576a095d24f5d6b51fc02cf701236cac47ffaa750a2df3c6a0",
+    "iterations": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "condition": "local-personal-v4",
+    "label": "Your frontend skill · v4.0.0 + review",
+    "model": "GPT-6.1 Sol",
+    "reasoning": "medium",
+    "source": "/local/source/local-personal-v4",
+    "revision": "1e95beaee03aab35f89b5db0c4e724bdc1abf265bc82965338f811f81709ab3d",
+    "iterations": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
   }
 ]
