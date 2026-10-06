@@ -4,7 +4,7 @@
 
 Personal fork: **[supplefrog/which-ai](https://github.com/supplefrog/which-ai)**. Upstream: [SunkenInTime/which-ai](https://github.com/SunkenInTime/which-ai).
 
-This fork contains 65 GPT-6.1 Sol designs across 13 comparison conditions, using the same second-brain landing-page brief. The personal frontend skill **4.0.0** is the accepted current owner; earlier personal conditions are historical comparisons, not alternative active skills. The baseline and source-skill comparisons remain available for judging particular design choices.
+This fork contains 55 GPT-6.1 Sol designs across 11 comparison conditions, using the same second-brain landing-page brief. The personal frontend skill **4.3.1** is the accepted canonical owner. Only the very first personal v3.1.0 comparison and the current checked v4.3.1 comparison remain. The baseline and source-skill comparisons remain available for judging particular design choices.
 
 ```sh
 npm ci
@@ -17,9 +17,7 @@ Pinned source links are in the comparison UI. Raw skill/license evidence, genera
 
 Vercel is a baseline review-and-fix condition with an extra pass. Impeccable uses an adapted comp-first workflow with original human checkpoints still pending; this is not full protocol certification. Matt Pocock remains excluded; [the recovered history](docs/matt-source-provenance.md) suggests a possible attribution error but does not identify an exact Matt original. The comparison makes no aesthetic ranking or shared-skill revision on your behalf.
 
-The historical [v3.2.3 tests](output/latest-skill-323/verification.md) retain that exact frozen guide, generation identities and the regressions that motivated v4. They remain available as comparison evidence.
-
-[Five v4 concepts](output/frontend-v4/verification.md) test composition comparison, contribution and repetition in meaning. [Compare v3.2.3 with v4](http://127.0.0.1:3000/local/compare?leftCondition=local-personal-323&leftIteration=1&rightCondition=local-personal-v4&rightIteration=1). Two fresh batches, raw drafts, bounded repair and final verification are disclosed. Shared frontend skill **4.0.0** is deployed and published through Agent Sync at `77dd94c`; the installed main matches the tested guide. On October 4 the user accepted the rendered result to replace the prior personal skill iterations. [Cleanup record](output/frontend-v4/cleanup.json) identifies deleted obsolete working copies and FoP rewrite trials; no archives were created.
+[Compare the first personal skill with the canonical skill](http://127.0.0.1:3000/local/compare?leftCondition=local-personal&leftIteration=1&rightCondition=local-personal-431&rightIteration=1). The current five pages include internal review and repair before handoff. On October 6 the user accepted this run as canonical and requested deletion of intervening personal versions, comparisons and obsolete working copies. [Current verification](docs/frontend-canonical.md) records the frozen source and limits; [cleanup receipt](docs/frontend-cleanup.json) records actual removals. No archives were created.
 
 [Resource-selection research](docs/frontend-resource-strategy.md) records the existing tools, thematic component-selection workflow, reusable motion choices and verification limits. [Component MCP setup](docs/frontend-component-mcp.md) and [motion-part research](docs/frontend-motion-options.md) record the configured servers and optional underline/icon-morph choices.
 

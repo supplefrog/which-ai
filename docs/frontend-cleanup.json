@@ -1,0 +1,244 @@
+{
+  "date": "2026-10-06",
+  "canonical": "4.3.1",
+  "removed": [
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\work\\frontend-fresh-workflow",
+      "bytes": 1383764.0,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\work\\frontend-v4",
+      "bytes": 8037219.0,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\work\\whichai-42",
+      "bytes": 82802830.0,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\work\\archive-raw-revision.mjs",
+      "bytes": 1420,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\work\\capture-clean-revision-views.js",
+      "bytes": 1573,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\work\\capture-final-repaired-routes.js",
+      "bytes": 2475,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\work\\capture-revised.js",
+      "bytes": 1523,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\work\\check-orbit-focus.js",
+      "bytes": 812,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\work\\check-relay-arrival.js",
+      "bytes": 1390,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\work\\check-revised-final.js",
+      "bytes": 4244,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\work\\check-revised-geometry.js",
+      "bytes": 2126,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\work\\check-revised-raw.js",
+      "bytes": 1534,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\work\\check-revision-repair-two.js",
+      "bytes": 3492,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\work\\extract-revision-checks.mjs",
+      "bytes": 1082,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\work\\finalize-revision-evidence.mjs",
+      "bytes": 3956,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\work\\freeze-repair-guidance.mjs",
+      "bytes": 1373,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\work\\freeze-revision.mjs",
+      "bytes": 1905,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\work\\persist-revision-checks.mjs",
+      "bytes": 1689,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\work\\update-revision-state.mjs",
+      "bytes": 1073,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\work\\revision-final-routes-run.txt",
+      "bytes": 3832,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\work\\revision-final-run.txt",
+      "bytes": 35816,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\work\\revision-geometry-run.txt",
+      "bytes": 4453,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\work\\revision-repair-two-run.txt",
+      "bytes": 43001,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\outputs\\which-ai\\src\\variants\\local-personal-revised",
+      "bytes": 272725.0,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\outputs\\which-ai\\src\\variants\\local-personal-323",
+      "bytes": 282888.0,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\outputs\\which-ai\\src\\variants\\local-personal-v4",
+      "bytes": 325566.0,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\outputs\\which-ai\\src\\variants\\local-personal-42",
+      "bytes": 888449.0,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\outputs\\which-ai\\src\\variants\\local-personal-42-repair-12",
+      "bytes": 18812236.0,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\outputs\\which-ai\\revisions\\frontend-v3.2-candidate",
+      "bytes": 168780.0,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\outputs\\which-ai\\output\\revision-review",
+      "bytes": 12651078.0,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\outputs\\which-ai\\output\\latest-skill-323",
+      "bytes": 1421295.0,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\outputs\\which-ai\\output\\frontend-v4",
+      "bytes": 1604988.0,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\outputs\\which-ai\\public\\local-personal-revised",
+      "bytes": 1692439.0,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\outputs\\which-ai\\src\\app\\local\\source\\local-personal-revised",
+      "bytes": 1101.0,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\outputs\\which-ai\\src\\app\\local\\source\\local-personal-323",
+      "bytes": 1109.0,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\outputs\\which-ai\\src\\app\\local\\source\\local-personal-v4",
+      "bytes": 1000.0,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\outputs\\which-ai\\src\\app\\local\\source\\local-personal-42",
+      "bytes": 840.0,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\outputs\\which-ai\\src\\app\\local\\source\\local-personal-42-repair-12",
+      "bytes": 573.0,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\outputs\\which-ai\\docs\\frontend-revision-trial.md",
+      "bytes": 7108,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\work\\whichai-431\\evidence\\previous-checked-comparison.png",
+      "bytes": 80068,
+      "absent": true
+    },
+    {
+      "path": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\work\\whichai-431\\evidence\\delivered-comparison.png",
+      "bytes": 38489,
+      "absent": true
+    }
+  ],
+  "removed_logical_bytes": 130593314.0,
+  "retained": [
+    "local-personal (first v3.1.0)",
+    "local-personal-431 (canonical v4.3.1)",
+    "baseline and all third-party comparisons",
+    "current FoP redo",
+    "resource research and unrelated dirty worktrees"
+  ],
+  "archives_created": false,
+  "git_history_rewritten": false,
+  "checks": {
+    "source_typescript": "passed",
+    "source_eslint": "passed",
+    "retained_registry_and_comparison_typescript": "passed",
+    "retained_personal_preview_routes": "10/10 HTTP 200",
+    "retained_source_routes": "2/2 HTTP 200",
+    "native_picker": "11 conditions, only original and canonical personal versions",
+    "original_personal_source_git_diff": "unchanged",
+    "broken_removed_links": "none in maintained docs, registry, scripts or routes",
+    "snapshot": "work/whichai-431/evidence/canonical-cleanup-comparison.png"
+  },
+  "canonical_sync": {
+    "commit": "2b3d6a75765fb99914b29f068ff8b5227a7f0d0e",
+    "installed_verified": true,
+    "remote_verified": true,
+    "frozen_files_verified": 32,
+    "fresh_discovery": [
+      "Codex",
+      "Hermes",
+      "OMP"
+    ],
+    "behavioral_changes": false
+  }
+}

@@ -14,7 +14,5 @@ export const localRegistry: Record<string, () => Promise<RunModule>> = {
   "local-taste-v2": () => import("@/variants/local-taste-v2/gpt-6.1-sol/source/Designs"),
   "local-vercel-review": () => import("@/variants/local-vercel-review/gpt-6.1-sol/source/Designs"),
   "local-personal": () => import("@/variants/local-personal/gpt-6.1-sol/source/Designs"),
-  "local-personal-revised": () => import("@/variants/local-personal-revised/gpt-6.1-sol/source/Designs"),
-  "local-personal-323": () => import("@/variants/local-personal-323/gpt-6.1-sol/source/Designs"),
-  "local-personal-v4": () => import("@/variants/local-personal-v4/gpt-6.1-sol/source/Designs"),
+  "local-personal-431": () => import("@/variants/local-personal-431/gpt-6.1-sol/source/Designs"),
 };

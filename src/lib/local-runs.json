@@ -91,7 +91,7 @@
   },
   {
     "condition": "local-impeccable",
-    "label": "Impeccable · comp-first (adapted)",
+    "label": "Impeccable \u00b7 comp-first (adapted)",
     "model": "GPT-6.1 Sol",
     "reasoning": "medium",
     "source": "https://github.com/pbakaus/impeccable/blob/9d715cc4f5564a990ca8345abfdd5df6dc9b41c8/.agents/skills/impeccable/SKILL.md",
@@ -121,7 +121,7 @@
   },
   {
     "condition": "local-vercel-review",
-    "label": "Vercel guidelines · baseline review + fixes",
+    "label": "Vercel guidelines \u00b7 baseline review + fixes",
     "model": "GPT-6.1 Sol",
     "reasoning": "medium",
     "source": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/web-design-guidelines/SKILL.md",
@@ -136,7 +136,7 @@
   },
   {
     "condition": "local-personal",
-    "label": "Your frontend skill · v3.1.0 (fresh)",
+    "label": "Your frontend skill \u00b7 v3.1.0 (fresh)",
     "model": "GPT-6.1 Sol",
     "reasoning": "medium",
     "source": "/local/source/local-personal",
@@ -150,42 +150,12 @@
     ]
   },
   {
-    "condition": "local-personal-revised",
-    "label": "Your frontend skill · v3.2.1 + review",
+    "condition": "local-personal-431",
+    "label": "Your frontend skill \u00b7 v4.3.1 (checked)",
     "model": "GPT-6.1 Sol",
     "reasoning": "medium",
-    "source": "/local/source/local-personal-revised",
-    "revision": "b752d4e1ebae61f69fa35de6463dc27003f7b1a4a1aa7159e3f54d439551120e",
-    "iterations": [
-      1,
-      2,
-      3,
-      4,
-      5
-    ]
-  },
-  {
-    "condition": "local-personal-323",
-    "label": "Your frontend skill · v3.2.3 + review",
-    "model": "GPT-6.1 Sol",
-    "reasoning": "medium",
-    "source": "/local/source/local-personal-323",
-    "revision": "19691a474f8f0e576a095d24f5d6b51fc02cf701236cac47ffaa750a2df3c6a0",
-    "iterations": [
-      1,
-      2,
-      3,
-      4,
-      5
-    ]
-  },
-  {
-    "condition": "local-personal-v4",
-    "label": "Your frontend skill · v4.0.0 + review",
-    "model": "GPT-6.1 Sol",
-    "reasoning": "medium",
-    "source": "/local/source/local-personal-v4",
-    "revision": "1e95beaee03aab35f89b5db0c4e724bdc1abf265bc82965338f811f81709ab3d",
+    "source": "/local/source/local-personal-431",
+    "revision": "b4cf82ca3d0d9538ead0e918a9ae127cb59e832619b44c9f336ff9dbe67c3f82",
     "iterations": [
       1,
       2,
