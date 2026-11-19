@@ -1,0 +1,458 @@
+{
+  "regions": [
+    {
+      "id": "headline",
+      "kind": "text",
+      "pixelBox": {
+        "x": 47,
+        "y": 130,
+        "w": 421,
+        "h": 252
+      },
+      "snap": false,
+      "note": "Primary offer heading"
+    },
+    {
+      "id": "offer-copy",
+      "kind": "text",
+      "pixelBox": {
+        "x": 47,
+        "y": 411,
+        "w": 395,
+        "h": 136
+      },
+      "snap": false,
+      "note": "Product description paragraph"
+    },
+    {
+      "id": "primary-action",
+      "kind": "control",
+      "pixelBox": {
+        "x": 48,
+        "y": 583,
+        "w": 326,
+        "h": 68
+      },
+      "snap": false,
+      "note": "Primary button and arrow"
+    },
+    {
+      "id": "wordmark",
+      "kind": "text",
+      "pixelBox": {
+        "x": 45,
+        "y": 22,
+        "w": 233,
+        "h": 26
+      },
+      "snap": false,
+      "note": "Product wordmark"
+    },
+    {
+      "id": "nav-capture",
+      "kind": "control",
+      "pixelBox": {
+        "x": 380,
+        "y": 28,
+        "w": 110,
+        "h": 35
+      },
+      "snap": false,
+      "note": "Top navigation link capture"
+    },
+    {
+      "id": "nav-connect",
+      "kind": "control",
+      "pixelBox": {
+        "x": 500,
+        "y": 28,
+        "w": 110,
+        "h": 35
+      },
+      "snap": false,
+      "note": "Top navigation link connect"
+    },
+    {
+      "id": "nav-find",
+      "kind": "control",
+      "pixelBox": {
+        "x": 620,
+        "y": 28,
+        "w": 110,
+        "h": 35
+      },
+      "snap": false,
+      "note": "Top navigation link find"
+    },
+    {
+      "id": "catalog-ground",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 482,
+        "y": 137,
+        "w": 1010,
+        "h": 583
+      },
+      "snap": false,
+      "note": "Catalog layout",
+      "container": true,
+      "codeDrawn": true
+    },
+    {
+      "id": "cell-0",
+      "kind": "control",
+      "pixelBox": {
+        "x": 483,
+        "y": 137,
+        "w": 167,
+        "h": 185
+      },
+      "snap": false,
+      "note": "Coded note title and literal excerpt",
+      "container": true
+    },
+    {
+      "id": "cell-copy-0",
+      "kind": "text",
+      "pixelBox": {
+        "x": 495,
+        "y": 148,
+        "w": 142,
+        "h": 160
+      },
+      "snap": false,
+      "note": "Note code, title, and authored excerpt"
+    },
+    {
+      "id": "cell-1",
+      "kind": "control",
+      "pixelBox": {
+        "x": 660,
+        "y": 137,
+        "w": 167,
+        "h": 185
+      },
+      "snap": false,
+      "note": "Coded note title and literal excerpt",
+      "container": true
+    },
+    {
+      "id": "cell-copy-1",
+      "kind": "text",
+      "pixelBox": {
+        "x": 672,
+        "y": 148,
+        "w": 142,
+        "h": 160
+      },
+      "snap": false,
+      "note": "Note code, title, and authored excerpt"
+    },
+    {
+      "id": "cell-2",
+      "kind": "control",
+      "pixelBox": {
+        "x": 837,
+        "y": 137,
+        "w": 167,
+        "h": 185
+      },
+      "snap": false,
+      "note": "Coded note title and literal excerpt",
+      "container": true
+    },
+    {
+      "id": "cell-copy-2",
+      "kind": "text",
+      "pixelBox": {
+        "x": 849,
+        "y": 148,
+        "w": 142,
+        "h": 160
+      },
+      "snap": false,
+      "note": "Note code, title, and authored excerpt"
+    },
+    {
+      "id": "cell-3",
+      "kind": "control",
+      "pixelBox": {
+        "x": 1014,
+        "y": 137,
+        "w": 167,
+        "h": 185
+      },
+      "snap": false,
+      "note": "Coded note title and literal excerpt",
+      "container": true
+    },
+    {
+      "id": "cell-copy-3",
+      "kind": "text",
+      "pixelBox": {
+        "x": 1026,
+        "y": 148,
+        "w": 142,
+        "h": 160
+      },
+      "snap": false,
+      "note": "Note code, title, and authored excerpt"
+    },
+    {
+      "id": "cell-4",
+      "kind": "control",
+      "pixelBox": {
+        "x": 483,
+        "y": 334,
+        "w": 167,
+        "h": 185
+      },
+      "snap": false,
+      "note": "Coded note title and literal excerpt",
+      "container": true
+    },
+    {
+      "id": "cell-copy-4",
+      "kind": "text",
+      "pixelBox": {
+        "x": 495,
+        "y": 345,
+        "w": 142,
+        "h": 160
+      },
+      "snap": false,
+      "note": "Note code, title, and authored excerpt"
+    },
+    {
+      "id": "cell-5",
+      "kind": "control",
+      "pixelBox": {
+        "x": 660,
+        "y": 334,
+        "w": 167,
+        "h": 185
+      },
+      "snap": false,
+      "note": "Coded note title and literal excerpt",
+      "container": true
+    },
+    {
+      "id": "cell-copy-5",
+      "kind": "text",
+      "pixelBox": {
+        "x": 672,
+        "y": 345,
+        "w": 142,
+        "h": 160
+      },
+      "snap": false,
+      "note": "Note code, title, and authored excerpt"
+    },
+    {
+      "id": "cell-6",
+      "kind": "control",
+      "pixelBox": {
+        "x": 837,
+        "y": 334,
+        "w": 167,
+        "h": 185
+      },
+      "snap": false,
+      "note": "Coded note title and literal excerpt",
+      "container": true
+    },
+    {
+      "id": "cell-copy-6",
+      "kind": "text",
+      "pixelBox": {
+        "x": 849,
+        "y": 345,
+        "w": 142,
+        "h": 160
+      },
+      "snap": false,
+      "note": "Note code, title, and authored excerpt"
+    },
+    {
+      "id": "cell-7",
+      "kind": "control",
+      "pixelBox": {
+        "x": 1014,
+        "y": 334,
+        "w": 167,
+        "h": 185
+      },
+      "snap": false,
+      "note": "Coded note title and literal excerpt",
+      "container": true
+    },
+    {
+      "id": "cell-copy-7",
+      "kind": "text",
+      "pixelBox": {
+        "x": 1026,
+        "y": 345,
+        "w": 142,
+        "h": 160
+      },
+      "snap": false,
+      "note": "Note code, title, and authored excerpt"
+    },
+    {
+      "id": "cell-8",
+      "kind": "control",
+      "pixelBox": {
+        "x": 483,
+        "y": 531,
+        "w": 167,
+        "h": 185
+      },
+      "snap": false,
+      "note": "Coded note title and literal excerpt",
+      "container": true
+    },
+    {
+      "id": "cell-copy-8",
+      "kind": "text",
+      "pixelBox": {
+        "x": 495,
+        "y": 542,
+        "w": 142,
+        "h": 160
+      },
+      "snap": false,
+      "note": "Note code, title, and authored excerpt"
+    },
+    {
+      "id": "cell-9",
+      "kind": "control",
+      "pixelBox": {
+        "x": 660,
+        "y": 531,
+        "w": 167,
+        "h": 185
+      },
+      "snap": false,
+      "note": "Coded note title and literal excerpt",
+      "container": true
+    },
+    {
+      "id": "cell-copy-9",
+      "kind": "text",
+      "pixelBox": {
+        "x": 672,
+        "y": 542,
+        "w": 142,
+        "h": 160
+      },
+      "snap": false,
+      "note": "Note code, title, and authored excerpt"
+    },
+    {
+      "id": "cell-10",
+      "kind": "control",
+      "pixelBox": {
+        "x": 837,
+        "y": 531,
+        "w": 167,
+        "h": 185
+      },
+      "snap": false,
+      "note": "Coded note title and literal excerpt",
+      "container": true
+    },
+    {
+      "id": "cell-copy-10",
+      "kind": "text",
+      "pixelBox": {
+        "x": 849,
+        "y": 542,
+        "w": 142,
+        "h": 160
+      },
+      "snap": false,
+      "note": "Note code, title, and authored excerpt"
+    },
+    {
+      "id": "cell-11",
+      "kind": "control",
+      "pixelBox": {
+        "x": 1014,
+        "y": 531,
+        "w": 167,
+        "h": 185
+      },
+      "snap": false,
+      "note": "Coded note title and literal excerpt",
+      "container": true
+    },
+    {
+      "id": "cell-copy-11",
+      "kind": "text",
+      "pixelBox": {
+        "x": 1026,
+        "y": 542,
+        "w": 142,
+        "h": 160
+      },
+      "snap": false,
+      "note": "Note code, title, and authored excerpt"
+    },
+    {
+      "id": "knowledge-map",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 1188,
+        "y": 138,
+        "w": 304,
+        "h": 581
+      },
+      "snap": false,
+      "note": "Countable geometric knowledge map with six coded destinations",
+      "container": true,
+      "codeDrawn": true
+    },
+    {
+      "container": true,
+      "codeDrawn": true,
+      "note": "Offer grouping with headline, body, action, and closing copy; child regions retain separate IDs",
+      "id": "offer-layout",
+      "kind": "chrome",
+      "snap": false,
+      "pixelBox": {
+        "w": 425,
+        "x": 45,
+        "h": 576,
+        "y": 126
+      }
+    },
+    {
+      "container": true,
+      "codeDrawn": true,
+      "note": "Top navigation layout and product wordmark; named controls retain separate regions",
+      "id": "navigation-layout",
+      "kind": "chrome",
+      "snap": false,
+      "pixelBox": {
+        "w": 1536,
+        "x": 0,
+        "h": 95,
+        "y": 0
+      }
+    },
+    {
+      "container": true,
+      "codeDrawn": true,
+      "note": "Visible continuation section including literal step headings and copy",
+      "id": "continuation-layout",
+      "kind": "chrome",
+      "snap": false,
+      "pixelBox": {
+        "w": 1536,
+        "x": 0,
+        "h": 266,
+        "y": 758
+      }
+    }
+  ]
+}

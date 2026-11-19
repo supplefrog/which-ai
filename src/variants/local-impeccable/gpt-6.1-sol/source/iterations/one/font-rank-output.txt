@@ -1,0 +1,3 @@
+MEASURE headline: capHeight 57px, width normal (advX 0.6766), weight bold (densTall 0.6087), tracking 0.072 over 3 lines, 24 glyphs. Set this region's font-size so its cap height renders at 57px; choose a normal bold face.
+CANDIDATES 26: 1 yours + 25 from the normal shortlist (no catalog index at data/font-index.json)
+RANK unavailable: no browser (playwright or puppeteer) resolvable from this project or the impeccable CLI, and no catalog index. Choose by the MEASURE line: match the width class first, then the weight class; render one headline word against the comp before building on it.

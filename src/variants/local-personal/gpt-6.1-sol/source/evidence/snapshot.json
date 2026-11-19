@@ -1,0 +1,60 @@
+{
+  "skill": "frontend-ui-engineering",
+  "version": "3.1.0",
+  "capturedAt": "2026-10-02T10:37:08.058Z",
+  "bundleSha256": "1c184d68fee88b077edac020e602f9bc1403374f7ea822e452be1d75fd84c418",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "6f202f8bd568cd730dbb2b0d1f8e243bc74c2fa1f64dbce9b2c7ea08bd5c9fd7"
+    },
+    {
+      "path": "references/accessibility-checklist.md",
+      "sha256": "060fe46a19cdadc93325066af51bda1e8b70b44a550c7b08a5d5bdc596d23a0b"
+    },
+    {
+      "path": "references/component-state.md",
+      "sha256": "ddc015d1682d0553451320a8ec600c57ba0d63c31bfb9e8f823efbccb638a96d"
+    },
+    {
+      "path": "references/design-judgment.md",
+      "sha256": "949ecbd38d8a41dcce83d50b603555639ec53bc8889c60cee2c9b133d020bc78"
+    },
+    {
+      "path": "references/motion-design.md",
+      "sha256": "274dd557ed8cd28ea987297282152006ece23abe9563f94804685e20e1593e91"
+    },
+    {
+      "path": "references/personal-design-defaults.md",
+      "sha256": "36e1fa7b821c15fe61bee5bb263b0a458c8fac4802dec65255f93995a32556ae"
+    },
+    {
+      "path": "references/provenance.md",
+      "sha256": "cf77f57f680e921902719e4cd39a738d28cb090c74fde3b8447044af920a289b"
+    },
+    {
+      "path": "references/resource-catalog.md",
+      "sha256": "906c22fb97e38af6ad49d6ffed93a5188d67c0161da5b5c7805d6104c999b23b"
+    },
+    {
+      "path": "references/taste-selection.md",
+      "sha256": "97a1df7c28d9c11e9676bc56fb18754c7c82ac8fb04452dd0077e4d688097fd1"
+    },
+    {
+      "path": "references/webpage-workflow.md",
+      "sha256": "23bc2b208284619b3cbcbaa1d018e23c125e560c8def8e0f9c4a012eb3152654"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "8fa32663c2d6ae544aff447f38dfdfed487f728d3631342c1a35362e4944845e"
+    },
+    {
+      "path": "SOURCE.json",
+      "sha256": "4e2b6dee6c9b11fd97a3e83b7c200e6e0253650ca705f1019ad1ccecda434192"
+    },
+    {
+      "path": "templates/taste-picker.html",
+      "sha256": "af061b1e5886f6dd57842f7cccef96ffeb3b746becd0e0bb67dc9dba7f2ca52e"
+    }
+  ]
+}

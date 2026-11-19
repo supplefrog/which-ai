@@ -1,0 +1,56 @@
+WROTE .impeccable/build/spec.json
+SPEC comp .impeccable/mocks/comp-2.png 1536x1024 landscape
+PALETTE #f7f8f7(60%) #183828(36%) #daf86a(2%) #909591(1%) #e8f89b(1%)
+BANDS 2% 6% 13% 20% 24% 31% 35% 39% 94%
+REGION headline           text     semantic box x3% y11% w51% h21% (785x218px, 3.6009:1) palette #193727 #f7f7f3 #b4bfb4  # Primary offer heading
+REGION offer-copy         text     semantic box x61% y13% w23% h9% (360x92px, 3.913:1) palette #193727 #152523 #e7efe9  # Product description paragraph
+REGION primary-action     control  semantic box x61% y23% w22% h8% (342x79px, 4.3291:1) palette #daf869 #1d3727 #0d1117  # Primary button and arrow
+REGION wordmark           text     semantic box x3% y2% w13% h4% (193x43px, 4.4884:1) palette #193727 #f5f6f4 #7c8c80  # Product wordmark
+REGION nav-capture        control  semantic box x25% y3% w7% h3% (110x35px, 3.1429:1) palette #183828 #47584f #d7e3dc  # Top navigation link capture
+REGION nav-connect        control  semantic box x33% y3% w7% h3% (110x35px, 3.1429:1) palette #183828 #c6d2cd #122218  # Top navigation link connect
+REGION nav-find           control  semantic box x40% y3% w7% h3% (110x35px, 3.1429:1) palette #183828  # Top navigation link find
+REGION ledger-ground      chrome   semantic box x2% y36% w97% h59% (1484x603px, 2.461:1) palette #f8f8f7 #e8f89a #d0d0d0  # White observation ledger surface
+REGION ledger-column-0    chrome   semantic box x2% y37% w18% h53% (280x544px, 0.5147:1) palette #f8f8f7 #e8f89b #b9b9b9  # Observation ledger column
+REGION ledger-column-1    chrome   semantic box x22% y38% w48% h55% (730x560px, 1.3036:1) palette #f7f7f6 #7a7c7d #9f9f9f  # Observation ledger column
+REGION ledger-column-2    chrome   semantic box x71% y38% w25% h54% (380x556px, 0.6835:1) palette #f8f8f7 #808181 #b8b9b8  # Observation ledger column
+REGION observation-0      control  semantic box x23% y44% w45% h14% (691x148px, 4.6689:1) palette #f8f8f6 #848585 #bbbbba  # Observation title, excerpt, and descriptive note metadata
+REGION observation-1      control  semantic box x23% y60% w45% h15% (691x156px, 4.4295:1) palette #f8f8f7 #858585 #b9b9b9  # Observation title, excerpt, and descriptive note metadata
+REGION observation-2      control  semantic box x23% y78% w45% h15% (691x155px, 4.4581:1) palette #f8f8f7 #848485 #b7b8b8  # Observation title, excerpt, and descriptive note metadata
+REGION observation-copy-0 text     semantic box x32% y44% w36% h9% (549x92px, 5.9674:1) palette #f7f7f5 #838485 #bbbdbb  # Observation excerpt and context paragraph
+REGION observation-copy-1 text     semantic box x32% y61% w36% h10% (549x105px, 5.2286:1) palette #f8f8f6 #bfc1c0 #7f8183  # Observation excerpt and context paragraph
+REGION observation-copy-2 text     semantic box x32% y79% w36% h10% (549x103px, 5.3301:1) palette #f8f8f6 #cacac9 #77797b  # Observation excerpt and context paragraph
+REGION index-0            control  semantic box x3% y43% w16% h4% (253x37px, 6.8378:1) palette #e8f89b #eaf8b9 #f8f8f6  # Ledger index All Notes
+REGION index-1            control  semantic box x3% y47% w16% h4% (253x37px, 6.8378:1) palette #f8f8f7 #525559 #252630  # Ledger index Reading
+REGION index-2            control  semantic box x3% y51% w16% h4% (253x37px, 6.8378:1) palette #f8f8f7 #2e3034 #8c8d8e  # Ledger index Personal
+REGION index-3            control  semantic box x3% y56% w16% h4% (253x37px, 6.8378:1) palette #f8f8f7 #aeb0ae #1e2626  # Ledger index Projects
+REGION index-4            control  semantic box x3% y60% w16% h4% (253x37px, 6.8378:1) palette #f8f8f8 #b6b8b6 #888a8a  # Ledger index Tags
+REGION index-5            control  semantic box x3% y64% w16% h4% (253x37px, 6.8378:1) palette #f8f8f7 #b9bebb #737676  # Ledger index Map
+REGION index-6            control  semantic box x3% y69% w16% h4% (253x37px, 6.8378:1) palette #f8f8f8  # Ledger index Archive
+REGION connections        chrome   semantic box x72% y43% w23% h23% (353x233px, 1.515:1) palette #f8f8f7 #b9b9b9 #858585  # Countable semantic note connection geometry and text labels
+REGION offer-layout       chrome   semantic box x3% y9% w52% h25% (798x260px, 3.0692:1) palette #183727 #f7f7f3 #c4d0c3  # Offer grouping with headline, body, action, and closing copy; child regions retain separate IDs
+REGION navigation-layout  chrome   semantic box x0% y0% w100% h9% (1536x95px, 16.1684:1) palette #183828 #dbf86b #f3f5f2  # Top navigation layout and product wordmark; named controls retain separate regions
+REGION continuation-layout chrome   semantic box x0% y95% w100% h5% (1536x54px, 28.4444:1) palette #173727 #bdcbbd #546659  # Visible continuation section including literal step headings and copy
+REGION offer-band         chrome   semantic box x0% y9% w100% h27% (1536x272px, 5.6471:1) palette #183828 #f7f8f3 #d9f86a  # Whole offer-band layout; distinct heading, description and action retain their child regions
+PLATES 0 to produce: none
+WARN region ledger-ground: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region ledger-ground: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region ledger-column-0: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region ledger-column-0: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region ledger-column-1: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region ledger-column-1: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region ledger-column-2: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region ledger-column-2: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region observation-0: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region observation-1: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region observation-2: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region connections: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region connections: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region offer-layout: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region offer-layout: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region navigation-layout: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region navigation-layout: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region continuation-layout: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region continuation-layout: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region offer-band: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region offer-band: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+RULE anything not in this list does not exist on the page: no borders, rules, chrome, or containers the comp does not show. Every raster region ships as its plate, never as CSS.

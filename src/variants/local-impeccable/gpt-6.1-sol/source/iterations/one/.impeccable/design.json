@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-02T09:26:01.221651+00:00",
+  "title": "Design System: Waypoint",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Primary"
+      },
+      "survey-field": {
+        "role": "secondary",
+        "displayName": "Survey Field"
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink"
+      },
+      "neutral-bg": {
+        "role": "neutral",
+        "displayName": "Neutral Bg"
+      },
+      "note-ink": {
+        "role": "neutral",
+        "displayName": "Note Ink"
+      },
+      "note-paper": {
+        "role": "neutral",
+        "displayName": "Note Paper"
+      },
+      "selected-paper": {
+        "role": "neutral",
+        "displayName": "Selected Paper"
+      },
+      "close-paper": {
+        "role": "neutral",
+        "displayName": "Close Paper"
+      },
+      "secondary-text": {
+        "role": "neutral",
+        "displayName": "Secondary Text"
+      },
+      "action-ink": {
+        "role": "neutral",
+        "displayName": "Action Ink"
+      },
+      "close-action": {
+        "role": "secondary",
+        "displayName": "Close Action"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Ranked display",
+        "purpose": "Final first-viewport offer."
+      },
+      "headline": {
+        "displayName": "Supporting heading",
+        "purpose": "Representative observed section/component heading."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Base inherited running text."
+      },
+      "label": {
+        "displayName": "Demo label",
+        "purpose": "Illustrative content label."
+      }
+    },
+    "shadows": [
+      {
+        "name": "marker-outline",
+        "value": "0 0 0 2px #184aba",
+        "purpose": "Destination marker outline."
+      }
+    ],
+    "motion": [
+      {
+        "name": "action-lift",
+        "value": "translate .18s ease-out; hover translate: 0 -3px",
+        "purpose": "Shared action response."
+      },
+      {
+        "name": "note-lift",
+        "value": "background .2s, translate .2s; hover translate: 0 -4px",
+        "purpose": "Destination hover; selected background changes."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop",
+        "value": "1050px"
+      },
+      {
+        "name": "mobile-stack",
+        "value": "750px"
+      }
+    ],
+    "sourceBinding": {
+      "artifact": "../../Designs.tsx",
+      "stylesheet": "../../Designs.module.css",
+      "sha256": {
+        "Designs.tsx": "78D2AE6580458CEC451A1E1A950D2934DE53B7EC0151DD272ADAF5E040FC1A99",
+        "Designs.module.css": "ED090E0F2ADCB769F58631F3EFE8925C89435590E25DA0356BFCF1064AD49D71"
+      },
+      "page": "PageOne",
+      "worldClass": "atlas",
+      "directionContract": "direction-contract.md",
+      "selectedComp": ".impeccable/mocks/comp-1.png",
+      "selectedCompSha256": "204c79cb457ac1795ccb4a5d53c10df7e167b05d6dc91fdb712b18b2599c4996",
+      "engineStateSnapshot": {
+        "comps": {
+          "status": "closed",
+          "gateOk": true
+        },
+        "spec": {
+          "status": "closed",
+          "gateOk": true
+        },
+        "plates": {
+          "status": "closed",
+          "gateOk": true
+        },
+        "hero": {
+          "status": "open",
+          "gateOk": null
+        },
+        "sections": {
+          "status": "pending",
+          "gateOk": null
+        },
+        "motion": {
+          "status": "pending",
+          "gateOk": null
+        },
+        "responsive": {
+          "status": "pending",
+          "gateOk": null
+        },
+        "review": {
+          "status": "pending",
+          "gateOk": null
+        }
+      },
+      "humanComponentReview": "pending",
+      "humanHeroReview": "pending",
+      "documenter": "Fresh generic native subagent substituting for unexposed impeccable_documenter type",
+      "precedingSourceSha256": {
+        "Designs.tsx": "803EA24181E6ED34D3EACC67C34841DAEE2E43C146902C3D2FAE4B9E587C61C6",
+        "Designs.module.css": "CA81F3308EF37AFF7ADB7E36E68B67DBD619C9F93C5B3933E938A3C6DD448402"
+      }
+    }
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "description": "Static source-translated specimen; application state and icon glyphs are not reproduced.",
+      "html": "<div class=\"ds-page ds-atlas\"><a class=\"ds-action\" href=\"#demo\">Explore the demo</a></div>",
+      "css": ".ds-page{--ink:#0b1945;--ground:#fff;--accent:#244ab8;color:var(--ink);background:var(--ground);font:16px/1.55 ImpeccableManrope,sans-serif}.ds-page h1,.ds-page h2,.ds-page h3,.ds-page p{margin:0}.ds-page h1{font-weight:800;line-height:1.05;letter-spacing:-.035em;text-wrap:balance}.ds-page h2{line-height:1.15;text-wrap:balance}.ds-page a{color:inherit;text-decoration:none;text-underline-offset:.25em}.ds-page button,.ds-page input{font:inherit}.ds-page button{cursor:pointer}.ds-page button:disabled{cursor:default;opacity:.5}.ds-page a:focus-visible,.ds-page button:focus-visible,.ds-page input:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.ds-page ::selection{background:var(--accent);color:var(--ground)}.ds-page input{caret-color:var(--accent)}.ds-header{min-height:92px;display:flex;align-items:center;justify-content:space-between;gap:32px;padding:20px 4%;position:relative;z-index:2}.ds-brand{display:flex;align-items:center;gap:12px;font-size:27px;font-weight:800;letter-spacing:-.02em}.ds-header nav{display:flex;gap:34px;font-size:14px}.ds-header nav a:hover{text-decoration:underline}.ds-action{display:inline-flex;align-items:center;justify-content:space-between;gap:24px;padding:18px 24px;border-radius:7px;background:var(--ink);color:var(--ground)!important;font-weight:700;font-size:16px;transition:translate .18s ease-out}.ds-action:hover{translate:0 -3px}.ds-outlineAction{border:1px solid currentColor;padding:12px 25px;border-radius:7px;font-weight:700;font-size:14px}.ds-demoLabel{font-size:12px;letter-spacing:.04em}.ds-search{display:flex;align-items:center;gap:9px}.ds-search input{min-width:0;width:100%;border:0;background:transparent;outline:none;padding:9px 0;color:inherit}.ds-empty{padding:40px 15px!important;font-size:15px!important}.ds-atlas{--ink:#0b1945;--accent:#ff8513}.ds-atlasSky{background:#184aba;color:#fff;background-image:url('./assets/atlas-plate.ds-png');background-size:cover;background-position:center top}.ds-atlas .ds-action{background:#fff;color:#101c4d!important}.ds-atlasHero{display:grid;grid-template-columns:39% 61%;padding:35px 4% 35px;min-height:630px;position:relative}.ds-atlasOffer{position:relative;z-index:1}.ds-atlasOffer h1{font-size:clamp(50px,5.1vw,76px);line-height:1.09}.ds-atlasOffer>p{font-size:21px;line-height:1.65;margin:30px 0}.ds-atlasMap{position:relative;min-height:570px}.ds-atlasMap>.ds-demoLabel{position:absolute;left:9%;top:0;color:#d2e4ff}.ds-routeLines{position:absolute;inset:0;width:100%;height:100%;fill:none;stroke:#fff;stroke-width:2.3}.ds-routeLines>path:first-child{stroke-dasharray:9 9}.ds-routeLines .ds-secondaryRoute{stroke-dasharray:none;stroke-width:2.5}.ds-mapNote{position:absolute;text-align:left;padding:13px 15px;background:#edf4ff;color:#101d47;border:0;border-radius:7px;width:185px;font-size:12px;line-height:1.5;transition:background .2s,translate .2s}.ds-mapNote:hover{translate:0 -4px}.ds-mapNote strong{display:block;font-size:13px;line-height:1.3}.ds-mapNote small{display:block;font-size:9px;color:#3a4c6d;margin:3px 0}.ds-mapNote span{display:block}.ds-mapNote i{position:absolute;left:50%;top:calc(100% + 27px);width:20px;height:20px;border:4px solid #fff;border-radius:50%;background:#184aba;box-shadow:0 0 0 2px #184aba}.ds-mapNote i:before{content:'';height:28px;width:1px;position:absolute;bottom:16px;left:4px;background:#fff}.ds-activeDestination{background:#ffedda}.ds-activeDestination i{background:#ff8513;width:29px;height:29px;left:calc(50% - 5px)}.ds-destination0{left:12%;top:8%}.ds-destination1{right:10%;top:19%}.ds-destination2{left:40%;top:45%}.ds-destination3{right:0;top:72%}.ds-mapLegend{position:absolute;bottom:2px;left:7%;display:flex;align-items:center;gap:13px;font-size:10px;color:#d9e8ff}.ds-mapLegend>span:last-child{margin-left:35px}@media(max-width:1050px){.ds-header nav{gap:20px}.ds-header .ds-action{display:none}.ds-atlasHero{grid-template-columns:42% 58%}.ds-atlasOffer h1{font-size:58px}.ds-atlasOffer>p{font-size:18px}.ds-mapNote{width:150px;font-size:10px}.ds-mapNote strong{font-size:11px}}@media(max-width:750px){.ds-header{padding:20px 22px;min-height:76px;gap:15px;flex-wrap:wrap}.ds-brand{font-size:24px}.ds-header nav{gap:18px;font-size:12px;order:3;width:100%;padding-top:10px}.ds-header .ds-outlineAction{font-size:10px;padding:10px 13px}.ds-action{padding:15px 21px}.ds-atlasHero{display:block;padding:28px 24px 25px;min-height:0}.ds-atlasOffer h1{font-size:54px;line-height:1.08}.ds-atlasOffer>p{font-size:17px;line-height:1.6;margin:24px 0}.ds-atlasMap{margin-top:45px;min-height:545px}.ds-atlasMap>.ds-demoLabel{left:0;font-size:10px;top:-20px}.ds-mapNote{width:146px;padding:12px;font-size:11px}.ds-mapNote strong{font-size:12px}.ds-destination0{left:0;top:4%}.ds-destination1{right:0;top:27%}.ds-destination2{left:0;top:51%}.ds-destination3{right:0;top:75%}.ds-mapNote i{top:calc(100% + 13px);width:16px;height:16px;border-width:3px}.ds-mapNote i:before{height:15px;bottom:11px;left:3px}.ds-activeDestination i{width:22px;height:22px;left:47%}.ds-routeLines{display:none}.ds-mapLegend{left:0;bottom:-12px;font-size:9px}.ds-mapLegend>span:last-child{display:none}}.ds-atlasOffer h1{font-family:ImpeccableRubik,sans-serif;font-weight:600;font-size:clamp(54px,5.27vw,81px)}@media(max-width:750px){.ds-atlasOffer h1{font-size:54px}}@media(prefers-reduced-motion:reduce){.ds-page *{scroll-behavior:auto!important;transition:none!important}.ds-action:hover,.ds-mapNote:hover{translate:none}}",
+      "refersTo": "button-primary"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "description": "Static source-translated specimen; application state and icon glyphs are not reproduced.",
+      "html": "<div class=\"ds-page ds-atlas\"><header class=\"ds-header\"><nav aria-label=\"Page navigation\"><a href=\"#demo\">Notes</a><a href=\"#close\">About</a></nav></header></div>",
+      "css": ".ds-page{--ink:#0b1945;--ground:#fff;--accent:#244ab8;color:var(--ink);background:var(--ground);font:16px/1.55 ImpeccableManrope,sans-serif}.ds-page h1,.ds-page h2,.ds-page h3,.ds-page p{margin:0}.ds-page h1{font-weight:800;line-height:1.05;letter-spacing:-.035em;text-wrap:balance}.ds-page h2{line-height:1.15;text-wrap:balance}.ds-page a{color:inherit;text-decoration:none;text-underline-offset:.25em}.ds-page button,.ds-page input{font:inherit}.ds-page button{cursor:pointer}.ds-page button:disabled{cursor:default;opacity:.5}.ds-page a:focus-visible,.ds-page button:focus-visible,.ds-page input:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.ds-page ::selection{background:var(--accent);color:var(--ground)}.ds-page input{caret-color:var(--accent)}.ds-header{min-height:92px;display:flex;align-items:center;justify-content:space-between;gap:32px;padding:20px 4%;position:relative;z-index:2}.ds-brand{display:flex;align-items:center;gap:12px;font-size:27px;font-weight:800;letter-spacing:-.02em}.ds-header nav{display:flex;gap:34px;font-size:14px}.ds-header nav a:hover{text-decoration:underline}.ds-action{display:inline-flex;align-items:center;justify-content:space-between;gap:24px;padding:18px 24px;border-radius:7px;background:var(--ink);color:var(--ground)!important;font-weight:700;font-size:16px;transition:translate .18s ease-out}.ds-action:hover{translate:0 -3px}.ds-outlineAction{border:1px solid currentColor;padding:12px 25px;border-radius:7px;font-weight:700;font-size:14px}.ds-demoLabel{font-size:12px;letter-spacing:.04em}.ds-search{display:flex;align-items:center;gap:9px}.ds-search input{min-width:0;width:100%;border:0;background:transparent;outline:none;padding:9px 0;color:inherit}.ds-empty{padding:40px 15px!important;font-size:15px!important}.ds-atlas{--ink:#0b1945;--accent:#ff8513}.ds-atlasSky{background:#184aba;color:#fff;background-image:url('./assets/atlas-plate.ds-png');background-size:cover;background-position:center top}.ds-atlas .ds-action{background:#fff;color:#101c4d!important}.ds-atlasHero{display:grid;grid-template-columns:39% 61%;padding:35px 4% 35px;min-height:630px;position:relative}.ds-atlasOffer{position:relative;z-index:1}.ds-atlasOffer h1{font-size:clamp(50px,5.1vw,76px);line-height:1.09}.ds-atlasOffer>p{font-size:21px;line-height:1.65;margin:30px 0}.ds-atlasMap{position:relative;min-height:570px}.ds-atlasMap>.ds-demoLabel{position:absolute;left:9%;top:0;color:#d2e4ff}.ds-routeLines{position:absolute;inset:0;width:100%;height:100%;fill:none;stroke:#fff;stroke-width:2.3}.ds-routeLines>path:first-child{stroke-dasharray:9 9}.ds-routeLines .ds-secondaryRoute{stroke-dasharray:none;stroke-width:2.5}.ds-mapNote{position:absolute;text-align:left;padding:13px 15px;background:#edf4ff;color:#101d47;border:0;border-radius:7px;width:185px;font-size:12px;line-height:1.5;transition:background .2s,translate .2s}.ds-mapNote:hover{translate:0 -4px}.ds-mapNote strong{display:block;font-size:13px;line-height:1.3}.ds-mapNote small{display:block;font-size:9px;color:#3a4c6d;margin:3px 0}.ds-mapNote span{display:block}.ds-mapNote i{position:absolute;left:50%;top:calc(100% + 27px);width:20px;height:20px;border:4px solid #fff;border-radius:50%;background:#184aba;box-shadow:0 0 0 2px #184aba}.ds-mapNote i:before{content:'';height:28px;width:1px;position:absolute;bottom:16px;left:4px;background:#fff}.ds-activeDestination{background:#ffedda}.ds-activeDestination i{background:#ff8513;width:29px;height:29px;left:calc(50% - 5px)}.ds-destination0{left:12%;top:8%}.ds-destination1{right:10%;top:19%}.ds-destination2{left:40%;top:45%}.ds-destination3{right:0;top:72%}.ds-mapLegend{position:absolute;bottom:2px;left:7%;display:flex;align-items:center;gap:13px;font-size:10px;color:#d9e8ff}.ds-mapLegend>span:last-child{margin-left:35px}@media(max-width:1050px){.ds-header nav{gap:20px}.ds-header .ds-action{display:none}.ds-atlasHero{grid-template-columns:42% 58%}.ds-atlasOffer h1{font-size:58px}.ds-atlasOffer>p{font-size:18px}.ds-mapNote{width:150px;font-size:10px}.ds-mapNote strong{font-size:11px}}@media(max-width:750px){.ds-header{padding:20px 22px;min-height:76px;gap:15px;flex-wrap:wrap}.ds-brand{font-size:24px}.ds-header nav{gap:18px;font-size:12px;order:3;width:100%;padding-top:10px}.ds-header .ds-outlineAction{font-size:10px;padding:10px 13px}.ds-action{padding:15px 21px}.ds-atlasHero{display:block;padding:28px 24px 25px;min-height:0}.ds-atlasOffer h1{font-size:54px;line-height:1.08}.ds-atlasOffer>p{font-size:17px;line-height:1.6;margin:24px 0}.ds-atlasMap{margin-top:45px;min-height:545px}.ds-atlasMap>.ds-demoLabel{left:0;font-size:10px;top:-20px}.ds-mapNote{width:146px;padding:12px;font-size:11px}.ds-mapNote strong{font-size:12px}.ds-destination0{left:0;top:4%}.ds-destination1{right:0;top:27%}.ds-destination2{left:0;top:51%}.ds-destination3{right:0;top:75%}.ds-mapNote i{top:calc(100% + 13px);width:16px;height:16px;border-width:3px}.ds-mapNote i:before{height:15px;bottom:11px;left:3px}.ds-activeDestination i{width:22px;height:22px;left:47%}.ds-routeLines{display:none}.ds-mapLegend{left:0;bottom:-12px;font-size:9px}.ds-mapLegend>span:last-child{display:none}}.ds-atlasOffer h1{font-family:ImpeccableRubik,sans-serif;font-weight:600;font-size:clamp(54px,5.27vw,81px)}@media(max-width:750px){.ds-atlasOffer h1{font-size:54px}}@media(prefers-reduced-motion:reduce){.ds-page *{scroll-behavior:auto!important;transition:none!important}.ds-action:hover,.ds-mapNote:hover{translate:none}}"
+    },
+    {
+      "name": "Destination note",
+      "kind": "button",
+      "description": "Static source-translated specimen; application state and icon glyphs are not reproduced.",
+      "html": "<div class=\"ds-page ds-atlas\"><div class=\"ds-atlasMap\"><button class=\"ds-mapNote\"><strong>A line worth keeping</strong><small>Illustrative note</small><span>Small, consistent acts compound into a different you.</span><i aria-hidden=\"true\"></i></button></div></div>",
+      "css": ".ds-page{--ink:#0b1945;--ground:#fff;--accent:#244ab8;color:var(--ink);background:var(--ground);font:16px/1.55 ImpeccableManrope,sans-serif}.ds-page h1,.ds-page h2,.ds-page h3,.ds-page p{margin:0}.ds-page h1{font-weight:800;line-height:1.05;letter-spacing:-.035em;text-wrap:balance}.ds-page h2{line-height:1.15;text-wrap:balance}.ds-page a{color:inherit;text-decoration:none;text-underline-offset:.25em}.ds-page button,.ds-page input{font:inherit}.ds-page button{cursor:pointer}.ds-page button:disabled{cursor:default;opacity:.5}.ds-page a:focus-visible,.ds-page button:focus-visible,.ds-page input:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.ds-page ::selection{background:var(--accent);color:var(--ground)}.ds-page input{caret-color:var(--accent)}.ds-header{min-height:92px;display:flex;align-items:center;justify-content:space-between;gap:32px;padding:20px 4%;position:relative;z-index:2}.ds-brand{display:flex;align-items:center;gap:12px;font-size:27px;font-weight:800;letter-spacing:-.02em}.ds-header nav{display:flex;gap:34px;font-size:14px}.ds-header nav a:hover{text-decoration:underline}.ds-action{display:inline-flex;align-items:center;justify-content:space-between;gap:24px;padding:18px 24px;border-radius:7px;background:var(--ink);color:var(--ground)!important;font-weight:700;font-size:16px;transition:translate .18s ease-out}.ds-action:hover{translate:0 -3px}.ds-outlineAction{border:1px solid currentColor;padding:12px 25px;border-radius:7px;font-weight:700;font-size:14px}.ds-demoLabel{font-size:12px;letter-spacing:.04em}.ds-search{display:flex;align-items:center;gap:9px}.ds-search input{min-width:0;width:100%;border:0;background:transparent;outline:none;padding:9px 0;color:inherit}.ds-empty{padding:40px 15px!important;font-size:15px!important}.ds-atlas{--ink:#0b1945;--accent:#ff8513}.ds-atlasSky{background:#184aba;color:#fff;background-image:url('./assets/atlas-plate.ds-png');background-size:cover;background-position:center top}.ds-atlas .ds-action{background:#fff;color:#101c4d!important}.ds-atlasHero{display:grid;grid-template-columns:39% 61%;padding:35px 4% 35px;min-height:630px;position:relative}.ds-atlasOffer{position:relative;z-index:1}.ds-atlasOffer h1{font-size:clamp(50px,5.1vw,76px);line-height:1.09}.ds-atlasOffer>p{font-size:21px;line-height:1.65;margin:30px 0}.ds-atlasMap{position:relative;min-height:570px}.ds-atlasMap>.ds-demoLabel{position:absolute;left:9%;top:0;color:#d2e4ff}.ds-routeLines{position:absolute;inset:0;width:100%;height:100%;fill:none;stroke:#fff;stroke-width:2.3}.ds-routeLines>path:first-child{stroke-dasharray:9 9}.ds-routeLines .ds-secondaryRoute{stroke-dasharray:none;stroke-width:2.5}.ds-mapNote{position:absolute;text-align:left;padding:13px 15px;background:#edf4ff;color:#101d47;border:0;border-radius:7px;width:185px;font-size:12px;line-height:1.5;transition:background .2s,translate .2s}.ds-mapNote:hover{translate:0 -4px}.ds-mapNote strong{display:block;font-size:13px;line-height:1.3}.ds-mapNote small{display:block;font-size:9px;color:#3a4c6d;margin:3px 0}.ds-mapNote span{display:block}.ds-mapNote i{position:absolute;left:50%;top:calc(100% + 27px);width:20px;height:20px;border:4px solid #fff;border-radius:50%;background:#184aba;box-shadow:0 0 0 2px #184aba}.ds-mapNote i:before{content:'';height:28px;width:1px;position:absolute;bottom:16px;left:4px;background:#fff}.ds-activeDestination{background:#ffedda}.ds-activeDestination i{background:#ff8513;width:29px;height:29px;left:calc(50% - 5px)}.ds-destination0{left:12%;top:8%}.ds-destination1{right:10%;top:19%}.ds-destination2{left:40%;top:45%}.ds-destination3{right:0;top:72%}.ds-mapLegend{position:absolute;bottom:2px;left:7%;display:flex;align-items:center;gap:13px;font-size:10px;color:#d9e8ff}.ds-mapLegend>span:last-child{margin-left:35px}@media(max-width:1050px){.ds-header nav{gap:20px}.ds-header .ds-action{display:none}.ds-atlasHero{grid-template-columns:42% 58%}.ds-atlasOffer h1{font-size:58px}.ds-atlasOffer>p{font-size:18px}.ds-mapNote{width:150px;font-size:10px}.ds-mapNote strong{font-size:11px}}@media(max-width:750px){.ds-header{padding:20px 22px;min-height:76px;gap:15px;flex-wrap:wrap}.ds-brand{font-size:24px}.ds-header nav{gap:18px;font-size:12px;order:3;width:100%;padding-top:10px}.ds-header .ds-outlineAction{font-size:10px;padding:10px 13px}.ds-action{padding:15px 21px}.ds-atlasHero{display:block;padding:28px 24px 25px;min-height:0}.ds-atlasOffer h1{font-size:54px;line-height:1.08}.ds-atlasOffer>p{font-size:17px;line-height:1.6;margin:24px 0}.ds-atlasMap{margin-top:45px;min-height:545px}.ds-atlasMap>.ds-demoLabel{left:0;font-size:10px;top:-20px}.ds-mapNote{width:146px;padding:12px;font-size:11px}.ds-mapNote strong{font-size:12px}.ds-destination0{left:0;top:4%}.ds-destination1{right:0;top:27%}.ds-destination2{left:0;top:51%}.ds-destination3{right:0;top:75%}.ds-mapNote i{top:calc(100% + 13px);width:16px;height:16px;border-width:3px}.ds-mapNote i:before{height:15px;bottom:11px;left:3px}.ds-activeDestination i{width:22px;height:22px;left:47%}.ds-routeLines{display:none}.ds-mapLegend{left:0;bottom:-12px;font-size:9px}.ds-mapLegend>span:last-child{display:none}}.ds-atlasOffer h1{font-family:ImpeccableRubik,sans-serif;font-weight:600;font-size:clamp(54px,5.27vw,81px)}@media(max-width:750px){.ds-atlasOffer h1{font-size:54px}}@media(prefers-reduced-motion:reduce){.ds-page *{scroll-behavior:auto!important;transition:none!important}.ds-action:hover,.ds-mapNote:hover{translate:none}}"
+    },
+    {
+      "name": "Selected destination",
+      "kind": "button",
+      "description": "Static source-translated specimen; application state and icon glyphs are not reproduced.",
+      "html": "<div class=\"ds-page ds-atlas\"><div class=\"ds-atlasMap\"><button class=\"ds-mapNote ds-activeDestination\" aria-pressed=\"true\"><strong>Project: a slower morning</strong><small>Illustrative note</small><span>Leave the first hour open. Notice what returns.</span><i aria-hidden=\"true\"></i></button></div></div>",
+      "css": ".ds-page{--ink:#0b1945;--ground:#fff;--accent:#244ab8;color:var(--ink);background:var(--ground);font:16px/1.55 ImpeccableManrope,sans-serif}.ds-page h1,.ds-page h2,.ds-page h3,.ds-page p{margin:0}.ds-page h1{font-weight:800;line-height:1.05;letter-spacing:-.035em;text-wrap:balance}.ds-page h2{line-height:1.15;text-wrap:balance}.ds-page a{color:inherit;text-decoration:none;text-underline-offset:.25em}.ds-page button,.ds-page input{font:inherit}.ds-page button{cursor:pointer}.ds-page button:disabled{cursor:default;opacity:.5}.ds-page a:focus-visible,.ds-page button:focus-visible,.ds-page input:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.ds-page ::selection{background:var(--accent);color:var(--ground)}.ds-page input{caret-color:var(--accent)}.ds-header{min-height:92px;display:flex;align-items:center;justify-content:space-between;gap:32px;padding:20px 4%;position:relative;z-index:2}.ds-brand{display:flex;align-items:center;gap:12px;font-size:27px;font-weight:800;letter-spacing:-.02em}.ds-header nav{display:flex;gap:34px;font-size:14px}.ds-header nav a:hover{text-decoration:underline}.ds-action{display:inline-flex;align-items:center;justify-content:space-between;gap:24px;padding:18px 24px;border-radius:7px;background:var(--ink);color:var(--ground)!important;font-weight:700;font-size:16px;transition:translate .18s ease-out}.ds-action:hover{translate:0 -3px}.ds-outlineAction{border:1px solid currentColor;padding:12px 25px;border-radius:7px;font-weight:700;font-size:14px}.ds-demoLabel{font-size:12px;letter-spacing:.04em}.ds-search{display:flex;align-items:center;gap:9px}.ds-search input{min-width:0;width:100%;border:0;background:transparent;outline:none;padding:9px 0;color:inherit}.ds-empty{padding:40px 15px!important;font-size:15px!important}.ds-atlas{--ink:#0b1945;--accent:#ff8513}.ds-atlasSky{background:#184aba;color:#fff;background-image:url('./assets/atlas-plate.ds-png');background-size:cover;background-position:center top}.ds-atlas .ds-action{background:#fff;color:#101c4d!important}.ds-atlasHero{display:grid;grid-template-columns:39% 61%;padding:35px 4% 35px;min-height:630px;position:relative}.ds-atlasOffer{position:relative;z-index:1}.ds-atlasOffer h1{font-size:clamp(50px,5.1vw,76px);line-height:1.09}.ds-atlasOffer>p{font-size:21px;line-height:1.65;margin:30px 0}.ds-atlasMap{position:relative;min-height:570px}.ds-atlasMap>.ds-demoLabel{position:absolute;left:9%;top:0;color:#d2e4ff}.ds-routeLines{position:absolute;inset:0;width:100%;height:100%;fill:none;stroke:#fff;stroke-width:2.3}.ds-routeLines>path:first-child{stroke-dasharray:9 9}.ds-routeLines .ds-secondaryRoute{stroke-dasharray:none;stroke-width:2.5}.ds-mapNote{position:absolute;text-align:left;padding:13px 15px;background:#edf4ff;color:#101d47;border:0;border-radius:7px;width:185px;font-size:12px;line-height:1.5;transition:background .2s,translate .2s}.ds-mapNote:hover{translate:0 -4px}.ds-mapNote strong{display:block;font-size:13px;line-height:1.3}.ds-mapNote small{display:block;font-size:9px;color:#3a4c6d;margin:3px 0}.ds-mapNote span{display:block}.ds-mapNote i{position:absolute;left:50%;top:calc(100% + 27px);width:20px;height:20px;border:4px solid #fff;border-radius:50%;background:#184aba;box-shadow:0 0 0 2px #184aba}.ds-mapNote i:before{content:'';height:28px;width:1px;position:absolute;bottom:16px;left:4px;background:#fff}.ds-activeDestination{background:#ffedda}.ds-activeDestination i{background:#ff8513;width:29px;height:29px;left:calc(50% - 5px)}.ds-destination0{left:12%;top:8%}.ds-destination1{right:10%;top:19%}.ds-destination2{left:40%;top:45%}.ds-destination3{right:0;top:72%}.ds-mapLegend{position:absolute;bottom:2px;left:7%;display:flex;align-items:center;gap:13px;font-size:10px;color:#d9e8ff}.ds-mapLegend>span:last-child{margin-left:35px}@media(max-width:1050px){.ds-header nav{gap:20px}.ds-header .ds-action{display:none}.ds-atlasHero{grid-template-columns:42% 58%}.ds-atlasOffer h1{font-size:58px}.ds-atlasOffer>p{font-size:18px}.ds-mapNote{width:150px;font-size:10px}.ds-mapNote strong{font-size:11px}}@media(max-width:750px){.ds-header{padding:20px 22px;min-height:76px;gap:15px;flex-wrap:wrap}.ds-brand{font-size:24px}.ds-header nav{gap:18px;font-size:12px;order:3;width:100%;padding-top:10px}.ds-header .ds-outlineAction{font-size:10px;padding:10px 13px}.ds-action{padding:15px 21px}.ds-atlasHero{display:block;padding:28px 24px 25px;min-height:0}.ds-atlasOffer h1{font-size:54px;line-height:1.08}.ds-atlasOffer>p{font-size:17px;line-height:1.6;margin:24px 0}.ds-atlasMap{margin-top:45px;min-height:545px}.ds-atlasMap>.ds-demoLabel{left:0;font-size:10px;top:-20px}.ds-mapNote{width:146px;padding:12px;font-size:11px}.ds-mapNote strong{font-size:12px}.ds-destination0{left:0;top:4%}.ds-destination1{right:0;top:27%}.ds-destination2{left:0;top:51%}.ds-destination3{right:0;top:75%}.ds-mapNote i{top:calc(100% + 13px);width:16px;height:16px;border-width:3px}.ds-mapNote i:before{height:15px;bottom:11px;left:3px}.ds-activeDestination i{width:22px;height:22px;left:47%}.ds-routeLines{display:none}.ds-mapLegend{left:0;bottom:-12px;font-size:9px}.ds-mapLegend>span:last-child{display:none}}.ds-atlasOffer h1{font-family:ImpeccableRubik,sans-serif;font-weight:600;font-size:clamp(54px,5.27vw,81px)}@media(max-width:750px){.ds-atlasOffer h1{font-size:54px}}@media(prefers-reduced-motion:reduce){.ds-page *{scroll-behavior:auto!important;transition:none!important}.ds-action:hover,.ds-mapNote:hover{translate:none}}"
+    },
+    {
+      "name": "Map legend",
+      "kind": "custom",
+      "description": "Static source-translated specimen; application state and icon glyphs are not reproduced.",
+      "html": "<div class=\"ds-page ds-atlas\"><div class=\"ds-atlasMap\"><div class=\"ds-mapLegend\"><span>Project: a slower morning</span><span>Follow your curiosity</span></div></div></div>",
+      "css": ".ds-page{--ink:#0b1945;--ground:#fff;--accent:#244ab8;color:var(--ink);background:var(--ground);font:16px/1.55 ImpeccableManrope,sans-serif}.ds-page h1,.ds-page h2,.ds-page h3,.ds-page p{margin:0}.ds-page h1{font-weight:800;line-height:1.05;letter-spacing:-.035em;text-wrap:balance}.ds-page h2{line-height:1.15;text-wrap:balance}.ds-page a{color:inherit;text-decoration:none;text-underline-offset:.25em}.ds-page button,.ds-page input{font:inherit}.ds-page button{cursor:pointer}.ds-page button:disabled{cursor:default;opacity:.5}.ds-page a:focus-visible,.ds-page button:focus-visible,.ds-page input:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.ds-page ::selection{background:var(--accent);color:var(--ground)}.ds-page input{caret-color:var(--accent)}.ds-header{min-height:92px;display:flex;align-items:center;justify-content:space-between;gap:32px;padding:20px 4%;position:relative;z-index:2}.ds-brand{display:flex;align-items:center;gap:12px;font-size:27px;font-weight:800;letter-spacing:-.02em}.ds-header nav{display:flex;gap:34px;font-size:14px}.ds-header nav a:hover{text-decoration:underline}.ds-action{display:inline-flex;align-items:center;justify-content:space-between;gap:24px;padding:18px 24px;border-radius:7px;background:var(--ink);color:var(--ground)!important;font-weight:700;font-size:16px;transition:translate .18s ease-out}.ds-action:hover{translate:0 -3px}.ds-outlineAction{border:1px solid currentColor;padding:12px 25px;border-radius:7px;font-weight:700;font-size:14px}.ds-demoLabel{font-size:12px;letter-spacing:.04em}.ds-search{display:flex;align-items:center;gap:9px}.ds-search input{min-width:0;width:100%;border:0;background:transparent;outline:none;padding:9px 0;color:inherit}.ds-empty{padding:40px 15px!important;font-size:15px!important}.ds-atlas{--ink:#0b1945;--accent:#ff8513}.ds-atlasSky{background:#184aba;color:#fff;background-image:url('./assets/atlas-plate.ds-png');background-size:cover;background-position:center top}.ds-atlas .ds-action{background:#fff;color:#101c4d!important}.ds-atlasHero{display:grid;grid-template-columns:39% 61%;padding:35px 4% 35px;min-height:630px;position:relative}.ds-atlasOffer{position:relative;z-index:1}.ds-atlasOffer h1{font-size:clamp(50px,5.1vw,76px);line-height:1.09}.ds-atlasOffer>p{font-size:21px;line-height:1.65;margin:30px 0}.ds-atlasMap{position:relative;min-height:570px}.ds-atlasMap>.ds-demoLabel{position:absolute;left:9%;top:0;color:#d2e4ff}.ds-routeLines{position:absolute;inset:0;width:100%;height:100%;fill:none;stroke:#fff;stroke-width:2.3}.ds-routeLines>path:first-child{stroke-dasharray:9 9}.ds-routeLines .ds-secondaryRoute{stroke-dasharray:none;stroke-width:2.5}.ds-mapNote{position:absolute;text-align:left;padding:13px 15px;background:#edf4ff;color:#101d47;border:0;border-radius:7px;width:185px;font-size:12px;line-height:1.5;transition:background .2s,translate .2s}.ds-mapNote:hover{translate:0 -4px}.ds-mapNote strong{display:block;font-size:13px;line-height:1.3}.ds-mapNote small{display:block;font-size:9px;color:#3a4c6d;margin:3px 0}.ds-mapNote span{display:block}.ds-mapNote i{position:absolute;left:50%;top:calc(100% + 27px);width:20px;height:20px;border:4px solid #fff;border-radius:50%;background:#184aba;box-shadow:0 0 0 2px #184aba}.ds-mapNote i:before{content:'';height:28px;width:1px;position:absolute;bottom:16px;left:4px;background:#fff}.ds-activeDestination{background:#ffedda}.ds-activeDestination i{background:#ff8513;width:29px;height:29px;left:calc(50% - 5px)}.ds-destination0{left:12%;top:8%}.ds-destination1{right:10%;top:19%}.ds-destination2{left:40%;top:45%}.ds-destination3{right:0;top:72%}.ds-mapLegend{position:absolute;bottom:2px;left:7%;display:flex;align-items:center;gap:13px;font-size:10px;color:#d9e8ff}.ds-mapLegend>span:last-child{margin-left:35px}@media(max-width:1050px){.ds-header nav{gap:20px}.ds-header .ds-action{display:none}.ds-atlasHero{grid-template-columns:42% 58%}.ds-atlasOffer h1{font-size:58px}.ds-atlasOffer>p{font-size:18px}.ds-mapNote{width:150px;font-size:10px}.ds-mapNote strong{font-size:11px}}@media(max-width:750px){.ds-header{padding:20px 22px;min-height:76px;gap:15px;flex-wrap:wrap}.ds-brand{font-size:24px}.ds-header nav{gap:18px;font-size:12px;order:3;width:100%;padding-top:10px}.ds-header .ds-outlineAction{font-size:10px;padding:10px 13px}.ds-action{padding:15px 21px}.ds-atlasHero{display:block;padding:28px 24px 25px;min-height:0}.ds-atlasOffer h1{font-size:54px;line-height:1.08}.ds-atlasOffer>p{font-size:17px;line-height:1.6;margin:24px 0}.ds-atlasMap{margin-top:45px;min-height:545px}.ds-atlasMap>.ds-demoLabel{left:0;font-size:10px;top:-20px}.ds-mapNote{width:146px;padding:12px;font-size:11px}.ds-mapNote strong{font-size:12px}.ds-destination0{left:0;top:4%}.ds-destination1{right:0;top:27%}.ds-destination2{left:0;top:51%}.ds-destination3{right:0;top:75%}.ds-mapNote i{top:calc(100% + 13px);width:16px;height:16px;border-width:3px}.ds-mapNote i:before{height:15px;bottom:11px;left:3px}.ds-activeDestination i{width:22px;height:22px;left:47%}.ds-routeLines{display:none}.ds-mapLegend{left:0;bottom:-12px;font-size:9px}.ds-mapLegend>span:last-child{display:none}}.ds-atlasOffer h1{font-family:ImpeccableRubik,sans-serif;font-weight:600;font-size:clamp(54px,5.27vw,81px)}@media(max-width:750px){.ds-atlasOffer h1{font-size:54px}}@media(prefers-reduced-motion:reduce){.ds-page *{scroll-behavior:auto!important;transition:none!important}.ds-action:hover,.ds-mapNote:hover{translate:none}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Route atlas",
+    "overview": "Cobalt terrain carries white routes and pale note windows. Orange marks the active destination; a separate white section carries the explanatory sequence. The contour ground is the authored atlas plate, while the selectable notes and route lines remain semantic UI.\n\nThis name describes the implemented world and direction contract; human descriptive-language confirmation remains pending.",
+    "keyCharacteristics": [
+      "Cobalt atlas ground",
+      "Pale rounded note windows",
+      "Orange destination state"
+    ],
+    "rules": [],
+    "dos": [
+      "Do keep the atlas plate, routes and semantic note windows as separate layers.",
+      "Do pair the active destination paper with its enlarged orange marker."
+    ],
+    "donts": [
+      "Don't treat the demonstration notes as customer evidence."
+    ]
+  }
+}

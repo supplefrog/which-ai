@@ -1,0 +1,47 @@
+[
+  {
+    "date": "2026-10-02",
+    "macrostructure": "Index-First",
+    "theme": "Newsprint",
+    "enrichment": "none",
+    "nav": "N12",
+    "footer": "Ft7",
+    "brief": "Second brain note-taking landing page iteration five"
+  },
+  {
+    "date": "2026-10-02",
+    "macrostructure": "Conversational FAQ",
+    "theme": "Almanac",
+    "enrichment": "none",
+    "nav": "N3",
+    "footer": "Ft4",
+    "brief": "Second brain note-taking landing page iteration four"
+  },
+  {
+    "date": "2026-10-02",
+    "macrostructure": "Long Document",
+    "theme": "Atelier",
+    "enrichment": "none",
+    "nav": "N1a",
+    "footer": "Ft6",
+    "brief": "Second brain note-taking landing page iteration three"
+  },
+  {
+    "date": "2026-10-02",
+    "macrostructure": "Manifesto",
+    "theme": "Manifesto",
+    "enrichment": "none",
+    "nav": "N9",
+    "footer": "Ft2",
+    "brief": "Second brain note-taking landing page iteration two"
+  },
+  {
+    "date": "2026-10-02",
+    "macrostructure": "Workbench",
+    "theme": "Garden",
+    "enrichment": "interactive live note demo, no fake chrome",
+    "nav": "N6",
+    "footer": "Ft1",
+    "brief": "Second brain note-taking landing page iteration one"
+  }
+]

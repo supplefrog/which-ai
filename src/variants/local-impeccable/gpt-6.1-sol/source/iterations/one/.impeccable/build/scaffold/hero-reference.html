@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Scaffold reference: comp-1.png</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap">
+  <link rel="stylesheet" href="layout.css">
+  <style>html,body{margin:0}body{background:#184aba}.region{box-sizing:border-box}.region.text p{white-space:pre-wrap}</style>
+</head>
+<body>
+<!-- Reference only. Every region sits at its measured box inside a comp-aspect frame. Take the boxes (layout.css), keep your own semantic structure. -->
+<main class="comp-frame" style="max-width:1536px">
+  <div class="r-headline region text" data-region="headline"><!-- Primary offer heading --><p style="font-size:var(--r-headline-font);font-family:var(--r-headline-family),sans-serif;font-weight:var(--r-headline-weight);line-height:1.05;margin:0">headline</p></div>
+  <div class="r-offer-copy region text" data-region="offer-copy"><!-- Product description paragraph --><p style="font-size:var(--r-offer-copy-font);line-height:1.05;margin:0">offer-copy</p></div>
+  <div class="r-primary-action region control" data-region="primary-action"><!-- Primary button and arrow: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop primary-action); a control need not have button chrome --></div>
+  <div class="r-wordmark region text" data-region="wordmark"><!-- Product wordmark --><p style="font-size:var(--r-wordmark-font);line-height:1.05;margin:0">wordmark</p></div>
+  <div class="r-nav-capture region control" data-region="nav-capture"><!-- Top navigation link capture: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop nav-capture); a control need not have button chrome --></div>
+  <div class="r-nav-connect region control" data-region="nav-connect"><!-- Top navigation link connect: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop nav-connect); a control need not have button chrome --></div>
+  <div class="r-nav-find region control" data-region="nav-find"><!-- Top navigation link find: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop nav-find); a control need not have button chrome --></div>
+  <figure class="r-atlas-ground region plate" data-region="atlas-ground"><img src="../../../../../assets/atlas-plate.png" alt="" style="width:100%;height:100%;object-fit:contain;object-position:top left"></figure>
+  <div class="r-note-0 region control" data-region="note-0"><!-- Selectable note excerpt destination with its title and full text: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop note-0); a control need not have button chrome --></div>
+  <div class="r-note-1 region control" data-region="note-1"><!-- Selectable note excerpt destination with its title and full text: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop note-1); a control need not have button chrome --></div>
+  <div class="r-note-2 region control" data-region="note-2"><!-- Selectable note excerpt destination with its title and full text: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop note-2); a control need not have button chrome --></div>
+  <div class="r-note-3 region control" data-region="note-3"><!-- Selectable note excerpt destination with its title and full text: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop note-3); a control need not have button chrome --></div>
+  <div class="r-routes region chrome" data-region="routes"><!-- Four semantic destination routes and active markers --></div>
+  <div class="r-offer-layout region chrome" data-region="offer-layout"><!-- Offer grouping with headline, body, action, and closing copy; child regions retain separate IDs --></div>
+  <div class="r-navigation-layout region chrome" data-region="navigation-layout"><!-- Top navigation layout and product wordmark; named controls retain separate regions --></div>
+  <div class="r-continuation-layout region chrome" data-region="continuation-layout"><!-- Visible continuation section including literal step headings and copy --></div>
+</main>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "command": "evidence/runtime/impeccable.exe concept-seed --scope direction --mode persuade",
+  "cwd": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\outputs\\which-ai\\src\\variants\\local-impeccable\\gpt-6.1-sol\\source",
+  "exitCode": 0,
+  "environment": {
+    "IMPECCABLE_SKILL_DIR": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\outputs\\which-ai\\src\\variants\\local-impeccable\\gpt-6.1-sol\\source\\evidence",
+    "IMPECCABLE_NO_UPDATE_CHECK": "1",
+    "IMPECCABLE_NO_TELEMETRY": "1",
+    "DO_NOT_TRACK": "1"
+  }
+}

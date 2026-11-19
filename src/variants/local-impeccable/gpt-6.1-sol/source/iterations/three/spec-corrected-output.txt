@@ -1,0 +1,40 @@
+WROTE .impeccable/build/spec.json
+SPEC comp .impeccable/mocks/comp-1.png 1536x1024 landscape
+PALETTE #f8f8f8(75%) #f895a9(8%) #87e8f8(8%) #f8e769(7%) #f51746(3%)
+BANDS 5% 16% 20% 28% 36% 40% 46% 51% 55% 58% 64% 82% 85% 87% 92% 94%
+REGION headline           text     semantic box x3% y19% w36% h14% (555x147px, 3.7755:1) palette #f8f8f8 #099bd9 #5f29d8  # Primary offer heading
+REGION offer-copy         text     semantic box x4% y39% w35% h7% (535x74px, 7.2297:1) palette #f8f8f8 #1f2141 #1e2a3a  # Product description paragraph
+REGION primary-action     control  semantic box x3% y50% w23% h8% (346x78px, 4.4359:1) palette #f71747 #f8f7f7 #f8d8e3  # Primary button and arrow
+REGION wordmark           text     semantic box x3% y2% w17% h5% (263x50px, 5.26:1) palette #f8f8f8 #099cdd #f11848  # Product wordmark
+REGION nav-capture        control  semantic box x25% y3% w7% h3% (110x35px, 3.1429:1) palette #f8f8f8 #b3b3b8 #86888f  # Top navigation link capture
+REGION nav-connect        control  semantic box x33% y3% w7% h3% (110x35px, 3.1429:1) palette #f8f8f8 #95989f #2b3343  # Top navigation link connect
+REGION nav-find           control  semantic box x40% y3% w7% h3% (110x35px, 3.1429:1) palette #f8f8f8 #bec0c9 #82888e  # Top navigation link find
+REGION pass-0             chrome   semantic box x41% y17% w19% h47% (289x478px, 0.6046:1) palette #87e8f8 #a8d871 #70d888  # Translucent flat color note pass
+REGION pass-title-0       text     semantic box x43% y19% w15% h3% (236x35px, 6.7429:1) palette #88e8f8 #0992d1 #34b7e4  # Capture/context/connection heading
+REGION pass-copy-0        text     semantic box x43% y26% w15% h28% (237x288px, 0.8229:1) palette #89e9f8 #72d888 #080c0f  # Literal note heading and complete excerpt
+REGION pass-1             chrome   semantic box x58% y17% w20% h47% (302x478px, 0.6318:1) palette #f8e769 #f78726 #a6d872  # Translucent flat color note pass
+REGION pass-title-1       text     semantic box x60% y19% w15% h3% (236x35px, 6.7429:1) palette #f8e769 #ec690a #f8c04c  # Capture/context/connection heading
+REGION pass-copy-1        text     semantic box x60% y26% w15% h28% (237x288px, 0.8229:1) palette #f8e76a #0a0a0a #a8d876  # Literal note heading and complete excerpt
+REGION pass-2             chrome   semantic box x76% y17% w20% h47% (314x478px, 0.6569:1) palette #f895a9 #f88928 #f86a3f  # Translucent flat color note pass
+REGION pass-title-2       text     semantic box x78% y19% w15% h3% (236x35px, 6.7429:1) palette #f896a8 #f00d37 #f87348  # Capture/context/connection heading
+REGION pass-copy-2        text     semantic box x78% y26% w15% h28% (237x288px, 0.8229:1) palette #f896aa #f86840 #0c090e  # Literal note heading and complete excerpt
+REGION registration       chrome   semantic box x50% y9% w38% h65% (579x666px, 0.8694:1) palette #f8f8f8 #f8e769 #87e8f8  # Countable geometric registration marks and pass connection lines
+REGION offer-layout       chrome   semantic box x3% y19% w37% h39% (562x402px, 1.398:1) palette #f8f8f8 #f51746 #089bda  # Offer grouping with headline, body, action, and closing copy; child regions retain separate IDs
+REGION navigation-layout  chrome   semantic box x0% y0% w100% h9% (1536x95px, 16.1684:1) palette #f8f8f8 #089cdc #5a2ad6  # Top navigation layout and product wordmark; named controls retain separate regions
+REGION continuation-layout chrome   semantic box x0% y77% w100% h23% (1536x238px, 6.4538:1) palette #f8f8f8 #5d27d3 #141625  # Visible continuation section including literal step headings and copy
+PLATES 0 to produce: none
+WARN region pass-0: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region pass-0: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region pass-1: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region pass-1: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region pass-2: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region pass-2: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region registration: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region registration: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region offer-layout: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region offer-layout: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region navigation-layout: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region navigation-layout: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+WARN region continuation-layout: "codeDrawn": true set in the regions file (the painted-material refusal is overridden: code draws this region)
+WARN region continuation-layout: "container": true set in the regions file (the region-size refusal is overridden: one undivided element)
+RULE anything not in this list does not exist on the page: no borders, rules, chrome, or containers the comp does not show. Every raster region ships as its plate, never as CSS.

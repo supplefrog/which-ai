@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Scaffold reference: comp-2.png</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton:wght@400&display=swap">
+  <link rel="stylesheet" href="layout.css">
+  <style>html,body{margin:0}body{background:#f7f8f7}.region{box-sizing:border-box}.region.text p{white-space:pre-wrap}</style>
+</head>
+<body>
+<!-- Reference only. Every region sits at its measured box inside a comp-aspect frame. Take the boxes (layout.css), keep your own semantic structure. -->
+<main class="comp-frame" style="max-width:1536px">
+  <div class="r-headline region text" data-region="headline"><!-- Primary offer heading --><p style="font-size:var(--r-headline-font);font-family:var(--r-headline-family),sans-serif;font-weight:var(--r-headline-weight);line-height:1.05;margin:0">headline</p></div>
+  <div class="r-offer-copy region text" data-region="offer-copy"><!-- Product description paragraph --><p style="font-size:var(--r-offer-copy-font);line-height:1.05;margin:0">offer-copy</p></div>
+  <div class="r-primary-action region control" data-region="primary-action"><!-- Primary button and arrow: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop primary-action); a control need not have button chrome --></div>
+  <div class="r-wordmark region text" data-region="wordmark"><!-- Product wordmark --><p style="font-size:var(--r-wordmark-font);line-height:1.05;margin:0">wordmark</p></div>
+  <div class="r-nav-capture region control" data-region="nav-capture"><!-- Top navigation link capture: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop nav-capture); a control need not have button chrome --></div>
+  <div class="r-nav-connect region control" data-region="nav-connect"><!-- Top navigation link connect: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop nav-connect); a control need not have button chrome --></div>
+  <div class="r-nav-find region control" data-region="nav-find"><!-- Top navigation link find: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop nav-find); a control need not have button chrome --></div>
+  <div class="r-ledger-ground region chrome" data-region="ledger-ground"><!-- White observation ledger surface --></div>
+  <div class="r-ledger-column-0 region chrome" data-region="ledger-column-0"><!-- Observation ledger column --></div>
+  <div class="r-ledger-column-1 region chrome" data-region="ledger-column-1"><!-- Observation ledger column --></div>
+  <div class="r-ledger-column-2 region chrome" data-region="ledger-column-2"><!-- Observation ledger column --></div>
+  <div class="r-observation-0 region control" data-region="observation-0"><!-- Observation title, excerpt, and descriptive note metadata: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop observation-0); a control need not have button chrome --></div>
+  <div class="r-observation-1 region control" data-region="observation-1"><!-- Observation title, excerpt, and descriptive note metadata: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop observation-1); a control need not have button chrome --></div>
+  <div class="r-observation-2 region control" data-region="observation-2"><!-- Observation title, excerpt, and descriptive note metadata: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop observation-2); a control need not have button chrome --></div>
+  <div class="r-observation-copy-0 region text" data-region="observation-copy-0"><!-- Observation excerpt and context paragraph --><p style="font-size:var(--r-observation-copy-0-font);line-height:1.05;margin:0">observation-copy-0</p></div>
+  <div class="r-observation-copy-1 region text" data-region="observation-copy-1"><!-- Observation excerpt and context paragraph --><p style="font-size:var(--r-observation-copy-1-font);line-height:1.05;margin:0">observation-copy-1</p></div>
+  <div class="r-observation-copy-2 region text" data-region="observation-copy-2"><!-- Observation excerpt and context paragraph --><p style="font-size:var(--r-observation-copy-2-font);line-height:1.05;margin:0">observation-copy-2</p></div>
+  <div class="r-index-0 region control" data-region="index-0"><!-- Ledger index All Notes: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop index-0); a control need not have button chrome --></div>
+  <div class="r-index-1 region control" data-region="index-1"><!-- Ledger index Reading: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop index-1); a control need not have button chrome --></div>
+  <div class="r-index-2 region control" data-region="index-2"><!-- Ledger index Personal: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop index-2); a control need not have button chrome --></div>
+  <div class="r-index-3 region control" data-region="index-3"><!-- Ledger index Projects: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop index-3); a control need not have button chrome --></div>
+  <div class="r-index-4 region control" data-region="index-4"><!-- Ledger index Tags: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop index-4); a control need not have button chrome --></div>
+  <div class="r-index-5 region control" data-region="index-5"><!-- Ledger index Map: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop index-5); a control need not have button chrome --></div>
+  <div class="r-index-6 region control" data-region="index-6"><!-- Ledger index Archive: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop index-6); a control need not have button chrome --></div>
+  <div class="r-connections region chrome" data-region="connections"><!-- Countable semantic note connection geometry and text labels --></div>
+  <div class="r-offer-layout region chrome" data-region="offer-layout"><!-- Offer grouping with headline, body, action, and closing copy; child regions retain separate IDs --></div>
+  <div class="r-navigation-layout region chrome" data-region="navigation-layout"><!-- Top navigation layout and product wordmark; named controls retain separate regions --></div>
+  <div class="r-continuation-layout region chrome" data-region="continuation-layout"><!-- Visible continuation section including literal step headings and copy --></div>
+  <div class="r-offer-band region chrome" data-region="offer-band"><!-- Whole offer-band layout; distinct heading, description and action retain their child regions --></div>
+</main>
+</body>
+</html>

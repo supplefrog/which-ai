@@ -1,0 +1,2 @@
+GATE SPEC FAILED (state unchanged)
+  - measure the other text regions too, each sets its own font-size and weight class: impeccable font-match --measure <id> for cell-copy-0, cell-copy-1, cell-copy-2, cell-copy-3, cell-copy-4, cell-copy-5, cell-copy-6, cell-copy-7, cell-copy-8, cell-copy-9, cell-copy-10, cell-copy-11, offer-copy, wordmark

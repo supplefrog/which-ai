@@ -1,0 +1,13 @@
+{
+  "command": "evidence/runtime/impeccable.exe context --target ./Designs.tsx",
+  "cwd": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\outputs\\which-ai\\src\\variants\\local-impeccable\\gpt-6.1-sol\\source",
+  "exitCode": 0,
+  "environment": {
+    "IMPECCABLE_SKILL_DIR": "C:\\Users\\E\\Documents\\Codex\\2026-10-02\\wh\\outputs\\which-ai\\src\\variants\\local-impeccable\\gpt-6.1-sol\\source\\evidence",
+    "IMPECCABLE_NO_UPDATE_CHECK": "1",
+    "IMPECCABLE_NO_TELEMETRY": "1",
+    "DO_NOT_TRACK": "1"
+  },
+  "binarySha256": "9F7E10589FF001D50BC6C3573D525E8B176F1EC051F6BCD1C6B13822D8BFC777",
+  "excludedPriorReceipt": "evidence/context-output.txt: contaminated by gallery context; not read in this session"
+}

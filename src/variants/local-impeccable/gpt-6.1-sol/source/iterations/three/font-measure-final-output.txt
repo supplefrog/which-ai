@@ -1,0 +1,1 @@
+MEASURE headline: capHeight 75.7px, width compressed (advTall 0.436), weight black (densTall 0.6973), tracking 0.0661, all caps over 1 line, 13 glyphs. Set this region's font-size so its cap height renders at 75.7px; choose a compressed black face.

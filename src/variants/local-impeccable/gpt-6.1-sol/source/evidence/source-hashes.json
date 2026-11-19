@@ -1,0 +1,142 @@
+[
+  {
+    "path": "Cargo.toml",
+    "sha256": "d864d0ad72e15e789fe3eceba38de95113a374c1b6de10757a5ae6a73e5a93c6",
+    "bytes": 1192
+  },
+  {
+    "path": "context-output.txt",
+    "sha256": "ea56f6ff506c39622feac6a99db4488dd38016e668e59733ed6fc06c7bde4ff7",
+    "bytes": 32535
+  },
+  {
+    "path": "crates-cli-src-main.rs",
+    "sha256": "b7bfede9628fb5a225b11802a31c3109825d038f7078c2fd1022915dd21f5cb6",
+    "bytes": 7089
+  },
+  {
+    "path": "crates-context-src-catalog.rs",
+    "sha256": "6fedc9191b58b13b4a91d2123bcc9c3693495140acea8bc5a17ce41d02d913c5",
+    "bytes": 24871
+  },
+  {
+    "path": "crates-context-src-concept_seed.rs",
+    "sha256": "17910dd66bae4d269af629b29eae5722e43167149f41631bea53e0a690ef7f31",
+    "bytes": 23712
+  },
+  {
+    "path": "crates-context-src-context_cli.rs",
+    "sha256": "9c5a996e6128105b1f132e0aa47ea517117694363f7be6017148ecf3e95e01f8",
+    "bytes": 35323
+  },
+  {
+    "path": "crates-context-src-context.rs",
+    "sha256": "941b3ef46aabd0fbf0367b3c34605a928ffebedc593e48e5840f4214b86a5297",
+    "bytes": 45265
+  },
+  {
+    "path": "crates-context-src-lib.rs",
+    "sha256": "fb7c627346cdd63ca2236fc0d18940ec5f639c2b14c410ea16cb27e788573466",
+    "bytes": 1430
+  },
+  {
+    "path": "crates-context-src-roll_selection.rs",
+    "sha256": "b73f8934c3b76fef02b8fd29ed494e61f5d40fd0038777d33d0d5d195823027d",
+    "bytes": 11989
+  },
+  {
+    "path": "crates-context-src-signals.rs",
+    "sha256": "49599da1ab9ec3d3652918ddd660b39c577827430cd3adc07147d012dcd2b39c",
+    "bytes": 14577
+  },
+  {
+    "path": "crates-context-src-staleness_notice.rs",
+    "sha256": "01427e2e1551f8dd111926532a29b5fba54714978d1fc2c85d1d9ff25c1cd09f",
+    "bytes": 6093
+  },
+  {
+    "path": "crates-core-src-lib.rs",
+    "sha256": "c7577b6b90d17e3bed618908a9f2fbe2e16eaf9ab8b6d4384525182b3a2ff1d4",
+    "bytes": 1110
+  },
+  {
+    "path": "docs-ENGINE.md",
+    "sha256": "15fad856bed0cb9ebaeafb56b0b6d38fe9aa24773ce98fb9fd5f66358a275666",
+    "bytes": 13432
+  },
+  {
+    "path": "LICENSE",
+    "sha256": "02bb8c3b4e70190e3986c0404ad2fd8d639b4f534252d82379cc1b502b6d1812",
+    "bytes": 10766
+  },
+  {
+    "path": "README.md",
+    "sha256": "4dfa2740321ca339244080e37f44721ea5d9cd3e15513d13cb1ac57beff7e29f",
+    "bytes": 26991
+  },
+  {
+    "path": "SKILL.md",
+    "sha256": "6eeec6ef2028388a17de9f17a56c9cb7dbc7c8e7e1a8c15b831b0ba3e42168ac",
+    "bytes": 11868
+  },
+  {
+    "path": "reference/component-review.md",
+    "sha256": "37edf9fbedb2bc609341e009b14588f46022fd7aace9399b5cb8f1c8325f81fe",
+    "bytes": 8514
+  },
+  {
+    "path": "reference/craft-floor.md",
+    "sha256": "e802e4f7bdc89050a9c0f2ca506e1d493a2316e6e810c0336c57aa073717ef3e",
+    "bytes": 5500
+  },
+  {
+    "path": "reference/document.md",
+    "sha256": "3673248740bcdd1122ccc610093ba2fe52f3943a61ce0b7170b74dc49e5b6098",
+    "bytes": 27521
+  },
+  {
+    "path": "reference/init.md",
+    "sha256": "bb069b43c09109d7031b0374e31955749fec657b252d39782f11e8985aca2b51",
+    "bytes": 11536
+  },
+  {
+    "path": "reference/new-work.md",
+    "sha256": "af95e45318c9235de676cf1075840518cdd3a924b8bde952b5161d72caf3b290",
+    "bytes": 54671
+  },
+  {
+    "path": "reference/region-map.md",
+    "sha256": "980fa8280907591eeb0b382c4edd2653405e548d66c5b670e5581ee521db8111",
+    "bytes": 2660
+  },
+  {
+    "path": "reference/visualize.md",
+    "sha256": "896da399bafcffb0623bdd81bb18709d6eab25c9d5917e739c8798f31ff0d076",
+    "bytes": 11757
+  },
+  {
+    "path": "runtime/impeccable.exe",
+    "sha256": "9f7e10589ff001d50bc6c3573d525e8b176f1ec051f6bcd1c6b13822d8bfc777",
+    "bytes": 16729488
+  },
+  {
+    "path": "runtime/impeccable.exe.sha256",
+    "sha256": "d225e463a07d5e750ef4d0ee6c13dfb923eaa746dcfd31bd0bc456ceb5da5d96",
+    "bytes": 93
+  },
+  {
+    "path": "scripts/impeccable",
+    "sha256": "39d9600489073e227e4f4d55c451ce4252a6632ed7ae37923efbbcbc91f16d07",
+    "bytes": 8514
+  },
+  {
+    "path": "scripts/impeccable.cmd",
+    "sha256": "759bab1d8adc071fdde2efcf6e2157aa4026f3c2b4f3c342a8070bf328011616",
+    "bytes": 8472
+  },
+  {
+    "path": "scripts/VERSION",
+    "sha256": "1f2110568627307becae713f8b808f3d9d912d4b2a24ed6a78605f03f7437d3c",
+    "bytes": 6
+  }
+]

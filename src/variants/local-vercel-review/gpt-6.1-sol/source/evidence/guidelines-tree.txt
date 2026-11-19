@@ -1,0 +1,5 @@
+AGENTS.md
+LICENSE
+README.md
+command.md
+install.sh

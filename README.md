@@ -49,3 +49,7 @@ Running fresh model generations is the main cost behind WhichAI.dev. If the gall
 [Greptile's Open Source Program](https://www.greptile.com/open-source) provides AI code review for the project.
 
 **[OpenAI - Codex for Open Source](https://openai.com/form/codex-for-oss/)** provides tooling and credits that support open-source maintenance and benchmark development.
+
+## Additional Sol 6.1 comparisons
+
+Open `/local/compare` for the fork's eight additional GPT-6.1 Sol runs, with five designs per run at medium reasoning. The upstream gallery has its own baseline, Anthropic frontend-design, and Taste Skill v2 runs at extra-high reasoning.

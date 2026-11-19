@@ -1,0 +1,1320 @@
+{
+  "tool": "comp-spec",
+  "version": 1,
+  "createdAt": "2026-10-02T08:44:31.358Z",
+  "comp": ".impeccable/mocks/comp-1.png",
+  "warnings": [
+    "region pass-0: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region pass-0: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)",
+    "region pass-1: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region pass-1: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)",
+    "region pass-2: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region pass-2: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)",
+    "region registration: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region registration: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)",
+    "region offer-layout: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region offer-layout: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)",
+    "region navigation-layout: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region navigation-layout: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)",
+    "region continuation-layout: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region continuation-layout: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)"
+  ],
+  "uncoveredInkCells": [
+    "E1",
+    "G7"
+  ],
+  "compSize": {
+    "width": 1536,
+    "height": 1024
+  },
+  "aspect": 1.5,
+  "orientation": "landscape",
+  "palette": [
+    {
+      "hex": "#f8f8f8",
+      "coverage": 0.7493
+    },
+    {
+      "hex": "#f895a9",
+      "coverage": 0.0782
+    },
+    {
+      "hex": "#87e8f8",
+      "coverage": 0.0763
+    },
+    {
+      "hex": "#f8e769",
+      "coverage": 0.0701
+    },
+    {
+      "hex": "#f51746",
+      "coverage": 0.0261
+    }
+  ],
+  "bands": [
+    {
+      "y": 0.0471,
+      "strength": 0.2691
+    },
+    {
+      "y": 0.1647,
+      "strength": 0.2873
+    },
+    {
+      "y": 0.2,
+      "strength": 0.452
+    },
+    {
+      "y": 0.2824,
+      "strength": 0.2904
+    },
+    {
+      "y": 0.3647,
+      "strength": 0.3551
+    },
+    {
+      "y": 0.4,
+      "strength": 0.4824
+    },
+    {
+      "y": 0.4588,
+      "strength": 0.3332
+    },
+    {
+      "y": 0.5059,
+      "strength": 0.3767
+    },
+    {
+      "y": 0.5529,
+      "strength": 0.2249
+    },
+    {
+      "y": 0.5765,
+      "strength": 0.5363
+    },
+    {
+      "y": 0.6353,
+      "strength": 0.4383
+    },
+    {
+      "y": 0.8235,
+      "strength": 0.2477
+    },
+    {
+      "y": 0.8471,
+      "strength": 0.2931
+    },
+    {
+      "y": 0.8706,
+      "strength": 0.3325
+    },
+    {
+      "y": 0.9176,
+      "strength": 0.3603
+    },
+    {
+      "y": 0.9412,
+      "strength": 0.2579
+    }
+  ],
+  "regions": [
+    {
+      "id": "headline",
+      "kind": "text",
+      "note": "Primary offer heading",
+      "grid": null,
+      "snap": false,
+      "box": {
+        "x": 0.0326,
+        "y": 0.1895,
+        "w": 0.3613,
+        "h": 0.1436
+      },
+      "px": {
+        "x": 50,
+        "y": 194,
+        "w": 555,
+        "h": 147
+      },
+      "aspect": 3.7755,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.4991
+        },
+        {
+          "hex": "#099bd9",
+          "coverage": 0.2992
+        },
+        {
+          "hex": "#5f29d8",
+          "coverage": 0.1117
+        },
+        {
+          "hex": "#ef1846",
+          "coverage": 0.0648
+        },
+        {
+          "hex": "#f8b708",
+          "coverage": 0.0253
+        }
+      ],
+      "detail": {
+        "energy": 50.3809
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 13,
+          "capHeightPx": 75.7,
+          "inkIsDark": true,
+          "allCaps": true,
+          "advance": 0.436,
+          "advTall": 0.436,
+          "advX": null,
+          "gap": 0.0661,
+          "xRatio": null,
+          "stemW": 0.1554,
+          "contrast": 0.9867,
+          "serif": 0.9894,
+          "densTall": 0.6973,
+          "densX": null,
+          "weight": 0.6973
+        },
+        "widthClass": "compressed",
+        "weightClass": "black",
+        "chosen": {
+          "family": "League Gothic",
+          "weight": 400,
+          "fontSizePx": 104,
+          "source": "shortlist",
+          "fp": {
+            "lines": 1,
+            "glyphs": 12,
+            "capHeightPx": 75.8,
+            "inkIsDark": true,
+            "allCaps": true,
+            "advance": 0.3956,
+            "advTall": 0.3956,
+            "advX": null,
+            "gap": 0.1187,
+            "xRatio": null,
+            "stemW": 0.1466,
+            "contrast": 0.9637,
+            "serif": 1.2492,
+            "densTall": 0.7413,
+            "densX": null,
+            "weight": 0.7413
+          },
+          "stamp": "d74abce67181"
+        }
+      }
+    },
+    {
+      "id": "offer-copy",
+      "kind": "text",
+      "note": "Product description paragraph",
+      "grid": null,
+      "snap": false,
+      "box": {
+        "x": 0.0352,
+        "y": 0.3906,
+        "w": 0.3483,
+        "h": 0.0723
+      },
+      "px": {
+        "x": 54,
+        "y": 400,
+        "w": 535,
+        "h": 74
+      },
+      "aspect": 7.2297,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.8163
+        },
+        {
+          "hex": "#1f2141",
+          "coverage": 0.0656
+        },
+        {
+          "hex": "#1e2a3a",
+          "coverage": 0.0569
+        },
+        {
+          "hex": "#595c6d",
+          "coverage": 0.0343
+        },
+        {
+          "hex": "#9da0ad",
+          "coverage": 0.0269
+        }
+      ],
+      "detail": {
+        "energy": 90.8921
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 2,
+          "glyphs": 45,
+          "capHeightPx": 25.5,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.556,
+          "advTall": 0.4766,
+          "advX": 0.556,
+          "gap": 0.1159,
+          "xRatio": 0.7114,
+          "stemW": 0.1399,
+          "contrast": 1.1272,
+          "serif": null,
+          "densTall": 0.4651,
+          "densX": 0.5307,
+          "weight": 0.4651
+        },
+        "widthClass": "condensed",
+        "weightClass": "regular"
+      }
+    },
+    {
+      "id": "primary-action",
+      "kind": "control",
+      "note": "Primary button and arrow",
+      "grid": null,
+      "snap": false,
+      "box": {
+        "x": 0.0332,
+        "y": 0.499,
+        "w": 0.2253,
+        "h": 0.0762
+      },
+      "px": {
+        "x": 51,
+        "y": 511,
+        "w": 346,
+        "h": 78
+      },
+      "aspect": 4.4359,
+      "palette": [
+        {
+          "hex": "#f71747",
+          "coverage": 0.8646
+        },
+        {
+          "hex": "#f8f7f7",
+          "coverage": 0.0969
+        },
+        {
+          "hex": "#f8d8e3",
+          "coverage": 0.0141
+        },
+        {
+          "hex": "#f03f63",
+          "coverage": 0.0131
+        },
+        {
+          "hex": "#f8aaba",
+          "coverage": 0.0114
+        }
+      ],
+      "detail": {
+        "energy": 33.2847
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "wordmark",
+      "kind": "text",
+      "note": "Product wordmark",
+      "grid": null,
+      "snap": false,
+      "box": {
+        "x": 0.0319,
+        "y": 0.0156,
+        "w": 0.1712,
+        "h": 0.0488
+      },
+      "px": {
+        "x": 49,
+        "y": 16,
+        "w": 263,
+        "h": 50
+      },
+      "aspect": 5.26,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.5527
+        },
+        {
+          "hex": "#099cdd",
+          "coverage": 0.1603
+        },
+        {
+          "hex": "#f11848",
+          "coverage": 0.1214
+        },
+        {
+          "hex": "#5a29d6",
+          "coverage": 0.1053
+        },
+        {
+          "hex": "#f8bc0a",
+          "coverage": 0.0603
+        }
+      ],
+      "detail": {
+        "energy": 43.5083
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 9,
+          "capHeightPx": 42.1,
+          "inkIsDark": true,
+          "allCaps": true,
+          "advance": 0.5222,
+          "advTall": 0.5222,
+          "advX": null,
+          "gap": 0.1424,
+          "xRatio": null,
+          "stemW": 0.223,
+          "contrast": 1.2349,
+          "serif": 0.9418,
+          "densTall": 0.7154,
+          "densX": null,
+          "weight": 0.7154
+        },
+        "widthClass": "condensed",
+        "weightClass": "black"
+      }
+    },
+    {
+      "id": "nav-capture",
+      "kind": "control",
+      "note": "Top navigation link capture",
+      "grid": null,
+      "snap": false,
+      "box": {
+        "x": 0.2474,
+        "y": 0.0273,
+        "w": 0.0716,
+        "h": 0.0342
+      },
+      "px": {
+        "x": 380,
+        "y": 28,
+        "w": 110,
+        "h": 35
+      },
+      "aspect": 3.1429,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.9048
+        },
+        {
+          "hex": "#b3b3b8",
+          "coverage": 0.0476
+        },
+        {
+          "hex": "#86888f",
+          "coverage": 0.0204
+        },
+        {
+          "hex": "#202335",
+          "coverage": 0.0136
+        },
+        {
+          "hex": "#404555",
+          "coverage": 0.0136
+        }
+      ],
+      "detail": {
+        "energy": 19.0138
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "nav-connect",
+      "kind": "control",
+      "note": "Top navigation link connect",
+      "grid": null,
+      "snap": false,
+      "box": {
+        "x": 0.3255,
+        "y": 0.0273,
+        "w": 0.0716,
+        "h": 0.0342
+      },
+      "px": {
+        "x": 500,
+        "y": 28,
+        "w": 110,
+        "h": 35
+      },
+      "aspect": 3.1429,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.9016
+        },
+        {
+          "hex": "#95989f",
+          "coverage": 0.0343
+        },
+        {
+          "hex": "#2b3343",
+          "coverage": 0.0275
+        },
+        {
+          "hex": "#bec0c3",
+          "coverage": 0.0229
+        },
+        {
+          "hex": "#101323",
+          "coverage": 0.0137
+        }
+      ],
+      "detail": {
+        "energy": 18.6382
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "nav-find",
+      "kind": "control",
+      "note": "Top navigation link find",
+      "grid": null,
+      "snap": false,
+      "box": {
+        "x": 0.4036,
+        "y": 0.0273,
+        "w": 0.0716,
+        "h": 0.0342
+      },
+      "px": {
+        "x": 620,
+        "y": 28,
+        "w": 110,
+        "h": 35
+      },
+      "aspect": 3.1429,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.9459
+        },
+        {
+          "hex": "#bec0c9",
+          "coverage": 0.0383
+        },
+        {
+          "hex": "#82888e",
+          "coverage": 0.0113
+        },
+        {
+          "hex": "#585868",
+          "coverage": 0.0045
+        }
+      ],
+      "detail": {
+        "energy": 14.1203
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "pass-0",
+      "kind": "chrome",
+      "note": "Translucent flat color note pass",
+      "grid": null,
+      "codeDrawn": true,
+      "container": true,
+      "snap": false,
+      "box": {
+        "x": 0.4147,
+        "y": 0.168,
+        "w": 0.1882,
+        "h": 0.4668
+      },
+      "px": {
+        "x": 637,
+        "y": 172,
+        "w": 289,
+        "h": 478
+      },
+      "aspect": 0.6046,
+      "palette": [
+        {
+          "hex": "#87e8f8",
+          "coverage": 0.8267
+        },
+        {
+          "hex": "#a8d871",
+          "coverage": 0.0765
+        },
+        {
+          "hex": "#70d888",
+          "coverage": 0.0639
+        },
+        {
+          "hex": "#080c0f",
+          "coverage": 0.0183
+        },
+        {
+          "hex": "#f7f8f8",
+          "coverage": 0.0145
+        }
+      ],
+      "detail": {
+        "energy": 24.4551
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "pass-title-0",
+      "kind": "text",
+      "note": "Capture/context/connection heading",
+      "grid": null,
+      "snap": false,
+      "box": {
+        "x": 0.431,
+        "y": 0.1934,
+        "w": 0.1536,
+        "h": 0.0342
+      },
+      "px": {
+        "x": 662,
+        "y": 198,
+        "w": 236,
+        "h": 35
+      },
+      "aspect": 6.7429,
+      "palette": [
+        {
+          "hex": "#88e8f8",
+          "coverage": 0.7542
+        },
+        {
+          "hex": "#0992d1",
+          "coverage": 0.1319
+        },
+        {
+          "hex": "#34b7e4",
+          "coverage": 0.0633
+        },
+        {
+          "hex": "#72d888",
+          "coverage": 0.038
+        },
+        {
+          "hex": "#78d8ad",
+          "coverage": 0.0127
+        }
+      ],
+      "detail": {
+        "energy": 15.9802
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 10,
+          "capHeightPx": 22.8,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5045,
+          "advTall": 0.5045,
+          "advX": null,
+          "gap": 0.1535,
+          "xRatio": 0.4474,
+          "stemW": 0.2053,
+          "contrast": 1.0835,
+          "serif": 1.0356,
+          "densTall": 0.7371,
+          "densX": null,
+          "weight": 0.7371
+        },
+        "widthClass": "condensed",
+        "weightClass": "black"
+      }
+    },
+    {
+      "id": "pass-copy-0",
+      "kind": "text",
+      "note": "Literal note heading and complete excerpt",
+      "grid": null,
+      "snap": false,
+      "box": {
+        "x": 0.431,
+        "y": 0.2637,
+        "w": 0.1543,
+        "h": 0.2813
+      },
+      "px": {
+        "x": 662,
+        "y": 270,
+        "w": 237,
+        "h": 288
+      },
+      "aspect": 0.8229,
+      "palette": [
+        {
+          "hex": "#89e9f8",
+          "coverage": 0.8623
+        },
+        {
+          "hex": "#72d888",
+          "coverage": 0.0403
+        },
+        {
+          "hex": "#080c0f",
+          "coverage": 0.04
+        },
+        {
+          "hex": "#63b2cc",
+          "coverage": 0.0299
+        },
+        {
+          "hex": "#0c2a34",
+          "coverage": 0.0275
+        }
+      ],
+      "detail": {
+        "energy": 34.9905
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 3,
+          "glyphs": 53,
+          "capHeightPx": 17.6,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5355,
+          "advTall": 0.3542,
+          "advX": 0.5474,
+          "gap": 0.0966,
+          "xRatio": 0.7139,
+          "stemW": 0.1355,
+          "contrast": 1.0032,
+          "serif": 0.977,
+          "densTall": 0.4998,
+          "densX": 0.5574,
+          "weight": 0.4998
+        },
+        "widthClass": "condensed",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "pass-1",
+      "kind": "chrome",
+      "note": "Translucent flat color note pass",
+      "grid": null,
+      "codeDrawn": true,
+      "container": true,
+      "snap": false,
+      "box": {
+        "x": 0.584,
+        "y": 0.168,
+        "w": 0.1966,
+        "h": 0.4668
+      },
+      "px": {
+        "x": 897,
+        "y": 172,
+        "w": 302,
+        "h": 478
+      },
+      "aspect": 0.6318,
+      "palette": [
+        {
+          "hex": "#f8e769",
+          "coverage": 0.7705
+        },
+        {
+          "hex": "#f78726",
+          "coverage": 0.0816
+        },
+        {
+          "hex": "#a6d872",
+          "coverage": 0.0659
+        },
+        {
+          "hex": "#70d888",
+          "coverage": 0.0418
+        },
+        {
+          "hex": "#f7c64f",
+          "coverage": 0.0402
+        }
+      ],
+      "detail": {
+        "energy": 27.1134
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "pass-title-1",
+      "kind": "text",
+      "note": "Capture/context/connection heading",
+      "grid": null,
+      "snap": false,
+      "box": {
+        "x": 0.6003,
+        "y": 0.1934,
+        "w": 0.1536,
+        "h": 0.0342
+      },
+      "px": {
+        "x": 922,
+        "y": 198,
+        "w": 236,
+        "h": 35
+      },
+      "aspect": 6.7429,
+      "palette": [
+        {
+          "hex": "#f8e769",
+          "coverage": 0.8004
+        },
+        {
+          "hex": "#ec690a",
+          "coverage": 0.1083
+        },
+        {
+          "hex": "#f8c04c",
+          "coverage": 0.0425
+        },
+        {
+          "hex": "#a8d878",
+          "coverage": 0.0255
+        },
+        {
+          "hex": "#f6a132",
+          "coverage": 0.0234
+        }
+      ],
+      "detail": {
+        "energy": 16.0191
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 10,
+          "capHeightPx": 22.7,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5055,
+          "advTall": 0.5055,
+          "advX": null,
+          "gap": 0.1648,
+          "xRatio": 0.4403,
+          "stemW": 0.1976,
+          "contrast": 1.0633,
+          "serif": 1.3196,
+          "densTall": 0.7662,
+          "densX": null,
+          "weight": 0.7662
+        },
+        "widthClass": "condensed",
+        "weightClass": "black"
+      }
+    },
+    {
+      "id": "pass-copy-1",
+      "kind": "text",
+      "note": "Literal note heading and complete excerpt",
+      "grid": null,
+      "snap": false,
+      "box": {
+        "x": 0.6003,
+        "y": 0.2637,
+        "w": 0.1543,
+        "h": 0.2813
+      },
+      "px": {
+        "x": 922,
+        "y": 270,
+        "w": 237,
+        "h": 288
+      },
+      "aspect": 0.8229,
+      "palette": [
+        {
+          "hex": "#f8e76a",
+          "coverage": 0.8791
+        },
+        {
+          "hex": "#0a0a0a",
+          "coverage": 0.0462
+        },
+        {
+          "hex": "#a8d876",
+          "coverage": 0.0269
+        },
+        {
+          "hex": "#e5ca67",
+          "coverage": 0.0266
+        },
+        {
+          "hex": "#1e2110",
+          "coverage": 0.0213
+        }
+      ],
+      "detail": {
+        "energy": 37.873
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 4,
+          "glyphs": 60,
+          "capHeightPx": 18.4,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5445,
+          "advTall": 0.4009,
+          "advX": 0.5571,
+          "gap": 0.1073,
+          "xRatio": 0.7142,
+          "stemW": 0.1386,
+          "contrast": 1.0011,
+          "serif": 0.942,
+          "densTall": 0.5589,
+          "densX": 0.5398,
+          "weight": 0.5589
+        },
+        "widthClass": "condensed",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "pass-2",
+      "kind": "chrome",
+      "note": "Translucent flat color note pass",
+      "grid": null,
+      "codeDrawn": true,
+      "container": true,
+      "snap": false,
+      "box": {
+        "x": 0.7637,
+        "y": 0.168,
+        "w": 0.2044,
+        "h": 0.4668
+      },
+      "px": {
+        "x": 1173,
+        "y": 172,
+        "w": 314,
+        "h": 478
+      },
+      "aspect": 0.6569,
+      "palette": [
+        {
+          "hex": "#f895a9",
+          "coverage": 0.7806
+        },
+        {
+          "hex": "#f88928",
+          "coverage": 0.0707
+        },
+        {
+          "hex": "#f86a3f",
+          "coverage": 0.0605
+        },
+        {
+          "hex": "#f86f8d",
+          "coverage": 0.0574
+        },
+        {
+          "hex": "#110b14",
+          "coverage": 0.0307
+        }
+      ],
+      "detail": {
+        "energy": 25.2235
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "pass-title-2",
+      "kind": "text",
+      "note": "Capture/context/connection heading",
+      "grid": null,
+      "snap": false,
+      "box": {
+        "x": 0.7799,
+        "y": 0.1934,
+        "w": 0.1536,
+        "h": 0.0342
+      },
+      "px": {
+        "x": 1198,
+        "y": 198,
+        "w": 236,
+        "h": 35
+      },
+      "aspect": 6.7429,
+      "palette": [
+        {
+          "hex": "#f896a8",
+          "coverage": 0.6677
+        },
+        {
+          "hex": "#f00d37",
+          "coverage": 0.1571
+        },
+        {
+          "hex": "#f87348",
+          "coverage": 0.0637
+        },
+        {
+          "hex": "#f86c88",
+          "coverage": 0.0594
+        },
+        {
+          "hex": "#f3365b",
+          "coverage": 0.052
+        }
+      ],
+      "detail": {
+        "energy": 23.2951
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 10,
+          "capHeightPx": 22.7,
+          "inkIsDark": true,
+          "allCaps": true,
+          "advance": 0.5066,
+          "advTall": 0.5066,
+          "advX": null,
+          "gap": 0.0881,
+          "xRatio": null,
+          "stemW": 0.195,
+          "contrast": 1.0046,
+          "serif": 1.7387,
+          "densTall": 0.7701,
+          "densX": null,
+          "weight": 0.7701
+        },
+        "widthClass": "condensed",
+        "weightClass": "black"
+      }
+    },
+    {
+      "id": "pass-copy-2",
+      "kind": "text",
+      "note": "Literal note heading and complete excerpt",
+      "grid": null,
+      "snap": false,
+      "box": {
+        "x": 0.7799,
+        "y": 0.2637,
+        "w": 0.1543,
+        "h": 0.2813
+      },
+      "px": {
+        "x": 1198,
+        "y": 270,
+        "w": 237,
+        "h": 288
+      },
+      "aspect": 0.8229,
+      "palette": [
+        {
+          "hex": "#f896aa",
+          "coverage": 0.8165
+        },
+        {
+          "hex": "#f86840",
+          "coverage": 0.0664
+        },
+        {
+          "hex": "#0c090e",
+          "coverage": 0.0568
+        },
+        {
+          "hex": "#c9778a",
+          "coverage": 0.032
+        },
+        {
+          "hex": "#8d5161",
+          "coverage": 0.0284
+        }
+      ],
+      "detail": {
+        "energy": 34.3983
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 7,
+          "glyphs": 124,
+          "capHeightPx": 15.2,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5441,
+          "advTall": 0.3521,
+          "advX": 0.5648,
+          "gap": 0.1329,
+          "xRatio": 0.7197,
+          "stemW": 0.1286,
+          "contrast": 1.0481,
+          "serif": 0.6776,
+          "densTall": 0.4813,
+          "densX": 0.4894,
+          "weight": 0.4813
+        },
+        "widthClass": "condensed",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "registration",
+      "kind": "chrome",
+      "note": "Countable geometric registration marks and pass connection lines",
+      "grid": null,
+      "codeDrawn": true,
+      "container": true,
+      "snap": false,
+      "box": {
+        "x": 0.5,
+        "y": 0.0869,
+        "w": 0.377,
+        "h": 0.6504
+      },
+      "px": {
+        "x": 768,
+        "y": 89,
+        "w": 579,
+        "h": 666
+      },
+      "aspect": 0.8694,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.3294
+        },
+        {
+          "hex": "#f8e769",
+          "coverage": 0.3156
+        },
+        {
+          "hex": "#87e8f8",
+          "coverage": 0.1667
+        },
+        {
+          "hex": "#f895a9",
+          "coverage": 0.1539
+        },
+        {
+          "hex": "#f68625",
+          "coverage": 0.0344
+        }
+      ],
+      "detail": {
+        "energy": 24.8259
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "offer-layout",
+      "kind": "chrome",
+      "note": "Offer grouping with headline, body, action, and closing copy; child regions retain separate IDs",
+      "grid": null,
+      "codeDrawn": true,
+      "container": true,
+      "snap": false,
+      "box": {
+        "x": 0.0299,
+        "y": 0.1855,
+        "w": 0.3659,
+        "h": 0.3926
+      },
+      "px": {
+        "x": 46,
+        "y": 190,
+        "w": 562,
+        "h": 402
+      },
+      "aspect": 1.398,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.6747
+        },
+        {
+          "hex": "#f51746",
+          "coverage": 0.1486
+        },
+        {
+          "hex": "#089bda",
+          "coverage": 0.0988
+        },
+        {
+          "hex": "#5f29d8",
+          "coverage": 0.0626
+        },
+        {
+          "hex": "#f8b408",
+          "coverage": 0.0152
+        }
+      ],
+      "detail": {
+        "energy": 44.9002
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "navigation-layout",
+      "kind": "chrome",
+      "note": "Top navigation layout and product wordmark; named controls retain separate regions",
+      "grid": null,
+      "codeDrawn": true,
+      "container": true,
+      "snap": false,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 0.0928
+      },
+      "px": {
+        "x": 0,
+        "y": 0,
+        "w": 1536,
+        "h": 95
+      },
+      "aspect": 16.1684,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.9658
+        },
+        {
+          "hex": "#089cdc",
+          "coverage": 0.0126
+        },
+        {
+          "hex": "#5a2ad6",
+          "coverage": 0.009
+        },
+        {
+          "hex": "#ef1746",
+          "coverage": 0.008
+        },
+        {
+          "hex": "#f8bb08",
+          "coverage": 0.0046
+        }
+      ],
+      "detail": {
+        "energy": 20.115
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "continuation-layout",
+      "kind": "chrome",
+      "note": "Visible continuation section including literal step headings and copy",
+      "grid": null,
+      "codeDrawn": true,
+      "container": true,
+      "snap": false,
+      "box": {
+        "x": 0,
+        "y": 0.7676,
+        "w": 1,
+        "h": 0.2324
+      },
+      "px": {
+        "x": 0,
+        "y": 786,
+        "w": 1536,
+        "h": 238
+      },
+      "aspect": 6.4538,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.955
+        },
+        {
+          "hex": "#5d27d3",
+          "coverage": 0.0161
+        },
+        {
+          "hex": "#141625",
+          "coverage": 0.0116
+        },
+        {
+          "hex": "#c6c7d0",
+          "coverage": 0.0112
+        },
+        {
+          "hex": "#f81745",
+          "coverage": 0.006
+        }
+      ],
+      "detail": {
+        "energy": 25.2621
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    }
+  ],
+  "compSha256": "983d1941f60f453390dde2087aa7a754b946902e08116790ce79d9d9963b5246",
+  "regionsSource": {
+    "path": "./regions.json",
+    "sha256": "f852423050c8bc7dfbf52aeb7609ae7516c6c69450a10eb2783a0b2a183c2fc7"
+  }
+}

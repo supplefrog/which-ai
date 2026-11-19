@@ -1,0 +1,2 @@
+GATE SPEC FAILED (state unchanged)
+  - no spec at .impeccable/build/spec.json: run comp-spec.mjs --comp .impeccable/mocks/comp-1.png --grid, name the regions, then --regions regions.json

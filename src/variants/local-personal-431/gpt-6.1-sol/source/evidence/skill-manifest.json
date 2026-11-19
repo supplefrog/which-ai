@@ -1,0 +1,135 @@
+{
+  "files": [
+    {
+      "path": "assets/selector-focus.js",
+      "sha256": "eb7db0c19119879349af8f238414552e2069befce23e3d00cd1b45521eee7222"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "6f202f8bd568cd730dbb2b0d1f8e243bc74c2fa1f64dbce9b2c7ea08bd5c9fd7"
+    },
+    {
+      "path": "references/accessibility-checklist.md",
+      "sha256": "060fe46a19cdadc93325066af51bda1e8b70b44a550c7b08a5d5bdc596d23a0b"
+    },
+    {
+      "path": "references/component-selection.md",
+      "sha256": "35c52e018b4824116b2e4750773b53f661a035d42a9d93e918a9ddcdf9e8ac81"
+    },
+    {
+      "path": "references/component-state.md",
+      "sha256": "ddc015d1682d0553451320a8ec600c57ba0d63c31bfb9e8f823efbccb638a96d"
+    },
+    {
+      "path": "references/coverage-schema.md",
+      "sha256": "f6ebad3313f4617c18c5c4a8c38e534cae2432b17c748e511d533d11d32c8396"
+    },
+    {
+      "path": "references/defect-acceptance.md",
+      "sha256": "b0e4acb1e95b7f842c0164033e799beb7b77a38fb645d017c8e55b0802473069"
+    },
+    {
+      "path": "references/defect-gate-schema.md",
+      "sha256": "d7def0e0b0392e966142eaf28f911a988682ab51a140fe3ee09787a99bd44c71"
+    },
+    {
+      "path": "references/design-judgment.md",
+      "sha256": "b2e13f5d0d325110c0cab586618af45b4f14f221f97279dc8614733441ca087e"
+    },
+    {
+      "path": "references/liked-motion-options.md",
+      "sha256": "11068c23ef341fe70319b0a5d60fee40da9faa3767eeddb1321ac989feb1d7b0"
+    },
+    {
+      "path": "references/motion-design.md",
+      "sha256": "07634a53d7af1275707b8283eecc898c9298004f7f993b9c109ff65b98a5a400"
+    },
+    {
+      "path": "references/personal-design-defaults.md",
+      "sha256": "cd11194f587371096b7504fb717c9b79f924d665afd7ea371568d611e99dda8d"
+    },
+    {
+      "path": "references/provenance.md",
+      "sha256": "00eccc568f68541b7ab646190bf1c2bc9730aacf133ea057a352cabfa24e4847"
+    },
+    {
+      "path": "references/regression-catalog.json",
+      "sha256": "550b848b3301b35f8f7817fac0681f9e2490157d9d62c77d6e2ec30480afcc14"
+    },
+    {
+      "path": "references/regression-catalog.md",
+      "sha256": "f813b9d187ded35df327140deede8ae6a9420e7863d37bf0629e690e907fb5ec"
+    },
+    {
+      "path": "references/resource-catalog.md",
+      "sha256": "a28e931e89c2a1528d0abd6cf34c91858f9e11f38ecaaf5784c760e35225533f"
+    },
+    {
+      "path": "references/selector-feedback.md",
+      "sha256": "68552c02760e938d1a315b2bc1314436b71d0934beccc99f66a8248aec4336b2"
+    },
+    {
+      "path": "references/taste-selection.md",
+      "sha256": "ceebc146883ccdef3c3e32c5428fa68d3652f6460224a0395a60036f3ef0fa34"
+    },
+    {
+      "path": "references/webpage-workflow.md",
+      "sha256": "23bc2b208284619b3cbcbaa1d018e23c125e560c8def8e0f9c4a012eb3152654"
+    },
+    {
+      "path": "scripts/check_regression_catalog.py",
+      "sha256": "46144066dc053387bb905e81ccbfa60d4541f1cf3e65527b2632826fbb58976e"
+    },
+    {
+      "path": "scripts/contract.example.json",
+      "sha256": "f89667c47c1d4f5ab59bbeb5b61da5337f0dbacde5d8b1d513893428c751a729"
+    },
+    {
+      "path": "scripts/frontend_coverage.py",
+      "sha256": "0169d8302639f3f00d423e627a1e21c3f2c3beec5196703cd4b1b2ce79b0fb30"
+    },
+    {
+      "path": "scripts/frontend_gate.py",
+      "sha256": "6e60dc7fd378dd8a88f52beab33346a869291d6d2736a6838e1db83ae3fea0b7"
+    },
+    {
+      "path": "scripts/observations.bad.json",
+      "sha256": "f367a92eb0af728308bc68aa2d1ab6abdcd18710f86d9b273cb9ecfe8a9c93aa"
+    },
+    {
+      "path": "scripts/observations.clean.json",
+      "sha256": "62bf9645aa9a593bad5640289659587c66c38faa3a76c5d3825f201d76208fe6"
+    },
+    {
+      "path": "scripts/observations.missing.json",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "path": "scripts/test_frontend_coverage.py",
+      "sha256": "8732f012288f8220c5026baeef04d563b6288c8f13c1bf91e8a64d5faece9af6"
+    },
+    {
+      "path": "scripts/test_frontend_gate.py",
+      "sha256": "5fdbbc72d2efaec3f800dc8eb24fa2a637b1b228daafc1531cc621bd9da3959f"
+    },
+    {
+      "path": "scripts/test_selector_focus.mjs",
+      "sha256": "cc29d65f3ab277391a5b4844d6351734eaacfddbeb1455bf7df5eef6a972f319"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "a9fc50c4aa592fb4eea27c2148f41a2830494867b252b893e5ddde373dd768a9"
+    },
+    {
+      "path": "SOURCE.json",
+      "sha256": "4e2b6dee6c9b11fd97a3e83b7c200e6e0253650ca705f1019ad1ccecda434192"
+    },
+    {
+      "path": "templates/taste-picker.html",
+      "sha256": "af061b1e5886f6dd57842f7cccef96ffeb3b746becd0e0bb67dc9dba7f2ca52e"
+    }
+  ],
+  "publication": "2b3d6a75765fb99914b29f068ff8b5227a7f0d0e",
+  "source": "C:\\Users\\E\\.agents\\skills\\frontend-ui-engineering",
+  "version": "4.3.1"
+}

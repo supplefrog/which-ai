@@ -1,0 +1,4 @@
+SCAFFOLD .impeccable/build/scaffold
+  .impeccable/build/scaffold/layout.css   one custom property set per region (--r-<id>-x/y/w/h in % of the comp; --r-<id>-cap, --r-<id>-font, --r-<id>-weight where measured); bind these to your own markup
+  .impeccable/build/scaffold/hero-reference.html  a reference page: every region positioned at its box inside a 1536x1024 frame, plates placed with object-fit: contain, text slots at the measured cap height in the ranked face
+  The reference is a check, not the page: keep your own semantic structure and bind the numbers to it (an element per region, its box from the properties). Overlapping boxes are overlapping boxes. What the gate reads is pixels; a page that lands each region at its box passes whatever markup it uses.

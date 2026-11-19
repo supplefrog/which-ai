@@ -1,0 +1,2 @@
+GATE SPEC FAILED (state unchanged)
+  - measure the other text regions too, each sets its own font-size and weight class: impeccable font-match --measure <id> for pass-copy-1, pass-copy-2, offer-copy, wordmark, pass-title-0, pass-title-1, pass-title-2

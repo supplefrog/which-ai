@@ -1,0 +1,122 @@
+[
+  {
+    "condition": "local-addy",
+    "label": "Addy Osmani frontend-ui-engineering",
+    "model": "GPT-6.1 Sol",
+    "reasoning": "medium",
+    "source": "https://github.com/addyosmani/agent-skills/blob/2686b620fc1fed2e8f60c704839c766b8594c6b6/skills/frontend-ui-engineering/SKILL.md",
+    "revision": "2686b620fc1fed2e8f60c704839c766b8594c6b6",
+    "iterations": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "condition": "local-emil",
+    "label": "Emil Kowalski design-engineering",
+    "model": "GPT-6.1 Sol",
+    "reasoning": "medium",
+    "source": "https://github.com/emilkowalski/skills/blob/d16ebe60d09a5ba2afcb7054ede9d0a10c9f6128/skills/emil-design-eng/SKILL.md",
+    "revision": "d16ebe60d09a5ba2afcb7054ede9d0a10c9f6128",
+    "iterations": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "condition": "local-taste-gpt",
+    "label": "GPT TASTESKILL",
+    "model": "GPT-6.1 Sol",
+    "reasoning": "medium",
+    "source": "https://github.com/Leonxlnx/taste-skill/blob/e79ca9ec7e071eb3a3b623c4fb752e853fc3ed58/skills/gpt-tasteskill/SKILL.md",
+    "revision": "e79ca9ec7e071eb3a3b623c4fb752e853fc3ed58",
+    "iterations": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "condition": "local-hallmark",
+    "label": "Hallmark",
+    "model": "GPT-6.1 Sol",
+    "reasoning": "medium",
+    "source": "https://github.com/Nutlope/hallmark/blob/13ac0ec7e148655948100b6396439e481361d690/skills/hallmark/SKILL.md",
+    "revision": "13ac0ec7e148655948100b6396439e481361d690",
+    "iterations": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "condition": "local-impeccable",
+    "label": "Impeccable · comp-first (adapted)",
+    "model": "GPT-6.1 Sol",
+    "reasoning": "medium",
+    "source": "https://github.com/pbakaus/impeccable/blob/9d715cc4f5564a990ca8345abfdd5df6dc9b41c8/.agents/skills/impeccable/SKILL.md",
+    "revision": "9d715cc4f5564a990ca8345abfdd5df6dc9b41c8",
+    "iterations": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "condition": "local-vercel-review",
+    "label": "Vercel guidelines · baseline review + fixes",
+    "model": "GPT-6.1 Sol",
+    "reasoning": "medium",
+    "source": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/web-design-guidelines/SKILL.md",
+    "revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+    "iterations": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "condition": "local-personal",
+    "label": "Your frontend skill · v3.1.0 (fresh)",
+    "model": "GPT-6.1 Sol",
+    "reasoning": "medium",
+    "source": "/local/source/local-personal",
+    "revision": "1c184d68fee88b077edac020e602f9bc1403374f7ea822e452be1d75fd84c418",
+    "iterations": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "condition": "local-personal-431",
+    "label": "Your frontend skill · v4.3.1 (checked)",
+    "model": "GPT-6.1 Sol",
+    "reasoning": "medium",
+    "source": "/local/source/local-personal-431",
+    "revision": "b4cf82ca3d0d9538ead0e918a9ae127cb59e832619b44c9f336ff9dbe67c3f82",
+    "iterations": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+]

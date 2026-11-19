@@ -47,6 +47,12 @@ export default function HomePage() {
           prompt={generationPrompt}
         />
 
+        <p className="mb-6 text-sm">
+          <Link href="/local/compare" className="font-medium underline underline-offset-4 hover:text-[var(--gallery-accent)]">
+            Compare additional Sol 6.1 runs
+          </Link>
+        </p>
+
         <GalleryHomeGroups
           groups={groups.map((group) => ({
             group,

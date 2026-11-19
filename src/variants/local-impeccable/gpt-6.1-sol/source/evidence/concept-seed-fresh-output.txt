@@ -1,0 +1,129 @@
+DIRECTION CONCEPT SEED (key: 7f0457f4; mode: persuade; source: api; approved pool: c3b204a1eed6; 306/564 human-approved; rerun with --scope direction --mode persuade --from 7f0457f4 --candidate-count 7 to reproduce this roll against this catalog revision)
+ASSIGNED INDEX: 6
+  After ordering the grounded directions by resonance, build candidate
+  6 of your own grounded list; the assignment never points at a
+  challenger. The assignment is the roll, not a suggestion: your top-ranked
+  direction is what every run would ship, so the script decides which grounded
+  direction gets built. Each direction joins a durable visual system to a
+  concrete expression for the requested first surface, decided as one. It must
+  survive the current task plus navigation, quiet and dense content,
+  interaction and state, and a substantially different future surface. In an
+  attended run, present the assigned direction fully committed and offer
+  re-roll. You may add ONE card for your top-ranked grounded candidate when
+  it is not the assigned direction, kicker IMPECCABLE’S PICK, with an honest risk line
+  naming its familiarity; one pick card, never a ranked lineup, and the pick
+  never takes the lead position. When the assignment IS your top candidate,
+  there is no pick card. Re-roll yourself only
+  on named factual grounds, when the assignment cannot carry the product's
+  truth or task; taste is never grounds.
+  The assignment exists to refuse the model's ranking rut, never to outrank
+  the user or the brief. Never expose assignment metadata in user-facing labels.
+CHALLENGERS:
+  1. a gravity-rain garden, where drops fall toward flowers, walls, moons, and walking figures according to the color of each cloud
+     SOURCE ID: dream-surreal-impossible-worlds-gravity-rain-garden
+     CREATIVE SPARK: Blue rain falls upward into a floating pond, red rain bends around a sleeping fox, and clear drops orbit a black flower without ever touching the ground.
+     SYSTEM GRAMMAR:
+       - Palette/material: dusk green-gray garden as ground, cloud color coding each gravity, blue and red rains as directional accents, the black flower anchoring clear orbits
+       - Type/composition: light rounded sans whose baselines bend along local gravity, labels falling or rising toward their clouds, only the legend held level
+       - Topology/navigation: Explore garden regions through local gravity, cloud color, water path, and impossible habitat.
+       - Controls/state: Paint a cloud, tilt its pull, plant an object, and watch new rivers find their destination.
+       - Responsive/motion: Keep one gravity field dominant on phones and offer trajectory stills in
+     WEB LEVERAGE: A vector-field physics simulation and direct painting gestures let users compose shareable rain laws with deterministic replay.
+     QUALITY BAR: board https://impeccable.style/worlds/cards/dream-surreal-impossible-worlds-gravity-rain-garden.webp · hero https://impeccable.style/worlds/cards/dream-surreal-impossible-worlds-gravity-rain-garden-hero.webp
+  2. a hand-bent neon letter becoming a continuous gas-discharge circuit, where glass radius, electrode placement, gas, pressure, transformer load, and typography determine the final light
+     SOURCE ID: magnetism-electricity-plasma-hand-bent-neon-circuit
+     CREATIVE SPARK: A clear glass stroke softens over flame and bends into a cobalt script; electrodes seal, the room goes dark, and one continuous word ignites from within.
+     SYSTEM GRAMMAR:
+       - Palette/material: dark room as ground, clear glass tube softening over flame, one cobalt gas-discharge glow marking the active run, warm electrode-red at the sealed ends
+       - Type/composition: hand-bent script drawn as one continuous glass stroke, glyphs bending on a fabrication path, bridges and electrodes ranked where the circuit breaks
+       - Topology/navigation: Follow glyph, tube run, bend, bridge, electrode, transformer circuit, gas spectrum, and installed sign.
+       - Controls/state: Edit path, change gas, test bend radius, split circuits, and compare sketched, bent, pumped, aging, and restored states.
+       - Responsive/motion: Unroll the tube into a fabrication path on phones
+     WEB LEVERAGE: Direct SVG path editing, bend-radius and transformer validation, selectable source text, spectral comparison, and fabrication-ready export turn browser typography into a buildable neon circuit.
+     QUALITY BAR: board https://impeccable.style/worlds/cards/magnetism-electricity-plasma-hand-bent-neon-circuit.webp · hero https://impeccable.style/worlds/cards/magnetism-electricity-plasma-hand-bent-neon-circuit-hero.webp
+  3. a moonlit brass-band procession screenprinted across translucent mulberry-paper curtains, where cyan instruments, amber lanterns, and scarlet figures cohere at exact overlap while deliberate drift releases rhythmic ghost companions
+     SOURCE ID: ink-pigment-printmaking-screenprint-transparent-overlap
+     CREATIVE SPARK: Amber lanterns cross the scarlet dancers and ignite orange faces; one cyan horn slips half an inch out of register, sending a blue echo ahead of the marching player.
+     SYSTEM GRAMMAR:
+       - Palette/material: translucent cyan, amber, and scarlet inks over mulberry-paper white, overlaps mixing to orange and violet, the drifting ghost pass marking live motion
+       - Type/composition: stencil-cut poster caps in one procession banner line, registration crosses in the margins, figures massed as flat spot-color shapes on open paper
+       - Topology/navigation: Move between complete procession, paper curtain, color pass, overlap event, registration mark, and drifting ghost figure.
+       - Controls/state: Expose, pull, align, offset, and compare passes with separate, registered, overprinted, drifting, veiled, and complete states.
+       - Responsive/motion: Stack the translucent curtains as explicit layers and pair every color mixture or offset with names, values, and patterns.
+     WEB LEVERAGE: Direct manipulation of registered spot-color layers reveals how pass order and offset change both image and narrative, with every separation selectable and shareable.
+     QUALITY BAR: board https://impeccable.style/worlds/cards/ink-pigment-printmaking-screenprint-transparent-overlap.webp · hero https://impeccable.style/worlds/cards/ink-pigment-printmaking-screenprint-transparent-overlap-hero.webp
+  4. a convention circle catalog printed on newsprint, thousands of hand-drawn thumbnail squares packed into a numbered hall grid, each square carrying a circle name, a table code and a drawing done at postage-stamp size
+     SOURCE ID: pop-culture-shelf-doujin-event-catalog
+     CREATIVE SPARK: eight hundred drawings on one page, each one the size of a stamp, each with a table code, and somebody has gone through and circled forty of them in biro with a route planned between them.
+     SYSTEM GRAMMAR:
+       - Palette/material: single-ink black on cheap newsprint that grays under the thumb, with one spot color used only on the hall map dividers
+       - Type/composition: postage-stamp thumbnails packed edge to edge in a numbered grid, circle names set tiny beneath, and a folded hall map keyed to the codes
+       - Topology/navigation: the hall map and the grid are the same space, so navigation moves between a table code and its physical position
+       - Controls/state: controls are thumbnail cells, the active one is circled in pen, and visited ones are struck through by hand
+       - Responsive/motion: the grid repacks in whole cells, and motion is a jump from a catalog cell to its position on the hall map
+     WEB LEVERAGE: a whole-cell responsive thumbnail grid, marked state persisted local, and deep-linking between catalog cell and hall map
+     QUALITY BAR: board https://impeccable.style/worlds/cards/pop-culture-shelf-doujin-event-catalog.webp · hero https://impeccable.style/worlds/cards/pop-culture-shelf-doujin-event-catalog-hero.webp
+  5. A film cutting bench flattened into a sheet: a perforated select rail crossing a grain-orange field, each step a punched frame held between two pins, the place you stopped marked by a folded tape flag, and everything set aside still hanging on pins below the rail.
+     SOURCE ID: operate-a-cutting-bench-select-rail
+     CREATIVE SPARK: A work print strung between two pins under a bench lamp, white grease crosses struck across three frames, a folded orange tape flag doubled over the perforation where the editor stopped, and a dozen trims hanging on pins in the bin below.
+     SYSTEM GRAMMAR:
+       - Palette/material: one ink, flag orange in coarse film grain on true black; orange holds a third of any screen. Running copy and foreign images sit only in punched white windows.
+       - Type/composition: one size of condensed grotesk throughout, caps for labels; rank is cell count not size, a window may span twelve frame cells while edge ticks stay hairline.
+       - Topology/navigation: a perforated rail crosses every sheet at a fixed height; sections string along it as frames, and anything set aside hangs below on pins in an open bin.
+       - Controls/state: state is a mark, not a hue: grease cross done, punched corner unavailable, tape band committed, folded flag where you stopped, hung on a pin deferred.
+       - Responsive/motion: the strip scrubs with inertia and settles on perforation pitch, never between frames; hung trims swing and damp. Narrow screens drop frame count, not size.
+     WEB LEVERAGE: The rail is one virtual strip whose scrub snaps to a fixed frame pitch; the frame you left is persisted and re-flagged on return, and every discarded frame stays reachable on a pin below the rail.
+     QUALITY BAR: board https://impeccable.style/worlds/cards/operate-a-cutting-bench-select-rail.webp · hero https://impeccable.style/worlds/cards/operate-a-cutting-bench-select-rail-hero.webp
+  6. A worked queue built from a cracktro title screen: one bitmap face riding baselines over an emissive black void, where rank is depth, fields of grey dust drift behind the work at layered speeds, and nothing is ever enclosed by a rule or a box.
+     SOURCE ID: operate-c-cracktro-scroller-queue
+     CREATIVE SPARK: At 2am one ivory line of bitmap text sits dead still on a black screen while three fields of grey pinpricks drift behind it at different speeds, and a single amber caret blinks at the head of the line.
+     SYSTEM GRAMMAR:
+       - Palette/material: emissive black void, four dust neutrals ash to ivory, one signal amber; prose is ivory on void only; foreign images sit unretouched on the void, never tinted.
+       - Type/composition: one bitmap face at two sizes; all text rides baselines on a single unit; overlap allowed, enclosure never; no rules, boxes or dividers.
+       - Topology/navigation: layers stacked front to back; every baseline continues past both screen edges, so nothing is contained; navigating means pulling a layer forward.
+       - Controls/state: state is depth: brightness step plus letterspacing plus drift rate; the frontmost brightest widest item outranks all; a reversed glyph cell marks failure.
+       - Responsive/motion: only rear layers drift, one slow rate halved per step forward; the front plane holds still while read; narrow widths drop depth steps, not brightness steps.
+     WEB LEVERAGE: Every element declares an integer depth; one stylesheet maps depth to brightness step, letterspacing and drift rate off a single shared clock, and focus freezes the front plane to full stillness.
+     QUALITY BAR: board https://impeccable.style/worlds/cards/operate-c-cracktro-scroller-queue.webp · hero https://impeccable.style/worlds/cards/operate-c-cracktro-scroller-queue-hero.webp
+Fuse each challenger before judging it: the challenger supplies the form
+  and its system grammar, the product supplies every fact, and clarity wins
+  conflicts. Weigh the fused result against the assigned direction on exactly
+  two axes, audience identification and product clarity. Losing to strong
+  grounded material is a valid outcome; beating a thin or tool-monoculture
+  list is the point. A fused challenger that wins both axes becomes the build.
+  Close the weighing with a verdict per challenger, decided before any
+  borrowing is considered: wins (beats the assigned direction on both axes),
+  competitive (holds one axis), or declined (loses both). A declined
+  challenger is not spent: name the one discipline of its system the assigned
+  direction lacks, and raise the assigned direction to match before
+  presenting it. A donation transfers ambition and system discipline, never
+  the challenger's clothes; one world owns the page. Write each raise as its
+  own named line on the presented direction, and carry every verdict, kept
+  line, and raise into the decision page payload.
+When you can view images, open the QUALITY BAR board and hero for any
+challenger you weigh seriously and for the world you build. They exist as a
+craft bar, the finish level and commitment the build is expected to reach,
+never as a mockup to copy; your surface serves this product, not that render.
+PRODUCT.md and explicit incumbent brand commitments constrain every direction.
+The seed never chooses exact colors, fonts, tokens, or a user preference, and
+it never permits the world and first surface to be selected independently.
+The CREATIVE SPARK is a complete visual system, not a theme or decorative
+reference. Translate every supplied system rule into the product: palette and
+material, type and composition, topology, controls and states, and adaptation.
+Keep the source's visible character, scale, rhythm, and interaction instead of
+reducing vivid grammar to generic nouns. When the source is already a credible
+interface language, commit to it across navigation, content, controls, and
+states. Otherwise keep a literal carrier only when it becomes functional.
+Ambitious motion, spatial media, or interaction is welcome when it strengthens
+the product without weakening semantics, performance, or fallback behavior.
+TELEMETRY: after the user's choice resolves, rerun this script once with
+  --kind <assigned|pick|challenger|canon> --from 7f0457f4 --scope direction --mode persuade,
+  adding --chosen <challenger-id> when a dealt challenger won and keeping
+  --register <safer|bolder> when the resolved round came from a steered hand.
+  One ping per resolved attended round. The ping is anonymous, the card kind
+  plus the catalog id when one won; your grounded candidates' names never
+  leave the machine, and the ping is skipped automatically when DO_NOT_TRACK
+  or IMPECCABLE_NO_TELEMETRY is set.
+A user- or brief-pinned decision beats the roll, always.
+ASSIGNED INDEX (restated for truncated readers): 6. Build candidate
+6 of your own grounded list; seed key 7f0457f4.

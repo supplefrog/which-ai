@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-02T09:26:01.224662+00:00",
+  "title": "Design System: OVERPRINT",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Primary"
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Accent"
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink"
+      },
+      "neutral-bg": {
+        "role": "neutral",
+        "displayName": "Neutral Bg"
+      },
+      "cyan": {
+        "role": "secondary",
+        "displayName": "Cyan"
+      },
+      "amber": {
+        "role": "tertiary",
+        "displayName": "Amber"
+      },
+      "scarlet-paper": {
+        "role": "primary",
+        "displayName": "Scarlet Paper"
+      },
+      "violet": {
+        "role": "tertiary",
+        "displayName": "Violet"
+      },
+      "note-ink": {
+        "role": "neutral",
+        "displayName": "Note Ink"
+      },
+      "cyan-ink": {
+        "role": "secondary",
+        "displayName": "Cyan Ink"
+      },
+      "amber-ink": {
+        "role": "tertiary",
+        "displayName": "Amber Ink"
+      },
+      "scarlet-ink": {
+        "role": "primary",
+        "displayName": "Scarlet Ink"
+      },
+      "secondary-text": {
+        "role": "neutral",
+        "displayName": "Secondary Text"
+      },
+      "step-paper": {
+        "role": "neutral",
+        "displayName": "Step Paper"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Ranked display",
+        "purpose": "Final first-viewport offer."
+      },
+      "headline": {
+        "displayName": "Supporting heading",
+        "purpose": "Representative observed section/component heading."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Base inherited running text."
+      },
+      "label": {
+        "displayName": "Demo label",
+        "purpose": "Illustrative content label."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "registration",
+        "value": "transform .7s cubic-bezier(.16,1,.3,1)",
+        "purpose": "Coordinates the three note passes through --pass-shift; desktop uses the full offset, mobile uses 25%. The range and align action remain visible at 750px and below."
+      },
+      {
+        "name": "action-lift",
+        "value": "translate .18s ease-out; hover translate: 0 -3px",
+        "purpose": "Shared action response."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop",
+        "value": "1050px"
+      },
+      {
+        "name": "mobile-stack",
+        "value": "750px"
+      }
+    ],
+    "sourceBinding": {
+      "artifact": "../../Designs.tsx",
+      "stylesheet": "../../Designs.module.css",
+      "sha256": {
+        "Designs.tsx": "78D2AE6580458CEC451A1E1A950D2934DE53B7EC0151DD272ADAF5E040FC1A99",
+        "Designs.module.css": "ED090E0F2ADCB769F58631F3EFE8925C89435590E25DA0356BFCF1064AD49D71"
+      },
+      "page": "PageThree",
+      "worldClass": "overprint",
+      "directionContract": "direction-contract.md",
+      "selectedComp": ".impeccable/mocks/comp-1.png",
+      "selectedCompSha256": "f043e2e3d9db3e5f6faa061e83ff7c0f9285bbbb6f4cf380e8a15551bbaf198e",
+      "engineStateSnapshot": {
+        "comps": {
+          "status": "closed",
+          "gateOk": true
+        },
+        "spec": {
+          "status": "closed",
+          "gateOk": true
+        },
+        "plates": {
+          "status": "closed",
+          "gateOk": true
+        },
+        "hero": {
+          "status": "open",
+          "gateOk": null
+        },
+        "sections": {
+          "status": "pending",
+          "gateOk": null
+        },
+        "motion": {
+          "status": "pending",
+          "gateOk": null
+        },
+        "responsive": {
+          "status": "pending",
+          "gateOk": null
+        },
+        "review": {
+          "status": "pending",
+          "gateOk": null
+        }
+      },
+      "humanComponentReview": "pending",
+      "humanHeroReview": "pending",
+      "documenter": "Fresh generic native subagent substituting for unexposed impeccable_documenter type",
+      "precedingSourceSha256": {
+        "Designs.tsx": "803EA24181E6ED34D3EACC67C34841DAEE2E43C146902C3D2FAE4B9E587C61C6",
+        "Designs.module.css": "CA81F3308EF37AFF7ADB7E36E68B67DBD619C9F93C5B3933E938A3C6DD448402"
+      }
+    }
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "description": "Static source-translated specimen; application state and icon glyphs are not reproduced.",
+      "html": "<div class=\"ds-page ds-overprint\"><a class=\"ds-action\" href=\"#demo\">Explore the demo</a></div>",
+      "css": ".ds-page{--ink:#0b1945;--ground:#fff;--accent:#244ab8;color:var(--ink);background:var(--ground);font:16px/1.55 ImpeccableManrope,sans-serif}.ds-page h1,.ds-page h2,.ds-page h3,.ds-page p{margin:0}.ds-page h1{font-weight:800;line-height:1.05;letter-spacing:-.035em;text-wrap:balance}.ds-page h2{line-height:1.15;text-wrap:balance}.ds-page a{color:inherit;text-decoration:none;text-underline-offset:.25em}.ds-page button,.ds-page input{font:inherit}.ds-page button{cursor:pointer}.ds-page button:disabled{cursor:default;opacity:.5}.ds-page a:focus-visible,.ds-page button:focus-visible,.ds-page input:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.ds-page ::selection{background:var(--accent);color:var(--ground)}.ds-page input{caret-color:var(--accent)}.ds-header{min-height:92px;display:flex;align-items:center;justify-content:space-between;gap:32px;padding:20px 4%;position:relative;z-index:2}.ds-brand{display:flex;align-items:center;gap:12px;font-size:27px;font-weight:800;letter-spacing:-.02em}.ds-header nav{display:flex;gap:34px;font-size:14px}.ds-header nav a:hover{text-decoration:underline}.ds-action{display:inline-flex;align-items:center;justify-content:space-between;gap:24px;padding:18px 24px;border-radius:7px;background:var(--ink);color:var(--ground)!important;font-weight:700;font-size:16px;transition:translate .18s ease-out}.ds-action:hover{translate:0 -3px}.ds-outlineAction{border:1px solid currentColor;padding:12px 25px;border-radius:7px;font-weight:700;font-size:14px}.ds-demoLabel{font-size:12px;letter-spacing:.04em}.ds-search{display:flex;align-items:center;gap:9px}.ds-search input{min-width:0;width:100%;border:0;background:transparent;outline:none;padding:9px 0;color:inherit}.ds-empty{padding:40px 15px!important;font-size:15px!important}.ds-overprint{--ink:#202239;--accent:#ec173d;--ground:#fff}.ds-overprint .ds-brand{font:400 32px/1 ImpeccableStencil,sans-serif;letter-spacing:-.03em}.ds-overprint .ds-brand span:first-child{color:#009cc7}.ds-overprint .ds-brand span:last-child{color:#662ac4}.ds-overprint .ds-outlineAction{color:#6423cc}.ds-overprint .ds-action{background:#ed1741;color:#fff!important}.ds-printDemo{position:relative;padding:20px 15px 0 0;min-width:0}.ds-printDemo>.ds-demoLabel{color:#485775;display:block;margin:0 0 16px 7px}.ds-passStack{display:flex;position:relative;padding-right:15px}.ds-pass{transform:translateX(var(--pass-shift,0px));flex:1;min-width:0;min-height:425px;padding:22px 24px 26px;border-radius:15px;position:relative;transition:transform .7s cubic-bezier(.16,1,.3,1);color:#142339}.ds-pass0{background:#8ae6f5;z-index:1}.ds-pass1{background:#ffdf72;z-index:2}.ds-pass2{background:#ff9caf;z-index:3}.ds-pass h2{font:400 25px ImpeccableStencil,sans-serif;text-transform:uppercase;border-bottom:1px solid currentColor;padding-bottom:12px;margin-bottom:25px}.ds-pass0 h2{color:#007899}.ds-pass1 h2{color:#9e4e00}.ds-pass2 h2{color:#ad002a}.ds-pass h3{font-size:20px;font-weight:800;line-height:1.25;margin-bottom:14px}.ds-pass p{font-size:15px;line-height:1.6}.ds-pass small{display:block;font-size:11px;position:absolute;bottom:24px}.ds-registrationControl{display:grid;grid-template-columns:1fr auto;align-items:center;gap:13px;padding-top:26px;font-size:11px;color:#394564}.ds-registrationControl>span{grid-column:1/-1}.ds-registrationControl input{width:100%;accent-color:#6423cc}.ds-registrationControl button{border:1px solid #6423cc;color:#6423cc;background:#fff;display:flex;gap:8px;align-items:center;padding:8px 11px;border-radius:4px;font-size:11px}@media(max-width:1050px){.ds-header nav{gap:20px}.ds-header .ds-action{display:none}.ds-pass{padding:20px 14px}.ds-pass p{font-size:13px}.ds-pass h3{font-size:17px}}@media(max-width:750px){.ds-header{padding:20px 22px;min-height:76px;gap:15px;flex-wrap:wrap}.ds-brand{font-size:24px}.ds-header nav{gap:18px;font-size:12px;order:3;width:100%;padding-top:10px}.ds-header .ds-outlineAction{font-size:10px;padding:10px 13px}.ds-action{padding:15px 21px}.ds-overprint .ds-brand{font-size:26px}.ds-printDemo{margin-top:43px;padding:0;min-height:0}.ds-passStack{flex-direction:column;padding:0 10px;gap:14px}.ds-pass{min-height:0;transform:translateX(calc(var(--pass-shift,0px) * .25));padding:22px;flex:none}.ds-pass h2{font-size:27px;margin-bottom:16px}.ds-pass h3{font-size:22px}.ds-pass p{font-size:15px}.ds-pass small{position:static;margin-top:20px}.ds-registrationControl{display:grid}}@media(prefers-reduced-motion:reduce){.ds-page *{scroll-behavior:auto!important;transition:none!important}.ds-action:hover{translate:none}}",
+      "refersTo": "button-primary"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "description": "Static source-translated specimen; application state and icon glyphs are not reproduced.",
+      "html": "<div class=\"ds-page ds-overprint\"><header class=\"ds-header\"><nav aria-label=\"Page navigation\"><a href=\"#demo\">Notes</a><a href=\"#close\">About</a></nav></header></div>",
+      "css": ".ds-page{--ink:#0b1945;--ground:#fff;--accent:#244ab8;color:var(--ink);background:var(--ground);font:16px/1.55 ImpeccableManrope,sans-serif}.ds-page h1,.ds-page h2,.ds-page h3,.ds-page p{margin:0}.ds-page h1{font-weight:800;line-height:1.05;letter-spacing:-.035em;text-wrap:balance}.ds-page h2{line-height:1.15;text-wrap:balance}.ds-page a{color:inherit;text-decoration:none;text-underline-offset:.25em}.ds-page button,.ds-page input{font:inherit}.ds-page button{cursor:pointer}.ds-page button:disabled{cursor:default;opacity:.5}.ds-page a:focus-visible,.ds-page button:focus-visible,.ds-page input:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.ds-page ::selection{background:var(--accent);color:var(--ground)}.ds-page input{caret-color:var(--accent)}.ds-header{min-height:92px;display:flex;align-items:center;justify-content:space-between;gap:32px;padding:20px 4%;position:relative;z-index:2}.ds-brand{display:flex;align-items:center;gap:12px;font-size:27px;font-weight:800;letter-spacing:-.02em}.ds-header nav{display:flex;gap:34px;font-size:14px}.ds-header nav a:hover{text-decoration:underline}.ds-action{display:inline-flex;align-items:center;justify-content:space-between;gap:24px;padding:18px 24px;border-radius:7px;background:var(--ink);color:var(--ground)!important;font-weight:700;font-size:16px;transition:translate .18s ease-out}.ds-action:hover{translate:0 -3px}.ds-outlineAction{border:1px solid currentColor;padding:12px 25px;border-radius:7px;font-weight:700;font-size:14px}.ds-demoLabel{font-size:12px;letter-spacing:.04em}.ds-search{display:flex;align-items:center;gap:9px}.ds-search input{min-width:0;width:100%;border:0;background:transparent;outline:none;padding:9px 0;color:inherit}.ds-empty{padding:40px 15px!important;font-size:15px!important}.ds-overprint{--ink:#202239;--accent:#ec173d;--ground:#fff}.ds-overprint .ds-brand{font:400 32px/1 ImpeccableStencil,sans-serif;letter-spacing:-.03em}.ds-overprint .ds-brand span:first-child{color:#009cc7}.ds-overprint .ds-brand span:last-child{color:#662ac4}.ds-overprint .ds-outlineAction{color:#6423cc}.ds-overprint .ds-action{background:#ed1741;color:#fff!important}.ds-printDemo{position:relative;padding:20px 15px 0 0;min-width:0}.ds-printDemo>.ds-demoLabel{color:#485775;display:block;margin:0 0 16px 7px}.ds-passStack{display:flex;position:relative;padding-right:15px}.ds-pass{transform:translateX(var(--pass-shift,0px));flex:1;min-width:0;min-height:425px;padding:22px 24px 26px;border-radius:15px;position:relative;transition:transform .7s cubic-bezier(.16,1,.3,1);color:#142339}.ds-pass0{background:#8ae6f5;z-index:1}.ds-pass1{background:#ffdf72;z-index:2}.ds-pass2{background:#ff9caf;z-index:3}.ds-pass h2{font:400 25px ImpeccableStencil,sans-serif;text-transform:uppercase;border-bottom:1px solid currentColor;padding-bottom:12px;margin-bottom:25px}.ds-pass0 h2{color:#007899}.ds-pass1 h2{color:#9e4e00}.ds-pass2 h2{color:#ad002a}.ds-pass h3{font-size:20px;font-weight:800;line-height:1.25;margin-bottom:14px}.ds-pass p{font-size:15px;line-height:1.6}.ds-pass small{display:block;font-size:11px;position:absolute;bottom:24px}.ds-registrationControl{display:grid;grid-template-columns:1fr auto;align-items:center;gap:13px;padding-top:26px;font-size:11px;color:#394564}.ds-registrationControl>span{grid-column:1/-1}.ds-registrationControl input{width:100%;accent-color:#6423cc}.ds-registrationControl button{border:1px solid #6423cc;color:#6423cc;background:#fff;display:flex;gap:8px;align-items:center;padding:8px 11px;border-radius:4px;font-size:11px}@media(max-width:1050px){.ds-header nav{gap:20px}.ds-header .ds-action{display:none}.ds-pass{padding:20px 14px}.ds-pass p{font-size:13px}.ds-pass h3{font-size:17px}}@media(max-width:750px){.ds-header{padding:20px 22px;min-height:76px;gap:15px;flex-wrap:wrap}.ds-brand{font-size:24px}.ds-header nav{gap:18px;font-size:12px;order:3;width:100%;padding-top:10px}.ds-header .ds-outlineAction{font-size:10px;padding:10px 13px}.ds-action{padding:15px 21px}.ds-overprint .ds-brand{font-size:26px}.ds-printDemo{margin-top:43px;padding:0;min-height:0}.ds-passStack{flex-direction:column;padding:0 10px;gap:14px}.ds-pass{min-height:0;transform:translateX(calc(var(--pass-shift,0px) * .25));padding:22px;flex:none}.ds-pass h2{font-size:27px;margin-bottom:16px}.ds-pass h3{font-size:22px}.ds-pass p{font-size:15px}.ds-pass small{position:static;margin-top:20px}.ds-registrationControl{display:grid}}@media(prefers-reduced-motion:reduce){.ds-page *{scroll-behavior:auto!important;transition:none!important}.ds-action:hover{translate:none}}"
+    },
+    {
+      "name": "Capture pass",
+      "kind": "card",
+      "description": "Static source-translated specimen; application state and icon glyphs are not reproduced.",
+      "html": "<div class=\"ds-page ds-overprint\"><div class=\"ds-passStack\"><article class=\"ds-pass ds-pass0\" style=\"--pass-shift:24.7px\"><h2>Capture</h2><h3>A slower morning</h3><p>Woke up without an alarm today. Made coffee, sat by the window.</p><small>#routine</small></article></div></div>",
+      "css": ".ds-page{--ink:#0b1945;--ground:#fff;--accent:#244ab8;color:var(--ink);background:var(--ground);font:16px/1.55 ImpeccableManrope,sans-serif}.ds-page h1,.ds-page h2,.ds-page h3,.ds-page p{margin:0}.ds-page h1{font-weight:800;line-height:1.05;letter-spacing:-.035em;text-wrap:balance}.ds-page h2{line-height:1.15;text-wrap:balance}.ds-page a{color:inherit;text-decoration:none;text-underline-offset:.25em}.ds-page button,.ds-page input{font:inherit}.ds-page button{cursor:pointer}.ds-page button:disabled{cursor:default;opacity:.5}.ds-page a:focus-visible,.ds-page button:focus-visible,.ds-page input:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.ds-page ::selection{background:var(--accent);color:var(--ground)}.ds-page input{caret-color:var(--accent)}.ds-header{min-height:92px;display:flex;align-items:center;justify-content:space-between;gap:32px;padding:20px 4%;position:relative;z-index:2}.ds-brand{display:flex;align-items:center;gap:12px;font-size:27px;font-weight:800;letter-spacing:-.02em}.ds-header nav{display:flex;gap:34px;font-size:14px}.ds-header nav a:hover{text-decoration:underline}.ds-action{display:inline-flex;align-items:center;justify-content:space-between;gap:24px;padding:18px 24px;border-radius:7px;background:var(--ink);color:var(--ground)!important;font-weight:700;font-size:16px;transition:translate .18s ease-out}.ds-action:hover{translate:0 -3px}.ds-outlineAction{border:1px solid currentColor;padding:12px 25px;border-radius:7px;font-weight:700;font-size:14px}.ds-demoLabel{font-size:12px;letter-spacing:.04em}.ds-search{display:flex;align-items:center;gap:9px}.ds-search input{min-width:0;width:100%;border:0;background:transparent;outline:none;padding:9px 0;color:inherit}.ds-empty{padding:40px 15px!important;font-size:15px!important}.ds-overprint{--ink:#202239;--accent:#ec173d;--ground:#fff}.ds-overprint .ds-brand{font:400 32px/1 ImpeccableStencil,sans-serif;letter-spacing:-.03em}.ds-overprint .ds-brand span:first-child{color:#009cc7}.ds-overprint .ds-brand span:last-child{color:#662ac4}.ds-overprint .ds-outlineAction{color:#6423cc}.ds-overprint .ds-action{background:#ed1741;color:#fff!important}.ds-printDemo{position:relative;padding:20px 15px 0 0;min-width:0}.ds-printDemo>.ds-demoLabel{color:#485775;display:block;margin:0 0 16px 7px}.ds-passStack{display:flex;position:relative;padding-right:15px}.ds-pass{transform:translateX(var(--pass-shift,0px));flex:1;min-width:0;min-height:425px;padding:22px 24px 26px;border-radius:15px;position:relative;transition:transform .7s cubic-bezier(.16,1,.3,1);color:#142339}.ds-pass0{background:#8ae6f5;z-index:1}.ds-pass1{background:#ffdf72;z-index:2}.ds-pass2{background:#ff9caf;z-index:3}.ds-pass h2{font:400 25px ImpeccableStencil,sans-serif;text-transform:uppercase;border-bottom:1px solid currentColor;padding-bottom:12px;margin-bottom:25px}.ds-pass0 h2{color:#007899}.ds-pass1 h2{color:#9e4e00}.ds-pass2 h2{color:#ad002a}.ds-pass h3{font-size:20px;font-weight:800;line-height:1.25;margin-bottom:14px}.ds-pass p{font-size:15px;line-height:1.6}.ds-pass small{display:block;font-size:11px;position:absolute;bottom:24px}.ds-registrationControl{display:grid;grid-template-columns:1fr auto;align-items:center;gap:13px;padding-top:26px;font-size:11px;color:#394564}.ds-registrationControl>span{grid-column:1/-1}.ds-registrationControl input{width:100%;accent-color:#6423cc}.ds-registrationControl button{border:1px solid #6423cc;color:#6423cc;background:#fff;display:flex;gap:8px;align-items:center;padding:8px 11px;border-radius:4px;font-size:11px}@media(max-width:1050px){.ds-header nav{gap:20px}.ds-header .ds-action{display:none}.ds-pass{padding:20px 14px}.ds-pass p{font-size:13px}.ds-pass h3{font-size:17px}}@media(max-width:750px){.ds-header{padding:20px 22px;min-height:76px;gap:15px;flex-wrap:wrap}.ds-brand{font-size:24px}.ds-header nav{gap:18px;font-size:12px;order:3;width:100%;padding-top:10px}.ds-header .ds-outlineAction{font-size:10px;padding:10px 13px}.ds-action{padding:15px 21px}.ds-overprint .ds-brand{font-size:26px}.ds-printDemo{margin-top:43px;padding:0;min-height:0}.ds-passStack{flex-direction:column;padding:0 10px;gap:14px}.ds-pass{min-height:0;transform:translateX(calc(var(--pass-shift,0px) * .25));padding:22px;flex:none}.ds-pass h2{font-size:27px;margin-bottom:16px}.ds-pass h3{font-size:22px}.ds-pass p{font-size:15px}.ds-pass small{position:static;margin-top:20px}.ds-registrationControl{display:grid}}@media(prefers-reduced-motion:reduce){.ds-page *{scroll-behavior:auto!important;transition:none!important}.ds-action:hover{translate:none}}"
+    },
+    {
+      "name": "Registration range",
+      "kind": "input",
+      "description": "Static source-translated specimen; application state and icon glyphs are not reproduced.",
+      "html": "<div class=\"ds-page ds-overprint\"><label class=\"ds-registrationControl\"><span>Bring the thoughts into register</span><input type=\"range\" min=\"0\" max=\"100\" value=\"35\" aria-label=\"Align the illustrative note passes\"><button>Align the notes</button></label></div>",
+      "css": ".ds-page{--ink:#0b1945;--ground:#fff;--accent:#244ab8;color:var(--ink);background:var(--ground);font:16px/1.55 ImpeccableManrope,sans-serif}.ds-page h1,.ds-page h2,.ds-page h3,.ds-page p{margin:0}.ds-page h1{font-weight:800;line-height:1.05;letter-spacing:-.035em;text-wrap:balance}.ds-page h2{line-height:1.15;text-wrap:balance}.ds-page a{color:inherit;text-decoration:none;text-underline-offset:.25em}.ds-page button,.ds-page input{font:inherit}.ds-page button{cursor:pointer}.ds-page button:disabled{cursor:default;opacity:.5}.ds-page a:focus-visible,.ds-page button:focus-visible,.ds-page input:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.ds-page ::selection{background:var(--accent);color:var(--ground)}.ds-page input{caret-color:var(--accent)}.ds-header{min-height:92px;display:flex;align-items:center;justify-content:space-between;gap:32px;padding:20px 4%;position:relative;z-index:2}.ds-brand{display:flex;align-items:center;gap:12px;font-size:27px;font-weight:800;letter-spacing:-.02em}.ds-header nav{display:flex;gap:34px;font-size:14px}.ds-header nav a:hover{text-decoration:underline}.ds-action{display:inline-flex;align-items:center;justify-content:space-between;gap:24px;padding:18px 24px;border-radius:7px;background:var(--ink);color:var(--ground)!important;font-weight:700;font-size:16px;transition:translate .18s ease-out}.ds-action:hover{translate:0 -3px}.ds-outlineAction{border:1px solid currentColor;padding:12px 25px;border-radius:7px;font-weight:700;font-size:14px}.ds-demoLabel{font-size:12px;letter-spacing:.04em}.ds-search{display:flex;align-items:center;gap:9px}.ds-search input{min-width:0;width:100%;border:0;background:transparent;outline:none;padding:9px 0;color:inherit}.ds-empty{padding:40px 15px!important;font-size:15px!important}.ds-overprint{--ink:#202239;--accent:#ec173d;--ground:#fff}.ds-overprint .ds-brand{font:400 32px/1 ImpeccableStencil,sans-serif;letter-spacing:-.03em}.ds-overprint .ds-brand span:first-child{color:#009cc7}.ds-overprint .ds-brand span:last-child{color:#662ac4}.ds-overprint .ds-outlineAction{color:#6423cc}.ds-overprint .ds-action{background:#ed1741;color:#fff!important}.ds-printDemo{position:relative;padding:20px 15px 0 0;min-width:0}.ds-printDemo>.ds-demoLabel{color:#485775;display:block;margin:0 0 16px 7px}.ds-passStack{display:flex;position:relative;padding-right:15px}.ds-pass{transform:translateX(var(--pass-shift,0px));flex:1;min-width:0;min-height:425px;padding:22px 24px 26px;border-radius:15px;position:relative;transition:transform .7s cubic-bezier(.16,1,.3,1);color:#142339}.ds-pass0{background:#8ae6f5;z-index:1}.ds-pass1{background:#ffdf72;z-index:2}.ds-pass2{background:#ff9caf;z-index:3}.ds-pass h2{font:400 25px ImpeccableStencil,sans-serif;text-transform:uppercase;border-bottom:1px solid currentColor;padding-bottom:12px;margin-bottom:25px}.ds-pass0 h2{color:#007899}.ds-pass1 h2{color:#9e4e00}.ds-pass2 h2{color:#ad002a}.ds-pass h3{font-size:20px;font-weight:800;line-height:1.25;margin-bottom:14px}.ds-pass p{font-size:15px;line-height:1.6}.ds-pass small{display:block;font-size:11px;position:absolute;bottom:24px}.ds-registrationControl{display:grid;grid-template-columns:1fr auto;align-items:center;gap:13px;padding-top:26px;font-size:11px;color:#394564}.ds-registrationControl>span{grid-column:1/-1}.ds-registrationControl input{width:100%;accent-color:#6423cc}.ds-registrationControl button{border:1px solid #6423cc;color:#6423cc;background:#fff;display:flex;gap:8px;align-items:center;padding:8px 11px;border-radius:4px;font-size:11px}@media(max-width:1050px){.ds-header nav{gap:20px}.ds-header .ds-action{display:none}.ds-pass{padding:20px 14px}.ds-pass p{font-size:13px}.ds-pass h3{font-size:17px}}@media(max-width:750px){.ds-header{padding:20px 22px;min-height:76px;gap:15px;flex-wrap:wrap}.ds-brand{font-size:24px}.ds-header nav{gap:18px;font-size:12px;order:3;width:100%;padding-top:10px}.ds-header .ds-outlineAction{font-size:10px;padding:10px 13px}.ds-action{padding:15px 21px}.ds-overprint .ds-brand{font-size:26px}.ds-printDemo{margin-top:43px;padding:0;min-height:0}.ds-passStack{flex-direction:column;padding:0 10px;gap:14px}.ds-pass{min-height:0;transform:translateX(calc(var(--pass-shift,0px) * .25));padding:22px;flex:none}.ds-pass h2{font-size:27px;margin-bottom:16px}.ds-pass h3{font-size:22px}.ds-pass p{font-size:15px}.ds-pass small{position:static;margin-top:20px}.ds-registrationControl{display:grid}}@media(prefers-reduced-motion:reduce){.ds-page *{scroll-behavior:auto!important;transition:none!important}.ds-action:hover{translate:none}}"
+    },
+    {
+      "name": "Register action",
+      "kind": "button",
+      "description": "Static source-translated specimen; application state and icon glyphs are not reproduced.",
+      "html": "<div class=\"ds-page ds-overprint\"><div class=\"ds-registrationControl\"><button>Align the notes</button></div></div>",
+      "css": ".ds-page{--ink:#0b1945;--ground:#fff;--accent:#244ab8;color:var(--ink);background:var(--ground);font:16px/1.55 ImpeccableManrope,sans-serif}.ds-page h1,.ds-page h2,.ds-page h3,.ds-page p{margin:0}.ds-page h1{font-weight:800;line-height:1.05;letter-spacing:-.035em;text-wrap:balance}.ds-page h2{line-height:1.15;text-wrap:balance}.ds-page a{color:inherit;text-decoration:none;text-underline-offset:.25em}.ds-page button,.ds-page input{font:inherit}.ds-page button{cursor:pointer}.ds-page button:disabled{cursor:default;opacity:.5}.ds-page a:focus-visible,.ds-page button:focus-visible,.ds-page input:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.ds-page ::selection{background:var(--accent);color:var(--ground)}.ds-page input{caret-color:var(--accent)}.ds-header{min-height:92px;display:flex;align-items:center;justify-content:space-between;gap:32px;padding:20px 4%;position:relative;z-index:2}.ds-brand{display:flex;align-items:center;gap:12px;font-size:27px;font-weight:800;letter-spacing:-.02em}.ds-header nav{display:flex;gap:34px;font-size:14px}.ds-header nav a:hover{text-decoration:underline}.ds-action{display:inline-flex;align-items:center;justify-content:space-between;gap:24px;padding:18px 24px;border-radius:7px;background:var(--ink);color:var(--ground)!important;font-weight:700;font-size:16px;transition:translate .18s ease-out}.ds-action:hover{translate:0 -3px}.ds-outlineAction{border:1px solid currentColor;padding:12px 25px;border-radius:7px;font-weight:700;font-size:14px}.ds-demoLabel{font-size:12px;letter-spacing:.04em}.ds-search{display:flex;align-items:center;gap:9px}.ds-search input{min-width:0;width:100%;border:0;background:transparent;outline:none;padding:9px 0;color:inherit}.ds-empty{padding:40px 15px!important;font-size:15px!important}.ds-overprint{--ink:#202239;--accent:#ec173d;--ground:#fff}.ds-overprint .ds-brand{font:400 32px/1 ImpeccableStencil,sans-serif;letter-spacing:-.03em}.ds-overprint .ds-brand span:first-child{color:#009cc7}.ds-overprint .ds-brand span:last-child{color:#662ac4}.ds-overprint .ds-outlineAction{color:#6423cc}.ds-overprint .ds-action{background:#ed1741;color:#fff!important}.ds-printDemo{position:relative;padding:20px 15px 0 0;min-width:0}.ds-printDemo>.ds-demoLabel{color:#485775;display:block;margin:0 0 16px 7px}.ds-passStack{display:flex;position:relative;padding-right:15px}.ds-pass{transform:translateX(var(--pass-shift,0px));flex:1;min-width:0;min-height:425px;padding:22px 24px 26px;border-radius:15px;position:relative;transition:transform .7s cubic-bezier(.16,1,.3,1);color:#142339}.ds-pass0{background:#8ae6f5;z-index:1}.ds-pass1{background:#ffdf72;z-index:2}.ds-pass2{background:#ff9caf;z-index:3}.ds-pass h2{font:400 25px ImpeccableStencil,sans-serif;text-transform:uppercase;border-bottom:1px solid currentColor;padding-bottom:12px;margin-bottom:25px}.ds-pass0 h2{color:#007899}.ds-pass1 h2{color:#9e4e00}.ds-pass2 h2{color:#ad002a}.ds-pass h3{font-size:20px;font-weight:800;line-height:1.25;margin-bottom:14px}.ds-pass p{font-size:15px;line-height:1.6}.ds-pass small{display:block;font-size:11px;position:absolute;bottom:24px}.ds-registrationControl{display:grid;grid-template-columns:1fr auto;align-items:center;gap:13px;padding-top:26px;font-size:11px;color:#394564}.ds-registrationControl>span{grid-column:1/-1}.ds-registrationControl input{width:100%;accent-color:#6423cc}.ds-registrationControl button{border:1px solid #6423cc;color:#6423cc;background:#fff;display:flex;gap:8px;align-items:center;padding:8px 11px;border-radius:4px;font-size:11px}@media(max-width:1050px){.ds-header nav{gap:20px}.ds-header .ds-action{display:none}.ds-pass{padding:20px 14px}.ds-pass p{font-size:13px}.ds-pass h3{font-size:17px}}@media(max-width:750px){.ds-header{padding:20px 22px;min-height:76px;gap:15px;flex-wrap:wrap}.ds-brand{font-size:24px}.ds-header nav{gap:18px;font-size:12px;order:3;width:100%;padding-top:10px}.ds-header .ds-outlineAction{font-size:10px;padding:10px 13px}.ds-action{padding:15px 21px}.ds-overprint .ds-brand{font-size:26px}.ds-printDemo{margin-top:43px;padding:0;min-height:0}.ds-passStack{flex-direction:column;padding:0 10px;gap:14px}.ds-pass{min-height:0;transform:translateX(calc(var(--pass-shift,0px) * .25));padding:22px;flex:none}.ds-pass h2{font-size:27px;margin-bottom:16px}.ds-pass h3{font-size:22px}.ds-pass p{font-size:15px}.ds-pass small{position:static;margin-top:20px}.ds-registrationControl{display:grid}}@media(prefers-reduced-motion:reduce){.ds-page *{scroll-behavior:auto!important;transition:none!important}.ds-action:hover{translate:none}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Registered thoughts",
+    "overview": "White paper holds cyan, amber and scarlet passes; violet owns the registration control. The final hero uses League Gothic with color-separated words. Stencil lettering remains in the wordmark, pass headings and closing statement; note text uses Manrope.\n\nThis name describes the implemented world and direction contract; human descriptive-language confirmation remains pending.",
+    "keyCharacteristics": [
+      "Three opaque colored passes",
+      "Violet registration control",
+      "Condensed hero with stencil component headings"
+    ],
+    "rules": [],
+    "dos": [
+      "Do retain readable text in every pass.",
+      "Do keep registration as one coordinated interaction."
+    ],
+    "donts": [
+      "Don't claim the opaque pass fills are rendered with physical ink blending."
+    ]
+  }
+}
